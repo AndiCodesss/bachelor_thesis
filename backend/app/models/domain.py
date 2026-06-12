@@ -1,0 +1,281 @@
+"""Domain models shared across the entire application.
+
+Defines enums for trade actions and event types, data classes for sessions,
+transcripts, intents, positions, and the request/response schemas used by
+the REST API. All models use Pydantic for validation and JSON serialization.
+"""
+
+from __future__ import annotations
+
+from datetime import UTC, datetime
+from enum import Enum
+from typing import Any
+from uuid import uuid4
+
+from pydantic import BaseModel, ConfigDict, Field
+
+
+def utc_now() -> datetime:
+    return datetime.now(UTC)
+
+
+class ActionTag(str, Enum):
+    """Every possible trading action the system can recognize from speech."""
+
+    no_action = "NO_ACTION"
+    setup_long = "SETUP_LONG"
+    setup_short = "SETUP_SHORT"
+    enter_long = "ENTER_LONG"
+    enter_short = "ENTER_SHORT"
+    add = "ADD"
+    trim = "TRIM"
+    exit_all = "EXIT_ALL"
+    move_stop = "MOVE_STOP"
+    move_to_breakeven = "MOVE_TO_BREAKEVEN"
+    target = "TARGET"
+    cancel_setup = "CANCEL_SETUP"
+    commentary = "COMMENTARY"
+
+
+# Actions that open or increase a position (used by risk checks).
+ENTRY_ACTIONS = {ActionTag.enter_long, ActionTag.enter_short, ActionTag.add}
+
+
+class TradeSide(str, Enum):
+    long = "LONG"
+    short = "SHORT"
+
+
+class EventType(str, Enum):
+    """Categories for timeline events shown in the UI."""
+
+    info = "INFO"
+    warning = "WARNING"
+    transcript = "TRANSCRIPT"
+    intent = "INTENT"
+    risk = "RISK"
+    execution = "EXECUTION"
+    market = "MARKET"
+    system = "SYSTEM"
+
+
+class ManualTradeAction(str, Enum):
+    buy = "BUY"
+    sell = "SELL"
+    close = "CLOSE"
+
+
+class SegmentStatus(str, Enum):
+    partial = "partial"
+    final = "final"
+
+
+class ConfidenceMixin(BaseModel):
+    confidence: float = Field(default=0.0, ge=0.0, le=1.0)
+
+
+class TranscriptionMetrics(BaseModel):
+    """Timing breakdown for a single transcription to measure pipeline speed."""
+
+    total_latency_ms: int = Field(default=0, ge=0)
+    speech_capture_ms: int = Field(default=0, ge=0)
+    processing_ms: int = Field(default=0, ge=0)
+    audio_duration_ms: int = Field(default=0, ge=0)
+    voice_duration_ms: int = Field(default=0, ge=0)
+
+
+class TranscriptSegment(ConfidenceMixin):
+    """One piece of transcribed speech (partial or final) within a session."""
+
+    model_config = ConfigDict(use_enum_values=True)
+
+    id: str = Field(default_factory=lambda: uuid4().hex)
+    session_id: str
+    text: str
+    status: SegmentStatus = SegmentStatus.final
+    source: str = "manual"
+    item_id: str | None = None
+    metrics: TranscriptionMetrics | None = None
+    received_at: datetime = Field(default_factory=utc_now)
+
+
+class MarketSnapshot(BaseModel):
+    """Latest known market prices for the instrument being traded."""
+
+    symbol: str = "NQ"
+    last_price: float | None = None
+    bid_price: float | None = None
+    ask_price: float | None = None
+    received_at: datetime | None = None
+
+
+class PositionState(BaseModel):
+    """Current open position: direction, size, entry price, and bracket levels."""
+
+    model_config = ConfigDict(use_enum_values=True)
+
+    side: TradeSide
+    quantity: int = Field(ge=1)
+    average_price: float
+    stop_price: float | None = None
+    target_price: float | None = None
+    opened_at: datetime = Field(default_factory=utc_now)
+    realized_pnl: float = 0.0
+
+
+class SessionConfig(BaseModel):
+    """User-configurable options for a single capture session."""
+
+    source_name: str = "Flow Zone Trader"
+    symbol: str = "NQ"
+    enable_audio_capture: bool = True
+    enable_ai_fallback: bool = False
+    enable_partial_intent_detection: bool = True
+    enable_early_preview_entries: bool = False
+    default_contract_size: int = Field(default=1, ge=1, le=10)
+    transcription_model: str = "distil-small.en"
+    broker_account_override: str | None = None
+    broker_symbol_override: str | None = None
+
+
+class TradeIntent(ConfidenceMixin):
+    """A trading action recognized from speech, with confidence and context."""
+
+    model_config = ConfigDict(use_enum_values=True)
+
+    id: str = Field(default_factory=lambda: uuid4().hex)
+    session_id: str
+    tag: ActionTag
+    symbol: str = "NQ"
+    side: TradeSide | None = None
+    entry_price: float | None = None
+    stop_price: float | None = None
+    target_price: float | None = None
+    quantity_hint: str | None = None
+    evidence_text: str
+    source_segment_id: str | None = None
+    source_received_at: datetime | None = None
+    source_latency_ms: int = Field(default=0, ge=0)
+    guard_reason: str | None = None
+    stale_after_ms: int = 5_000
+    created_at: datetime = Field(default_factory=utc_now)
+
+
+class RiskDecision(BaseModel):
+    """Result of the risk engine evaluating whether a trade intent is safe to execute."""
+
+    approved: bool
+    reason: str
+    intent: TradeIntent
+
+
+class ExecutionResult(BaseModel):
+    """Outcome of submitting a trade to the broker (approved or rejected)."""
+
+    model_config = ConfigDict(use_enum_values=True)
+
+    session_id: str
+    action: ActionTag
+    approved: bool
+    # True when the bridge outcome could not be confirmed (transport error,
+    # timeout, or an unparseable success body). The order may or may not have
+    # reached the broker, so callers must reconcile from broker state rather
+    # than assume the position is unchanged.
+    uncertain: bool = False
+    message: str
+    market_price: float | None = None
+    position: PositionState | None = None
+    realized_pnl_change: float = 0.0
+    executed_at: datetime = Field(default_factory=utc_now)
+
+
+class TimelineEvent(BaseModel):
+    """A single entry in the session timeline (shown to the user in the UI)."""
+
+    model_config = ConfigDict(use_enum_values=True)
+
+    id: str = Field(default_factory=lambda: uuid4().hex)
+    session_id: str
+    type: EventType
+    title: str
+    message: str
+    data: dict[str, Any] = Field(default_factory=dict)
+    created_at: datetime = Field(default_factory=utc_now)
+
+
+class StreamSession(BaseModel):
+    """Top-level aggregate: holds all state for one capture session."""
+
+    model_config = ConfigDict(use_enum_values=True)
+
+    id: str = Field(default_factory=lambda: uuid4().hex)
+    created_at: datetime = Field(default_factory=utc_now)
+    config: SessionConfig = Field(default_factory=SessionConfig)
+    market: MarketSnapshot = Field(default_factory=MarketSnapshot)
+    position: PositionState | None = None
+    realized_pnl: float = 0.0
+    transcripts: list[TranscriptSegment] = Field(default_factory=list)
+    events: list[TimelineEvent] = Field(default_factory=list)
+    latest_candidate_intent: TradeIntent | None = None
+    last_intent: TradeIntent | None = None
+    latest_partial_text: str = ""
+    latest_partial_metrics: TranscriptionMetrics | None = None
+    latest_final_metrics: TranscriptionMetrics | None = None
+
+
+class SessionPatch(BaseModel):
+    """Delta of session fields changed by a single event.
+
+    Only fields explicitly passed to the constructor are serialized
+    (use ``model_dump(exclude_unset=True)``). Absent fields mean "no change";
+    a field present as ``null`` means "set this field to null".
+    String fields (e.g. ``latest_partial_text``) are cleared by sending ``""``
+    rather than ``null`` to match the non-nullable ``str`` type on ``StreamSession``.
+    """
+
+    model_config = ConfigDict(use_enum_values=True)
+
+    latest_partial_text: str | None = Field(default=None)
+    latest_partial_metrics: TranscriptionMetrics | None = Field(default=None)
+    latest_final_metrics: TranscriptionMetrics | None = Field(default=None)
+    latest_candidate_intent: TradeIntent | None = Field(default=None)
+    last_intent: TradeIntent | None = Field(default=None)
+    market: MarketSnapshot | None = Field(default=None)
+    position: PositionState | None = Field(default=None)
+    realized_pnl: float | None = Field(default=None)
+    new_transcript: TranscriptSegment | None = Field(default=None)
+
+
+class CreateSessionRequest(BaseModel):
+    """REST request body for POST /sessions."""
+
+    config: SessionConfig = Field(default_factory=SessionConfig)
+
+
+class UpdateSessionConfigRequest(BaseModel):
+    """Partial update for session config (only non-None fields are applied)."""
+
+    enable_partial_intent_detection: bool | None = None
+    enable_ai_fallback: bool | None = None
+    enable_early_preview_entries: bool | None = None
+    transcription_model: str | None = None
+    broker_account_override: str | None = None
+    broker_symbol_override: str | None = None
+
+
+class ManualTradeRequest(BaseModel):
+    """REST request body for manually placing a trade via the UI."""
+
+    action: ManualTradeAction
+    contract_size: int = Field(default=3, ge=1, le=10)
+    account: str | None = None
+    symbol: str | None = None
+
+
+class TextSegmentRequest(ConfidenceMixin):
+    """REST request body for submitting a transcript segment manually."""
+
+    text: str
+    status: SegmentStatus = SegmentStatus.final
+    source: str = "manual"
+    item_id: str | None = None

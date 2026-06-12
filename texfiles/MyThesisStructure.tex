@@ -1,0 +1,143 @@
+% das Dokumentenformat
+\documentclass[a4paper, 12pt, oneside]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+
+%% IMAGE PACKAGE
+\usepackage{graphicx}
+
+%% PACKAGE FOR THE BACKGROUNDPIC
+\usepackage{eso-pic}
+
+%% PACKAGE FOR THE HEADERS AND FOOTERS
+\usepackage{fancyhdr}
+
+%% PACKAGE TO INCLUDE A PDF FILE
+\usepackage{pdfpages}
+
+%% TABLES
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{float}
+\usepackage{longtable}
+\usepackage{tabularx}
+
+%% MATH
+\usepackage{amsmath,amssymb}
+
+%% LISTS
+\usepackage{enumitem}
+
+%% LINKS
+\usepackage[hyphens]{url}
+\usepackage{xcolor}
+\usepackage[colorlinks=true,linkcolor=blue!60!black,citecolor=blue!60!black,urlcolor=blue!60!black]{hyperref}
+
+%% TYPOGRAPHY
+\usepackage{microtype}
+\setlength{\emergencystretch}{3em}
+
+%% CITATIONS
+\usepackage[numbers,sort&compress]{natbib}
+
+%% CAPTIONS
+\usepackage{caption}
+
+% Keep the electronic PDF centered instead of using mirrored print-binding margins.
+\setlength{\oddsidemargin}{\dimexpr(\paperwidth-\textwidth)/2-1in\relax}
+\setlength{\evensidemargin}{\oddsidemargin}
+
+\newcommand\BackgroundPic{%
+\put(0,0){%
+\parbox[b][\paperheight]{\paperwidth}{%
+\vfill
+\centering
+\includegraphics[width=\paperwidth,height=\paperheight,keepaspectratio]{background.pdf}%
+\vfill
+}}}
+\fancyhf{}% Clear all headers/footers
+\renewcommand{\headrulewidth}{0pt}% No header rule
+\renewcommand{\footrulewidth}{0pt}% No footer rule
+\fancyfoot[L]{\hspace*{-16mm}\includegraphics[scale=0.3]{logoDepartment.pdf}}
+
+\begin{document}
+
+\AddToShipoutPicture*{\BackgroundPic}
+\thispagestyle{fancy}
+
+{\vspace{2cm}~}
+{\vspace{2cm}}
+
+{\noindent\large Bachelor Thesis}
+
+\vspace{1cm}
+
+{\noindent\huge\bfseries
+Comparing Machine Learning\\
+Approaches for Trade Intent\\
+Classification from Noisy\\
+Livestream Transcripts\par}
+
+\bigskip
+
+{\noindent\LARGE Andreas Oberd\"orfer}
+
+\bigskip
+{\noindent\small Date of Birth: 24.12.2002}\newline
+{\noindent\small Student ID: h12217505}
+
+\bigskip
+{\vspace{2cm}}
+{\noindent\large {\bf Subject Area:} Information Business}
+
+\bigskip
+{\noindent\large {\bf Studienkennzahl:} J 033 561}
+
+\bigskip
+
+{\noindent\large {\bf Supervisor:} Johann Mitl\"ohner}
+
+\bigskip
+
+{\noindent\large {\bf Date of Submission:} 12.06.2026}
+
+\bigskip\bigskip\bigskip\bigskip\bigskip\bigskip
+
+{\em\noindent Department of Information Systems \& Operations Management, Vienna University of
+Economics and Business, Welthandelsplatz 1, 1020 Vienna, Austria
+}
+
+
+\pagebreak
+\tableofcontents
+\pagebreak
+\listoffigures
+\pagebreak
+\listoftables
+\pagebreak
+
+
+\begin{abstract}
+
+Day traders often stream their work live on platforms like YouTube, talking through their trades as they happen. Hidden inside this constant talk are the moments that matter: when they buy, when they sell, and when they move a stop. Pulling out these signals automatically means first turning the speech into text with automatic speech recognition (ASR), and then sorting each line of text into a trading action. This is hard, because the speech contains recognition mistakes, casual everyday language, and far more chatter than actual trade calls.
+
+This thesis compares five machine learning methods on the same task: sorting lines from real livestream transcripts into one of seven trading actions. Three are classical methods (logistic regression, a support vector machine, and a small neural network) that work on simple word-count features called TF-IDF. The other two are modern transformer models (DistilBERT and ModernBERT), used here in a lightweight way: their inner workings are kept fixed, and only a small classifier is trained on top. All five are tested on the same curated benchmark of labelled transcript lines with the same procedure, so the comparison between the models is fair.
+
+The simple word-count methods win. Logistic regression performs best overall, reaching a macro-averaged F1 score of 0,70, and it tells action lines from non-action lines with an F1 of 0,89. A closer look shows why: a handful of trading keywords does most of the work, and the fixed transformer models do not capture this specialised vocabulary any better. The two transformers score lower, even though they are far larger models, because their fixed inner layers were never adjusted to this task. Action by action, clear keyword-based actions such as trimming a position, exiting, or moving a stop are easy to detect, while entries (going long or short) stay hard, because traders phrase them in so many different ways. The main lesson is that on a small, specialised dataset with repetitive phrasing, simple word-count features stay highly competitive, and the extra complexity of a transformer is not worth it unless the model is actually trained on the task. A closing test on five complete, held-out sessions shows the limit of these numbers: asked to read every line of a real stream, even the best model produces far more false alarms than real signals, so by itself it is not deployable. The production system therefore uses the model only in a supporting role: a set of strict, hand-written text rules makes the trade decisions, and the model confirms or vetoes them. Replaying that combined system over the same sessions shows the layered design working: it fires about six times per hour instead of 225, and about one fire in six points at a real trade action.
+
+\medskip
+\noindent\textbf{Keywords:} text classification, trade intent detection, TF-IDF, support vector machine, logistic regression, transformer models, DistilBERT, ModernBERT, automatic speech recognition, livestream transcription
+\end{abstract}
+
+\pagebreak
+
+\input{MyMaintext.tex}
+
+
+\bibliographystyle{plainnat}
+\bibliography{MyReferences}
+
+\end{document}
