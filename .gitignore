@@ -1,0 +1,44 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+backend/.venv/
+backend/data/
+backend/*.egg-info/
+frontend/node_modules/
+frontend/dist/
+.env
+.DS_Store
+.claude/
+transcripts_new/
+# Full transcript archive stays local; only five example sessions (the
+# deployed classifier's held-out test transcripts) are tracked.
+transcripts/*
+!transcripts/2025-10-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-07__rilljaZdaww.txt
+!transcripts/2025-10-23__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-23__nFvjz1D-Oas.txt
+!transcripts/2025-11-06__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-06__Luatve1nc1M.txt
+!transcripts/2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt
+!transcripts/2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt
+image.png
+# Word/Office temporary lock files (e.g. ~$MyThesisStructure.docx)
+~$*
+
+# Local university-submission PDFs (e.g. the Turnitin/AI-detection report copy).
+# The repo tracks texfiles/MyThesisStructure.pdf as the canonical thesis build.
+texfiles/bachelor_thesis_*.pdf
+
+# Word exports stay local; the PDF is the only thesis output kept in the repo.
+texfiles/*.docx
+
+# LaTeX build artifacts
+texfiles/*.aux
+texfiles/*.bbl
+texfiles/*.blg
+texfiles/*.lof
+texfiles/*.log
+texfiles/*.lot
+texfiles/*.out
+texfiles/*.toc
+texfiles/*.fls
+texfiles/*.fdb_latexmk
+texfiles/*.synctex.gz
