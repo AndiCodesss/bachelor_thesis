@@ -1,0 +1,2017 @@
+{
+  "mode": "5-fold-cv",
+  "total_examples": 1377,
+  "total_transcripts": 103,
+  "k": 5,
+  "labels": [
+    "NO_ACTION",
+    "ENTER_LONG",
+    "ENTER_SHORT",
+    "TRIM",
+    "EXIT_ALL",
+    "MOVE_STOP",
+    "MOVE_TO_BREAKEVEN"
+  ],
+  "models": {
+    "logreg": {
+      "k": 5,
+      "total_examples": 1377,
+      "folds": 5,
+      "summary": {
+        "accuracy": {
+          "mean": 0.7848,
+          "std": 0.0208
+        },
+        "macro_f1": {
+          "mean": 0.7025,
+          "std": 0.0446
+        },
+        "action_f1": {
+          "mean": 0.8872,
+          "std": 0.0243
+        },
+        "action_precision": {
+          "mean": 0.8625,
+          "std": 0.0328
+        },
+        "action_recall": {
+          "mean": 0.9137,
+          "std": 0.0235
+        }
+      },
+      "aggregated_metrics": {
+        "accuracy": 0.7829,
+        "macro_f1": 0.7139,
+        "action_precision": 0.8614,
+        "action_recall": 0.9144,
+        "action_f1": 0.8871,
+        "per_label": {
+          "NO_ACTION": {
+            "precision": 0.8571,
+            "recall": 0.7774,
+            "f1": 0.8153,
+            "support": 548
+          },
+          "ENTER_LONG": {
+            "precision": 0.5739,
+            "recall": 0.7174,
+            "f1": 0.6377,
+            "support": 92
+          },
+          "ENTER_SHORT": {
+            "precision": 0.6138,
+            "recall": 0.6181,
+            "f1": 0.6159,
+            "support": 144
+          },
+          "TRIM": {
+            "precision": 0.786,
+            "recall": 0.8347,
+            "f1": 0.8096,
+            "support": 242
+          },
+          "EXIT_ALL": {
+            "precision": 0.8108,
+            "recall": 0.8607,
+            "f1": 0.835,
+            "support": 244
+          },
+          "MOVE_STOP": {
+            "precision": 0.8182,
+            "recall": 0.8617,
+            "f1": 0.8394,
+            "support": 94
+          },
+          "MOVE_TO_BREAKEVEN": {
+            "precision": 0.8,
+            "recall": 0.3077,
+            "f1": 0.4444,
+            "support": 13
+          }
+        }
+      },
+      "confusion_matrix": [
+        [
+          426,
+          25,
+          31,
+          26,
+          32,
+          7,
+          1
+        ],
+        [
+          6,
+          66,
+          14,
+          5,
+          1,
+          0,
+          0
+        ],
+        [
+          33,
+          15,
+          89,
+          6,
+          1,
+          0,
+          0
+        ],
+        [
+          15,
+          4,
+          7,
+          202,
+          12,
+          2,
+          0
+        ],
+        [
+          11,
+          3,
+          4,
+          12,
+          210,
+          4,
+          0
+        ],
+        [
+          4,
+          2,
+          0,
+          4,
+          3,
+          81,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          2,
+          0,
+          5,
+          4
+        ]
+      ],
+      "per_fold": [
+        {
+          "accuracy": 0.8178,
+          "macro_f1": 0.684,
+          "action_precision": 0.8828,
+          "action_recall": 0.9275,
+          "action_f1": 0.9046,
+          "per_label": {
+            "NO_ACTION": {
+              "precision": 0.875,
+              "recall": 0.8046,
+              "f1": 0.8383,
+              "support": 87
+            },
+            "ENTER_LONG": {
+              "precision": 0.6667,
+              "recall": 0.9231,
+              "f1": 0.7742,
+              "support": 13
+            },
+            "ENTER_SHORT": {
+              "precision": 0.5556,
+              "recall": 0.5,
+              "f1": 0.5263,
+              "support": 20
+            },
+            "TRIM": {
+              "precision": 0.7917,
+              "recall": 0.8837,
+              "f1": 0.8352,
+              "support": 43
+            },
+            "EXIT_ALL": {
+              "precision": 0.875,
+              "recall": 0.8537,
+              "f1": 0.8642,
+              "support": 41
+            },
+            "MOVE_STOP": {
+              "precision": 0.9048,
+              "recall": 1.0,
+              "f1": 0.95,
+              "support": 19
+            },
+            "MOVE_TO_BREAKEVEN": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 2
+            }
+          }
+        },
+        {
+          "accuracy": 0.764,
+          "macro_f1": 0.73,
+          "action_precision": 0.8326,
+          "action_recall": 0.9293,
+          "action_f1": 0.8783,
+          "per_label": {
+            "NO_ACTION": {
+              "precision": 0.8814,
+              "recall": 0.7376,
+              "f1": 0.8031,
+              "support": 141
+            },
+            "ENTER_LONG": {
+              "precision": 0.5172,
+              "recall": 0.625,
+              "f1": 0.566,
+              "support": 24
+            },
+            "ENTER_SHORT": {
+              "precision": 0.6222,
+              "recall": 0.6829,
+              "f1": 0.6512,
+              "support": 41
+            },
+            "TRIM": {
+              "precision": 0.7541,
+              "recall": 0.807,
+              "f1": 0.7797,
+              "support": 57
+            },
+            "EXIT_ALL": {
+              "precision": 0.7576,
+              "recall": 0.8929,
+              "f1": 0.8197,
+              "support": 56
+            },
+            "MOVE_STOP": {
+              "precision": 0.7778,
+              "recall": 0.875,
+              "f1": 0.8235,
+              "support": 16
+            },
+            "MOVE_TO_BREAKEVEN": {
+              "precision": 1.0,
+              "recall": 0.5,
+              "f1": 0.6667,
+              "support": 4
+            }
+          }
+        },
+        {
+          "accuracy": 0.7909,
+          "macro_f1": 0.7367,
+          "action_precision": 0.8217,
+          "action_recall": 0.8776,
+          "action_f1": 0.8487,
+          "per_label": {
+            "NO_ACTION": {
+              "precision": 0.8615,
+              "recall": 0.8,
+              "f1": 0.8296,
+              "support": 140
+            },
+            "ENTER_LONG": {
+              "precision": 0.5714,
+              "recall": 0.75,
+              "f1": 0.6486,
+              "support": 16
+            },
+            "ENTER_SHORT": {
+              "precision": 0.64,
+              "recall": 0.6957,
+              "f1": 0.6667,
+              "support": 23
+            },
+            "TRIM": {
+              "precision": 0.7843,
+              "recall": 0.8333,
+              "f1": 0.8081,
+              "support": 48
+            },
+            "EXIT_ALL": {
+              "precision": 0.8049,
+              "recall": 0.825,
+              "f1": 0.8148,
+              "support": 40
+            },
+            "MOVE_STOP": {
+              "precision": 0.7647,
+              "recall": 0.6842,
+              "f1": 0.7222,
+              "support": 19
+            },
+            "MOVE_TO_BREAKEVEN": {
+              "precision": 0.5,
+              "recall": 1.0,
+              "f1": 0.6667,
+              "support": 1
+            }
+          }
+        },
+        {
+          "accuracy": 0.7747,
+          "macro_f1": 0.6322,
+          "action_precision": 0.8925,
+          "action_recall": 0.9022,
+          "action_f1": 0.8973,
+          "per_label": {
+            "NO_ACTION": {
+              "precision": 0.8318,
+              "recall": 0.8165,
+              "f1": 0.8241,
+              "support": 109
+            },
+            "ENTER_LONG": {
+              "precision": 0.5,
+              "recall": 0.65,
+              "f1": 0.5652,
+              "support": 20
+            },
+            "ENTER_SHORT": {
+              "precision": 0.5806,
+              "recall": 0.6,
+              "f1": 0.5902,
+              "support": 30
+            },
+            "TRIM": {
+              "precision": 0.8654,
+              "recall": 0.8182,
+              "f1": 0.8411,
+              "support": 55
+            },
+            "EXIT_ALL": {
+              "precision": 0.8167,
+              "recall": 0.8167,
+              "f1": 0.8167,
+              "support": 60
+            },
+            "MOVE_STOP": {
+              "precision": 0.7647,
+              "recall": 0.8125,
+              "f1": 0.7879,
+              "support": 16
+            },
+            "MOVE_TO_BREAKEVEN": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 3
+            }
+          }
+        },
+        {
+          "accuracy": 0.7768,
+          "macro_f1": 0.7298,
+          "action_precision": 0.883,
+          "action_recall": 0.9321,
+          "action_f1": 0.9069,
+          "per_label": {
+            "NO_ACTION": {
+              "precision": 0.8226,
+              "recall": 0.7183,
+              "f1": 0.7669,
+              "support": 71
+            },
+            "ENTER_LONG": {
+              "precision": 0.6667,
+              "recall": 0.7368,
+              "f1": 0.7,
+              "support": 19
+            },
+            "ENTER_SHORT": {
+              "precision": 0.6538,
+              "recall": 0.5667,
+              "f1": 0.6071,
+              "support": 30
+            },
+            "TRIM": {
+              "precision": 0.7333,
+              "recall": 0.8462,
+              "f1": 0.7857,
+              "support": 39
+            },
+            "EXIT_ALL": {
+              "precision": 0.8269,
+              "recall": 0.9149,
+              "f1": 0.8687,
+              "support": 47
+            },
+            "MOVE_STOP": {
+              "precision": 0.8462,
+              "recall": 0.9167,
+              "f1": 0.88,
+              "support": 24
+            },
+            "MOVE_TO_BREAKEVEN": {
+              "precision": 1.0,
+              "recall": 0.3333,
+              "f1": 0.5,
+              "support": 3
+            }
+          }
+        }
+      ]
+    },
+    "svm": {
+      "k": 5,
+      "total_examples": 1377,
+      "folds": 5,
+      "summary": {
+        "accuracy": {
+          "mean": 0.7952,
+          "std": 0.0208
+        },
+        "macro_f1": {
+          "mean": 0.6881,
+          "std": 0.062
+        },
+        "action_f1": {
+          "mean": 0.8841,
+          "std": 0.0111
+        },
+        "action_precision": {
+          "mean": 0.8997,
+          "std": 0.0307
+        },
+        "action_recall": {
+          "mean": 0.8699,
+          "std": 0.0197
+        }
+      },
+      "aggregated_metrics": {
+        "accuracy": 0.7952,
+        "macro_f1": 0.7022,
+        "action_precision": 0.8979,
+        "action_recall": 0.8697,
+        "action_f1": 0.8836,
+        "per_label": {
+          "NO_ACTION": {
+            "precision": 0.8118,
+            "recall": 0.8504,
+            "f1": 0.8307,
+            "support": 548
+          },
+          "ENTER_LONG": {
+            "precision": 0.6835,
+            "recall": 0.587,
+            "f1": 0.6316,
+            "support": 92
+          },
+          "ENTER_SHORT": {
+            "precision": 0.6757,
+            "recall": 0.5208,
+            "f1": 0.5882,
+            "support": 144
+          },
+          "TRIM": {
+            "precision": 0.7969,
+            "recall": 0.8595,
+            "f1": 0.827,
+            "support": 242
+          },
+          "EXIT_ALL": {
+            "precision": 0.8294,
+            "recall": 0.8566,
+            "f1": 0.8427,
+            "support": 244
+          },
+          "MOVE_STOP": {
+            "precision": 0.8333,
+            "recall": 0.8511,
+            "f1": 0.8421,
+            "support": 94
+          },
+          "MOVE_TO_BREAKEVEN": {
+            "precision": 0.75,
+            "recall": 0.2308,
+            "f1": 0.3529,
+            "support": 13
+          }
+        }
+      },
+      "confusion_matrix": [
+        [
+          466,
+          10,
+          15,
+          23,
+          29,
+          4,
+          1
+        ],
+        [
+          17,
+          54,
+          15,
+          5,
+          1,
+          0,
+          0
+        ],
+        [
+          47,
+          12,
+          75,
+          8,
+          1,
+          1,
+          0
+        ],
+        [
+          20,
+          1,
+          1,
+          208,
+          10,
+          2,
+          0
+        ],
+        [
+          16,
+          0,
+          3,
+          12,
+          209,
+          4,
+          0
+        ],
+        [
+          4,
+          2,
+          1,
+          5,
+          2,
+          80,
+          0
+        ],
+        [
+          4,
+          0,
+          1,
+          0,
+          0,
+          5,
+          3
+        ]
+      ],
+      "per_fold": [
+        {
+          "accuracy": 0.8133,
+          "macro_f1": 0.6663,
+          "action_precision": 0.916,
+          "action_recall": 0.8696,
+          "action_f1": 0.8922,
+          "per_label": {
+            "NO_ACTION": {
+              "precision": 0.8085,
+              "recall": 0.8736,
+              "f1": 0.8398,
+              "support": 87
+            },
+            "ENTER_LONG": {
+              "precision": 0.6154,
+              "recall": 0.6154,
+              "f1": 0.6154,
+              "support": 13
+            },
+            "ENTER_SHORT": {
+              "precision": 0.7692,
+              "recall": 0.5,
+              "f1": 0.6061,
+              "support": 20
+            },
+            "TRIM": {
+              "precision": 0.8085,
+              "recall": 0.8837,
+              "f1": 0.8444,
+              "support": 43
+            },
+            "EXIT_ALL": {
+              "precision": 0.8684,
+              "recall": 0.8049,
+              "f1": 0.8354,
+              "support": 41
+            },
+            "MOVE_STOP": {
+              "precision": 0.9,
+              "recall": 0.9474,
+              "f1": 0.9231,
+              "support": 19
+            },
+            "MOVE_TO_BREAKEVEN": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 2
+            }
+          }
+        },
+        {
+          "accuracy": 0.7906,
+          "macro_f1": 0.7496,
+          "action_precision": 0.867,
+          "action_recall": 0.8889,
+          "action_f1": 0.8778,
+          "per_label": {
+            "NO_ACTION": {
+              "precision": 0.8382,
+              "recall": 0.8085,
+              "f1": 0.8231,
+              "support": 141
+            },
+            "ENTER_LONG": {
+              "precision": 0.7,
+              "recall": 0.5833,
+              "f1": 0.6364,
+              "support": 24
+            },
+            "ENTER_SHORT": {
+              "precision": 0.6757,
+              "recall": 0.6098,
+              "f1": 0.641,
+              "support": 41
+            },
+            "TRIM": {
+              "precision": 0.7742,
+              "recall": 0.8421,
+              "f1": 0.8067,
+              "support": 57
+            },
+            "EXIT_ALL": {
+              "precision": 0.7969,
+              "recall": 0.9107,
+              "f1": 0.85,
+              "support": 56
+            },
+            "MOVE_STOP": {
+              "precision": 0.7778,
+              "recall": 0.875,
+              "f1": 0.8235,
+              "support": 16
+            },
+            "MOVE_TO_BREAKEVEN": {
+              "precision": 1.0,
+              "recall": 0.5,
+              "f1": 0.6667,
+              "support": 4
+            }
+          }
+        },
+        {
+          "accuracy": 0.8188,
+          "macro_f1": 0.7588,
+          "action_precision": 0.8658,
+          "action_recall": 0.8776,
+          "action_f1": 0.8716,
+          "per_label": {
+            "NO_ACTION": {
+              "precision": 0.8696,
+              "recall": 0.8571,
+              "f1": 0.8633,
+              "support": 140
+            },
+            "ENTER_LONG": {
+              "precision": 0.6875,
+              "recall": 0.6875,
+              "f1": 0.6875,
+              "support": 16
+            },
+            "ENTER_SHORT": {
+              "precision": 0.7143,
+              "recall": 0.6522,
+              "f1": 0.6818,
+              "support": 23
+            },
+            "TRIM": {
+              "precision": 0.7885,
+              "recall": 0.8542,
+              "f1": 0.82,
+              "support": 48
+            },
+            "EXIT_ALL": {
+              "precision": 0.8049,
+              "recall": 0.825,
+              "f1": 0.8148,
+              "support": 40
+            },
+            "MOVE_STOP": {
+              "precision": 0.8235,
+              "recall": 0.7368,
+              "f1": 0.7778,
+              "support": 19
+            },
+            "MOVE_TO_BREAKEVEN": {
+              "precision": 0.5,
+              "recall": 1.0,
+              "f1": 0.6667,
+              "support": 1
+            }
+          }
+        },
+        {
+          "accuracy": 0.785,
+          "macro_f1": 0.6321,
+          "action_precision": 0.9277,
+          "action_recall": 0.837,
+          "action_f1": 0.88,
+          "per_label": {
+            "NO_ACTION": {
+              "precision": 0.7638,
+              "recall": 0.8899,
+              "f1": 0.822,
+              "support": 109
+            },
+            "ENTER_LONG": {
+              "precision": 0.6875,
+              "recall": 0.55,
+              "f1": 0.6111,
+              "support": 20
+            },
+            "ENTER_SHORT": {
+              "precision": 0.619,
+              "recall": 0.4333,
+              "f1": 0.5098,
+              "support": 30
+            },
+            "TRIM": {
+              "precision": 0.8868,
+              "recall": 0.8545,
+              "f1": 0.8704,
+              "support": 55
+            },
+            "EXIT_ALL": {
+              "precision": 0.8305,
+              "recall": 0.8167,
+              "f1": 0.8235,
+              "support": 60
+            },
+            "MOVE_STOP": {
+              "precision": 0.7647,
+              "recall": 0.8125,
+              "f1": 0.7879,
+              "support": 16
+            },
+            "MOVE_TO_BREAKEVEN": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 3
+            }
+          }
+        },
+        {
+          "accuracy": 0.7682,
+          "macro_f1": 0.6335,
+          "action_precision": 0.9221,
+          "action_recall": 0.8765,
+          "action_f1": 0.8987,
+          "per_label": {
+            "NO_ACTION": {
+              "precision": 0.7468,
+              "recall": 0.831,
+              "f1": 0.7867,
+              "support": 71
+            },
+            "ENTER_LONG": {
+              "precision": 0.7143,
+              "recall": 0.5263,
+              "f1": 0.6061,
+              "support": 19
+            },
+            "ENTER_SHORT": {
+              "precision": 0.6316,
+              "recall": 0.4,
+              "f1": 0.4898,
+              "support": 30
+            },
+            "TRIM": {
+              "precision": 0.7234,
+              "recall": 0.8718,
+              "f1": 0.7907,
+              "support": 39
+            },
+            "EXIT_ALL": {
+              "precision": 0.86,
+              "recall": 0.9149,
+              "f1": 0.8866,
+              "support": 47
+            },
+            "MOVE_STOP": {
+              "precision": 0.875,
+              "recall": 0.875,
+              "f1": 0.875,
+              "support": 24
+            },
+            "MOVE_TO_BREAKEVEN": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 3
+            }
+          }
+        }
+      ]
+    },
+    "mlp": {
+      "k": 5,
+      "total_examples": 1377,
+      "folds": 5,
+      "summary": {
+        "accuracy": {
+          "mean": 0.7625,
+          "std": 0.0242
+        },
+        "macro_f1": {
+          "mean": 0.6339,
+          "std": 0.0485
+        },
+        "action_f1": {
+          "mean": 0.8502,
+          "std": 0.0057
+        },
+        "action_precision": {
+          "mean": 0.8981,
+          "std": 0.0366
+        },
+        "action_recall": {
+          "mean": 0.8089,
+          "std": 0.0306
+        }
+      },
+      "aggregated_metrics": {
+        "accuracy": 0.764,
+        "macro_f1": 0.6438,
+        "action_precision": 0.8969,
+        "action_recall": 0.8082,
+        "action_f1": 0.8503,
+        "per_label": {
+          "NO_ACTION": {
+            "precision": 0.7476,
+            "recall": 0.8595,
+            "f1": 0.7997,
+            "support": 548
+          },
+          "ENTER_LONG": {
+            "precision": 0.6897,
+            "recall": 0.4348,
+            "f1": 0.5333,
+            "support": 92
+          },
+          "ENTER_SHORT": {
+            "precision": 0.6299,
+            "recall": 0.5556,
+            "f1": 0.5904,
+            "support": 144
+          },
+          "TRIM": {
+            "precision": 0.8008,
+            "recall": 0.7975,
+            "f1": 0.7992,
+            "support": 242
+          },
+          "EXIT_ALL": {
+            "precision": 0.8101,
+            "recall": 0.7869,
+            "f1": 0.7983,
+            "support": 244
+          },
+          "MOVE_STOP": {
+            "precision": 0.9146,
+            "recall": 0.7979,
+            "f1": 0.8523,
+            "support": 94
+          },
+          "MOVE_TO_BREAKEVEN": {
+            "precision": 0.5,
+            "recall": 0.0769,
+            "f1": 0.1333,
+            "support": 13
+          }
+        }
+      },
+      "confusion_matrix": [
+        [
+          471,
+          4,
+          21,
+          21,
+          29,
+          1,
+          1
+        ],
+        [
+          27,
+          40,
+          17,
+          6,
+          2,
+          0,
+          0
+        ],
+        [
+          50,
+          8,
+          80,
+          5,
+          1,
+          0,
+          0
+        ],
+        [
+          31,
+          5,
+          4,
+          193,
+          8,
+          1,
+          0
+        ],
+        [
+          37,
+          0,
+          3,
+          10,
+          192,
+          2,
+          0
+        ],
+        [
+          10,
+          1,
+          1,
+          4,
+          3,
+          75,
+          0
+        ],
+        [
+          4,
+          0,
+          1,
+          2,
+          2,
+          3,
+          1
+        ]
+      ],
+      "per_fold": [
+        {
+          "accuracy": 0.7689,
+          "macro_f1": 0.6095,
+          "action_precision": 0.9032,
+          "action_recall": 0.8116,
+          "action_f1": 0.855,
+          "per_label": {
+            "NO_ACTION": {
+              "precision": 0.7426,
+              "recall": 0.8621,
+              "f1": 0.7979,
+              "support": 87
+            },
+            "ENTER_LONG": {
+              "precision": 0.6667,
+              "recall": 0.3077,
+              "f1": 0.4211,
+              "support": 13
+            },
+            "ENTER_SHORT": {
+              "precision": 0.6875,
+              "recall": 0.55,
+              "f1": 0.6111,
+              "support": 20
+            },
+            "TRIM": {
+              "precision": 0.7708,
+              "recall": 0.8605,
+              "f1": 0.8132,
+              "support": 43
+            },
+            "EXIT_ALL": {
+              "precision": 0.8205,
+              "recall": 0.7805,
+              "f1": 0.8,
+              "support": 41
+            },
+            "MOVE_STOP": {
+              "precision": 0.9333,
+              "recall": 0.7368,
+              "f1": 0.8235,
+              "support": 19
+            },
+            "MOVE_TO_BREAKEVEN": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 2
+            }
+          }
+        },
+        {
+          "accuracy": 0.764,
+          "macro_f1": 0.6241,
+          "action_precision": 0.8811,
+          "action_recall": 0.8232,
+          "action_f1": 0.8512,
+          "per_label": {
+            "NO_ACTION": {
+              "precision": 0.7727,
+              "recall": 0.844,
+              "f1": 0.8068,
+              "support": 141
+            },
+            "ENTER_LONG": {
+              "precision": 0.8182,
+              "recall": 0.375,
+              "f1": 0.5143,
+              "support": 24
+            },
+            "ENTER_SHORT": {
+              "precision": 0.6222,
+              "recall": 0.6829,
+              "f1": 0.6512,
+              "support": 41
+            },
+            "TRIM": {
+              "precision": 0.7759,
+              "recall": 0.7895,
+              "f1": 0.7826,
+              "support": 57
+            },
+            "EXIT_ALL": {
+              "precision": 0.807,
+              "recall": 0.8214,
+              "f1": 0.8142,
+              "support": 56
+            },
+            "MOVE_STOP": {
+              "precision": 0.8571,
+              "recall": 0.75,
+              "f1": 0.8,
+              "support": 16
+            },
+            "MOVE_TO_BREAKEVEN": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 4
+            }
+          }
+        },
+        {
+          "accuracy": 0.7805,
+          "macro_f1": 0.6287,
+          "action_precision": 0.8446,
+          "action_recall": 0.8503,
+          "action_f1": 0.8475,
+          "per_label": {
+            "NO_ACTION": {
+              "precision": 0.8417,
+              "recall": 0.8357,
+              "f1": 0.8387,
+              "support": 140
+            },
+            "ENTER_LONG": {
+              "precision": 0.6667,
+              "recall": 0.5,
+              "f1": 0.5714,
+              "support": 16
+            },
+            "ENTER_SHORT": {
+              "precision": 0.6154,
+              "recall": 0.6957,
+              "f1": 0.6531,
+              "support": 23
+            },
+            "TRIM": {
+              "precision": 0.8444,
+              "recall": 0.7917,
+              "f1": 0.8172,
+              "support": 48
+            },
+            "EXIT_ALL": {
+              "precision": 0.6327,
+              "recall": 0.775,
+              "f1": 0.6966,
+              "support": 40
+            },
+            "MOVE_STOP": {
+              "precision": 0.9333,
+              "recall": 0.7368,
+              "f1": 0.8235,
+              "support": 19
+            },
+            "MOVE_TO_BREAKEVEN": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 1
+            }
+          }
+        },
+        {
+          "accuracy": 0.7782,
+          "macro_f1": 0.7166,
+          "action_precision": 0.9355,
+          "action_recall": 0.788,
+          "action_f1": 0.8555,
+          "per_label": {
+            "NO_ACTION": {
+              "precision": 0.7174,
+              "recall": 0.9083,
+              "f1": 0.8016,
+              "support": 109
+            },
+            "ENTER_LONG": {
+              "precision": 0.6,
+              "recall": 0.6,
+              "f1": 0.6,
+              "support": 20
+            },
+            "ENTER_SHORT": {
+              "precision": 0.7273,
+              "recall": 0.5333,
+              "f1": 0.6154,
+              "support": 30
+            },
+            "TRIM": {
+              "precision": 0.8723,
+              "recall": 0.7455,
+              "f1": 0.8039,
+              "support": 55
+            },
+            "EXIT_ALL": {
+              "precision": 0.902,
+              "recall": 0.7667,
+              "f1": 0.8288,
+              "support": 60
+            },
+            "MOVE_STOP": {
+              "precision": 0.9286,
+              "recall": 0.8125,
+              "f1": 0.8667,
+              "support": 16
+            },
+            "MOVE_TO_BREAKEVEN": {
+              "precision": 1.0,
+              "recall": 0.3333,
+              "f1": 0.5,
+              "support": 3
+            }
+          }
+        },
+        {
+          "accuracy": 0.721,
+          "macro_f1": 0.5907,
+          "action_precision": 0.9259,
+          "action_recall": 0.7716,
+          "action_f1": 0.8418,
+          "per_label": {
+            "NO_ACTION": {
+              "precision": 0.6224,
+              "recall": 0.8592,
+              "f1": 0.7219,
+              "support": 71
+            },
+            "ENTER_LONG": {
+              "precision": 0.7778,
+              "recall": 0.3684,
+              "f1": 0.5,
+              "support": 19
+            },
+            "ENTER_SHORT": {
+              "precision": 0.5,
+              "recall": 0.3,
+              "f1": 0.375,
+              "support": 30
+            },
+            "TRIM": {
+              "precision": 0.7442,
+              "recall": 0.8205,
+              "f1": 0.7805,
+              "support": 39
+            },
+            "EXIT_ALL": {
+              "precision": 0.9024,
+              "recall": 0.7872,
+              "f1": 0.8409,
+              "support": 47
+            },
+            "MOVE_STOP": {
+              "precision": 0.9167,
+              "recall": 0.9167,
+              "f1": 0.9167,
+              "support": 24
+            },
+            "MOVE_TO_BREAKEVEN": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 3
+            }
+          }
+        }
+      ]
+    },
+    "distilbert": {
+      "k": 5,
+      "total_examples": 1377,
+      "folds": 5,
+      "summary": {
+        "accuracy": {
+          "mean": 0.6755,
+          "std": 0.065
+        },
+        "macro_f1": {
+          "mean": 0.5875,
+          "std": 0.0289
+        },
+        "action_f1": {
+          "mean": 0.8479,
+          "std": 0.0338
+        },
+        "action_precision": {
+          "mean": 0.801,
+          "std": 0.0697
+        },
+        "action_recall": {
+          "mean": 0.9089,
+          "std": 0.0707
+        }
+      },
+      "aggregated_metrics": {
+        "accuracy": 0.6725,
+        "macro_f1": 0.598,
+        "action_precision": 0.7914,
+        "action_recall": 0.9107,
+        "action_f1": 0.8469,
+        "per_label": {
+          "NO_ACTION": {
+            "precision": 0.8251,
+            "recall": 0.6369,
+            "f1": 0.7188,
+            "support": 548
+          },
+          "ENTER_LONG": {
+            "precision": 0.4407,
+            "recall": 0.5652,
+            "f1": 0.4952,
+            "support": 92
+          },
+          "ENTER_SHORT": {
+            "precision": 0.4358,
+            "recall": 0.5417,
+            "f1": 0.483,
+            "support": 144
+          },
+          "TRIM": {
+            "precision": 0.6512,
+            "recall": 0.7562,
+            "f1": 0.6998,
+            "support": 242
+          },
+          "EXIT_ALL": {
+            "precision": 0.72,
+            "recall": 0.7377,
+            "f1": 0.7287,
+            "support": 244
+          },
+          "MOVE_STOP": {
+            "precision": 0.6807,
+            "recall": 0.8617,
+            "f1": 0.7606,
+            "support": 94
+          },
+          "MOVE_TO_BREAKEVEN": {
+            "precision": 0.4286,
+            "recall": 0.2308,
+            "f1": 0.3,
+            "support": 13
+          }
+        }
+      },
+      "confusion_matrix": [
+        [
+          349,
+          34,
+          56,
+          50,
+          39,
+          18,
+          2
+        ],
+        [
+          13,
+          52,
+          16,
+          7,
+          3,
+          1,
+          0
+        ],
+        [
+          26,
+          22,
+          78,
+          8,
+          5,
+          4,
+          1
+        ],
+        [
+          17,
+          5,
+          11,
+          183,
+          18,
+          8,
+          0
+        ],
+        [
+          14,
+          4,
+          15,
+          25,
+          180,
+          5,
+          1
+        ],
+        [
+          2,
+          1,
+          1,
+          7,
+          2,
+          81,
+          0
+        ],
+        [
+          2,
+          0,
+          2,
+          1,
+          3,
+          2,
+          3
+        ]
+      ],
+      "per_fold": [
+        {
+          "accuracy": 0.7111,
+          "macro_f1": 0.6047,
+          "action_precision": 0.8125,
+          "action_recall": 0.942,
+          "action_f1": 0.8725,
+          "per_label": {
+            "NO_ACTION": {
+              "precision": 0.8769,
+              "recall": 0.6552,
+              "f1": 0.75,
+              "support": 87
+            },
+            "ENTER_LONG": {
+              "precision": 0.6923,
+              "recall": 0.6923,
+              "f1": 0.6923,
+              "support": 13
+            },
+            "ENTER_SHORT": {
+              "precision": 0.4,
+              "recall": 0.8,
+              "f1": 0.5333,
+              "support": 20
+            },
+            "TRIM": {
+              "precision": 0.66,
+              "recall": 0.7674,
+              "f1": 0.7097,
+              "support": 43
+            },
+            "EXIT_ALL": {
+              "precision": 0.8485,
+              "recall": 0.6829,
+              "f1": 0.7568,
+              "support": 41
+            },
+            "MOVE_STOP": {
+              "precision": 0.7083,
+              "recall": 0.8947,
+              "f1": 0.7907,
+              "support": 19
+            },
+            "MOVE_TO_BREAKEVEN": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 2
+            }
+          }
+        },
+        {
+          "accuracy": 0.5841,
+          "macro_f1": 0.5438,
+          "action_precision": 0.7091,
+          "action_recall": 0.9848,
+          "action_f1": 0.8245,
+          "per_label": {
+            "NO_ACTION": {
+              "precision": 0.9531,
+              "recall": 0.4326,
+              "f1": 0.5951,
+              "support": 141
+            },
+            "ENTER_LONG": {
+              "precision": 0.3846,
+              "recall": 0.4167,
+              "f1": 0.4,
+              "support": 24
+            },
+            "ENTER_SHORT": {
+              "precision": 0.3103,
+              "recall": 0.6585,
+              "f1": 0.4219,
+              "support": 41
+            },
+            "TRIM": {
+              "precision": 0.589,
+              "recall": 0.7544,
+              "f1": 0.6615,
+              "support": 57
+            },
+            "EXIT_ALL": {
+              "precision": 0.6774,
+              "recall": 0.75,
+              "f1": 0.7119,
+              "support": 56
+            },
+            "MOVE_STOP": {
+              "precision": 0.56,
+              "recall": 0.875,
+              "f1": 0.6829,
+              "support": 16
+            },
+            "MOVE_TO_BREAKEVEN": {
+              "precision": 0.5,
+              "recall": 0.25,
+              "f1": 0.3333,
+              "support": 4
+            }
+          }
+        },
+        {
+          "accuracy": 0.7143,
+          "macro_f1": 0.574,
+          "action_precision": 0.7722,
+          "action_recall": 0.8299,
+          "action_f1": 0.8,
+          "per_label": {
+            "NO_ACTION": {
+              "precision": 0.8062,
+              "recall": 0.7429,
+              "f1": 0.7732,
+              "support": 140
+            },
+            "ENTER_LONG": {
+              "precision": 0.5294,
+              "recall": 0.5625,
+              "f1": 0.5455,
+              "support": 16
+            },
+            "ENTER_SHORT": {
+              "precision": 0.5217,
+              "recall": 0.5217,
+              "f1": 0.5217,
+              "support": 23
+            },
+            "TRIM": {
+              "precision": 0.6491,
+              "recall": 0.7708,
+              "f1": 0.7048,
+              "support": 48
+            },
+            "EXIT_ALL": {
+              "precision": 0.7105,
+              "recall": 0.675,
+              "f1": 0.6923,
+              "support": 40
+            },
+            "MOVE_STOP": {
+              "precision": 0.7273,
+              "recall": 0.8421,
+              "f1": 0.7805,
+              "support": 19
+            },
+            "MOVE_TO_BREAKEVEN": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 1
+            }
+          }
+        },
+        {
+          "accuracy": 0.7372,
+          "macro_f1": 0.5982,
+          "action_precision": 0.9006,
+          "action_recall": 0.837,
+          "action_f1": 0.8676,
+          "per_label": {
+            "NO_ACTION": {
+              "precision": 0.7541,
+              "recall": 0.844,
+              "f1": 0.7965,
+              "support": 109
+            },
+            "ENTER_LONG": {
+              "precision": 0.4762,
+              "recall": 0.5,
+              "f1": 0.4878,
+              "support": 20
+            },
+            "ENTER_SHORT": {
+              "precision": 0.8824,
+              "recall": 0.5,
+              "f1": 0.6383,
+              "support": 30
+            },
+            "TRIM": {
+              "precision": 0.7917,
+              "recall": 0.6909,
+              "f1": 0.7379,
+              "support": 55
+            },
+            "EXIT_ALL": {
+              "precision": 0.7273,
+              "recall": 0.8,
+              "f1": 0.7619,
+              "support": 60
+            },
+            "MOVE_STOP": {
+              "precision": 0.7222,
+              "recall": 0.8125,
+              "f1": 0.7647,
+              "support": 16
+            },
+            "MOVE_TO_BREAKEVEN": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 3
+            }
+          }
+        },
+        {
+          "accuracy": 0.6309,
+          "macro_f1": 0.6166,
+          "action_precision": 0.8105,
+          "action_recall": 0.9506,
+          "action_f1": 0.875,
+          "per_label": {
+            "NO_ACTION": {
+              "precision": 0.814,
+              "recall": 0.493,
+              "f1": 0.614,
+              "support": 71
+            },
+            "ENTER_LONG": {
+              "precision": 0.3415,
+              "recall": 0.7368,
+              "f1": 0.4667,
+              "support": 19
+            },
+            "ENTER_SHORT": {
+              "precision": 0.6667,
+              "recall": 0.2667,
+              "f1": 0.381,
+              "support": 30
+            },
+            "TRIM": {
+              "precision": 0.6038,
+              "recall": 0.8205,
+              "f1": 0.6957,
+              "support": 39
+            },
+            "EXIT_ALL": {
+              "precision": 0.6863,
+              "recall": 0.7447,
+              "f1": 0.7143,
+              "support": 47
+            },
+            "MOVE_STOP": {
+              "precision": 0.7,
+              "recall": 0.875,
+              "f1": 0.7778,
+              "support": 24
+            },
+            "MOVE_TO_BREAKEVEN": {
+              "precision": 0.6667,
+              "recall": 0.6667,
+              "f1": 0.6667,
+              "support": 3
+            }
+          }
+        }
+      ]
+    },
+    "modernbert": {
+      "k": 5,
+      "total_examples": 1377,
+      "folds": 5,
+      "summary": {
+        "accuracy": {
+          "mean": 0.7267,
+          "std": 0.0123
+        },
+        "macro_f1": {
+          "mean": 0.6488,
+          "std": 0.0604
+        },
+        "action_f1": {
+          "mean": 0.8723,
+          "std": 0.0308
+        },
+        "action_precision": {
+          "mean": 0.8328,
+          "std": 0.0435
+        },
+        "action_recall": {
+          "mean": 0.9171,
+          "std": 0.0368
+        }
+      },
+      "aggregated_metrics": {
+        "accuracy": 0.7255,
+        "macro_f1": 0.675,
+        "action_precision": 0.8284,
+        "action_recall": 0.9204,
+        "action_f1": 0.872,
+        "per_label": {
+          "NO_ACTION": {
+            "precision": 0.8553,
+            "recall": 0.7117,
+            "f1": 0.7769,
+            "support": 548
+          },
+          "ENTER_LONG": {
+            "precision": 0.5158,
+            "recall": 0.5326,
+            "f1": 0.5241,
+            "support": 92
+          },
+          "ENTER_SHORT": {
+            "precision": 0.4972,
+            "recall": 0.6111,
+            "f1": 0.5483,
+            "support": 144
+          },
+          "TRIM": {
+            "precision": 0.7143,
+            "recall": 0.8264,
+            "f1": 0.7663,
+            "support": 242
+          },
+          "EXIT_ALL": {
+            "precision": 0.7094,
+            "recall": 0.7705,
+            "f1": 0.7387,
+            "support": 244
+          },
+          "MOVE_STOP": {
+            "precision": 0.8211,
+            "recall": 0.8298,
+            "f1": 0.8254,
+            "support": 94
+          },
+          "MOVE_TO_BREAKEVEN": {
+            "precision": 0.6667,
+            "recall": 0.4615,
+            "f1": 0.5455,
+            "support": 13
+          }
+        }
+      },
+      "confusion_matrix": [
+        [
+          390,
+          23,
+          56,
+          28,
+          41,
+          8,
+          2
+        ],
+        [
+          12,
+          49,
+          22,
+          6,
+          3,
+          0,
+          0
+        ],
+        [
+          26,
+          16,
+          88,
+          5,
+          5,
+          3,
+          1
+        ],
+        [
+          9,
+          5,
+          4,
+          200,
+          23,
+          1,
+          0
+        ],
+        [
+          16,
+          0,
+          5,
+          32,
+          188,
+          3,
+          0
+        ],
+        [
+          3,
+          2,
+          1,
+          6,
+          4,
+          78,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          3,
+          1,
+          2,
+          6
+        ]
+      ],
+      "per_fold": [
+        {
+          "accuracy": 0.7467,
+          "macro_f1": 0.6116,
+          "action_precision": 0.8811,
+          "action_recall": 0.913,
+          "action_f1": 0.8968,
+          "per_label": {
+            "NO_ACTION": {
+              "precision": 0.8537,
+              "recall": 0.8046,
+              "f1": 0.8284,
+              "support": 87
+            },
+            "ENTER_LONG": {
+              "precision": 0.5882,
+              "recall": 0.7692,
+              "f1": 0.6667,
+              "support": 13
+            },
+            "ENTER_SHORT": {
+              "precision": 0.5294,
+              "recall": 0.45,
+              "f1": 0.4865,
+              "support": 20
+            },
+            "TRIM": {
+              "precision": 0.6667,
+              "recall": 0.8372,
+              "f1": 0.7423,
+              "support": 43
+            },
+            "EXIT_ALL": {
+              "precision": 0.7297,
+              "recall": 0.6585,
+              "f1": 0.6923,
+              "support": 41
+            },
+            "MOVE_STOP": {
+              "precision": 0.8889,
+              "recall": 0.8421,
+              "f1": 0.8649,
+              "support": 19
+            },
+            "MOVE_TO_BREAKEVEN": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 2
+            }
+          }
+        },
+        {
+          "accuracy": 0.7168,
+          "macro_f1": 0.7019,
+          "action_precision": 0.7875,
+          "action_recall": 0.9545,
+          "action_f1": 0.863,
+          "per_label": {
+            "NO_ACTION": {
+              "precision": 0.9091,
+              "recall": 0.6383,
+              "f1": 0.75,
+              "support": 141
+            },
+            "ENTER_LONG": {
+              "precision": 0.4667,
+              "recall": 0.5833,
+              "f1": 0.5185,
+              "support": 24
+            },
+            "ENTER_SHORT": {
+              "precision": 0.551,
+              "recall": 0.6585,
+              "f1": 0.6,
+              "support": 41
+            },
+            "TRIM": {
+              "precision": 0.8036,
+              "recall": 0.7895,
+              "f1": 0.7965,
+              "support": 57
+            },
+            "EXIT_ALL": {
+              "precision": 0.6145,
+              "recall": 0.9107,
+              "f1": 0.7338,
+              "support": 56
+            },
+            "MOVE_STOP": {
+              "precision": 0.7222,
+              "recall": 0.8125,
+              "f1": 0.7647,
+              "support": 16
+            },
+            "MOVE_TO_BREAKEVEN": {
+              "precision": 0.75,
+              "recall": 0.75,
+              "f1": 0.75,
+              "support": 4
+            }
+          }
+        },
+        {
+          "accuracy": 0.7282,
+          "macro_f1": 0.5643,
+          "action_precision": 0.7925,
+          "action_recall": 0.8571,
+          "action_f1": 0.8235,
+          "per_label": {
+            "NO_ACTION": {
+              "precision": 0.8359,
+              "recall": 0.7643,
+              "f1": 0.7985,
+              "support": 140
+            },
+            "ENTER_LONG": {
+              "precision": 0.4615,
+              "recall": 0.375,
+              "f1": 0.4138,
+              "support": 16
+            },
+            "ENTER_SHORT": {
+              "precision": 0.3889,
+              "recall": 0.6087,
+              "f1": 0.4746,
+              "support": 23
+            },
+            "TRIM": {
+              "precision": 0.7069,
+              "recall": 0.8542,
+              "f1": 0.7736,
+              "support": 48
+            },
+            "EXIT_ALL": {
+              "precision": 0.8,
+              "recall": 0.7,
+              "f1": 0.7467,
+              "support": 40
+            },
+            "MOVE_STOP": {
+              "precision": 0.8125,
+              "recall": 0.6842,
+              "f1": 0.7429,
+              "support": 19
+            },
+            "MOVE_TO_BREAKEVEN": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 1
+            }
+          }
+        },
+        {
+          "accuracy": 0.7167,
+          "macro_f1": 0.6617,
+          "action_precision": 0.8309,
+          "action_recall": 0.9348,
+          "action_f1": 0.8798,
+          "per_label": {
+            "NO_ACTION": {
+              "precision": 0.8605,
+              "recall": 0.6789,
+              "f1": 0.759,
+              "support": 109
+            },
+            "ENTER_LONG": {
+              "precision": 0.5,
+              "recall": 0.4,
+              "f1": 0.4444,
+              "support": 20
+            },
+            "ENTER_SHORT": {
+              "precision": 0.4423,
+              "recall": 0.7667,
+              "f1": 0.561,
+              "support": 30
+            },
+            "TRIM": {
+              "precision": 0.7213,
+              "recall": 0.8,
+              "f1": 0.7586,
+              "support": 55
+            },
+            "EXIT_ALL": {
+              "precision": 0.7581,
+              "recall": 0.7833,
+              "f1": 0.7705,
+              "support": 60
+            },
+            "MOVE_STOP": {
+              "precision": 0.8667,
+              "recall": 0.8125,
+              "f1": 0.8387,
+              "support": 16
+            },
+            "MOVE_TO_BREAKEVEN": {
+              "precision": 1.0,
+              "recall": 0.3333,
+              "f1": 0.5,
+              "support": 3
+            }
+          }
+        },
+        {
+          "accuracy": 0.7253,
+          "macro_f1": 0.7044,
+          "action_precision": 0.8721,
+          "action_recall": 0.9259,
+          "action_f1": 0.8982,
+          "per_label": {
+            "NO_ACTION": {
+              "precision": 0.8033,
+              "recall": 0.6901,
+              "f1": 0.7424,
+              "support": 71
+            },
+            "ENTER_LONG": {
+              "precision": 0.5789,
+              "recall": 0.5789,
+              "f1": 0.5789,
+              "support": 19
+            },
+            "ENTER_SHORT": {
+              "precision": 0.6522,
+              "recall": 0.5,
+              "f1": 0.566,
+              "support": 30
+            },
+            "TRIM": {
+              "precision": 0.6667,
+              "recall": 0.8718,
+              "f1": 0.7556,
+              "support": 39
+            },
+            "EXIT_ALL": {
+              "precision": 0.7292,
+              "recall": 0.7447,
+              "f1": 0.7368,
+              "support": 47
+            },
+            "MOVE_STOP": {
+              "precision": 0.8214,
+              "recall": 0.9583,
+              "f1": 0.8846,
+              "support": 24
+            },
+            "MOVE_TO_BREAKEVEN": {
+              "precision": 0.6667,
+              "recall": 0.6667,
+              "f1": 0.6667,
+              "support": 3
+            }
+          }
+        }
+      ]
+    }
+  }
+}

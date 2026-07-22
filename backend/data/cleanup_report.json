@@ -1,0 +1,33 @@
+{
+  "input_examples": 1466,
+  "position_side_repaired": 200,
+  "prompts_rebuilt": 1466,
+  "duplicates_removed": 13,
+  "impossible_state_flagged": 6,
+  "advice_pattern_flagged": 5,
+  "output_clean": 1442,
+  "output_flagged": 24,
+  "clean_label_distribution": {
+    "ENTER_LONG": 94,
+    "ENTER_SHORT": 151,
+    "EXIT_ALL": 262,
+    "MOVE_STOP": 97,
+    "MOVE_TO_BREAKEVEN": 14,
+    "NO_ACTION": 569,
+    "TRIM": 255
+  },
+  "flagged_label_distribution": {
+    "ENTER_SHORT": 2,
+    "EXIT_ALL": 9,
+    "MOVE_TO_BREAKEVEN": 1,
+    "TRIM": 12
+  },
+  "flag_reasons": {
+    "EXIT_ALL_while_FLAT": 5,
+    "TRIM_while_FLAT": 1,
+    "advice_pattern: \\byou can\\b": 3,
+    "advice_pattern: \\byou must\\b": 1,
+    "advice_pattern: \\byour stop\\b, \\bmove your\\b": 1,
+    "duplicate_same_action_within_3_lines": 13
+  }
+}

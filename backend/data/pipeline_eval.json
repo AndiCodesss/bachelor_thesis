@@ -1,0 +1,4364 @@
+{
+  "generated": "2026-06-11T17:05:06",
+  "configs": {
+    "rules": {
+      "transcripts": {
+        "2025-10-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-07__rilljaZdaww.txt": {
+          "hours": 3.0,
+          "intents": 11,
+          "intents_by_tag": {
+            "ENTER_LONG": 3,
+            "EXIT_ALL": 6,
+            "ADD": 1,
+            "MOVE_TO_BREAKEVEN": 1
+          },
+          "labelled_actions": 6,
+          "detected": 1,
+          "exact": 1,
+          "unmatched_fires": 10,
+          "fires_per_hour": 3.3,
+          "unmatched": [
+            {
+              "line": 268,
+              "timecode": "00:13:30",
+              "tag": "ENTER_LONG",
+              "confidence": 0.91,
+              "text": "getting long at the open here given that"
+            },
+            {
+              "line": 646,
+              "timecode": "00:32:22",
+              "tag": "ENTER_LONG",
+              "confidence": 0.91,
+              "text": "before getting long."
+            },
+            {
+              "line": 897,
+              "timecode": "00:45:09",
+              "tag": "ADD",
+              "confidence": 0.89,
+              "text": "than getting long here. It's too"
+            },
+            {
+              "line": 1575,
+              "timecode": "01:19:26",
+              "tag": "MOVE_TO_BREAKEVEN",
+              "confidence": 0.91,
+              "text": "break even and just got in here for this"
+            },
+            {
+              "line": 1767,
+              "timecode": "01:28:03",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "this now. No, nice work. I'm trying to"
+            },
+            {
+              "line": 2095,
+              "timecode": "01:42:40",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "out."
+            },
+            {
+              "line": 2260,
+              "timecode": "01:50:41",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "low. I'm obviously I'm out of it now. I"
+            },
+            {
+              "line": 2326,
+              "timecode": "01:53:28",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "that off. Gonna have to review that"
+            },
+            {
+              "line": 2952,
+              "timecode": "02:30:47",
+              "tag": "ENTER_LONG",
+              "confidence": 0.91,
+              "text": "You are the reason we just rolled over"
+            },
+            {
+              "line": 3486,
+              "timecode": "02:58:21",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "It's all out there, though. It's all out"
+            }
+          ]
+        },
+        "2025-10-23__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-23__nFvjz1D-Oas.txt": {
+          "hours": 3.08,
+          "intents": 15,
+          "intents_by_tag": {
+            "EXIT_ALL": 8,
+            "MOVE_TO_BREAKEVEN": 2,
+            "ENTER_SHORT": 3,
+            "TRIM": 2
+          },
+          "labelled_actions": 1,
+          "detected": 1,
+          "exact": 1,
+          "unmatched_fires": 14,
+          "fires_per_hour": 4.5,
+          "unmatched": [
+            {
+              "line": 1094,
+              "timecode": "00:49:44",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "go higher. It's why I already cut that"
+            },
+            {
+              "line": 1096,
+              "timecode": "00:49:48",
+              "tag": "MOVE_TO_BREAKEVEN",
+              "confidence": 0.91,
+              "text": "Didn't come. Cut it. Break even on it."
+            },
+            {
+              "line": 1289,
+              "timecode": "00:58:49",
+              "tag": "ENTER_SHORT",
+              "confidence": 0.91,
+              "text": "this short pops. Looking for pops to"
+            },
+            {
+              "line": 1304,
+              "timecode": "00:59:27",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "reclaiming uh 150. I'm out of this now,"
+            },
+            {
+              "line": 1755,
+              "timecode": "01:22:40",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "hard. Go. Go and take them all out now."
+            },
+            {
+              "line": 1895,
+              "timecode": "01:31:14",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "out of this now. I'm not going to sit"
+            },
+            {
+              "line": 2657,
+              "timecode": "02:12:02",
+              "tag": "ENTER_SHORT",
+              "confidence": 0.91,
+              "text": "we're not moving lower, what does it"
+            },
+            {
+              "line": 2823,
+              "timecode": "02:20:11",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "right now who stopped out here. All the"
+            },
+            {
+              "line": 2824,
+              "timecode": "02:20:14",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "shorts who stopped out here, they become"
+            },
+            {
+              "line": 3049,
+              "timecode": "02:31:20",
+              "tag": "TRIM",
+              "confidence": 0.89,
+              "text": "of this. Got to pay myself something"
+            },
+            {
+              "line": 3114,
+              "timecode": "02:34:34",
+              "tag": "MOVE_TO_BREAKEVEN",
+              "confidence": 0.91,
+              "text": "even this morning. I called the wrong"
+            },
+            {
+              "line": 3488,
+              "timecode": "02:54:19",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "stopped out in the right area and"
+            },
+            {
+              "line": 3515,
+              "timecode": "02:55:28",
+              "tag": "ENTER_SHORT",
+              "confidence": 0.91,
+              "text": "add short on this way up. Absolute"
+            },
+            {
+              "line": 3592,
+              "timecode": "02:59:35",
+              "tag": "TRIM",
+              "confidence": 0.89,
+              "text": "But you have to take profit into here."
+            }
+          ]
+        },
+        "2025-11-06__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-06__Luatve1nc1M.txt": {
+          "hours": 3.1,
+          "intents": 13,
+          "intents_by_tag": {
+            "TRIM": 3,
+            "ENTER_SHORT": 2,
+            "ADD": 3,
+            "EXIT_ALL": 4,
+            "ENTER_LONG": 1
+          },
+          "labelled_actions": 6,
+          "detected": 1,
+          "exact": 1,
+          "unmatched_fires": 12,
+          "fires_per_hour": 3.9,
+          "unmatched": [
+            {
+              "line": 526,
+              "timecode": "00:26:21",
+              "tag": "ENTER_SHORT",
+              "confidence": 0.91,
+              "text": "down here, guys. I'm short versus that"
+            },
+            {
+              "line": 1178,
+              "timecode": "00:56:53",
+              "tag": "TRIM",
+              "confidence": 0.89,
+              "text": "But I had to pay myself there, folks."
+            },
+            {
+              "line": 1360,
+              "timecode": "01:04:51",
+              "tag": "ADD",
+              "confidence": 0.89,
+              "text": "exhausted for selling here at the"
+            },
+            {
+              "line": 1830,
+              "timecode": "01:27:21",
+              "tag": "TRIM",
+              "confidence": 0.89,
+              "text": "sure you pay yourself into this box. Oh"
+            },
+            {
+              "line": 2025,
+              "timecode": "01:39:53",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "unfortunately got stopped out uh on that"
+            },
+            {
+              "line": 2267,
+              "timecode": "01:50:19",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "then I got stopped out on 60s reclaim."
+            },
+            {
+              "line": 2268,
+              "timecode": "01:50:22",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "So, this candle here, unfortunately, it"
+            },
+            {
+              "line": 2736,
+              "timecode": "02:12:44",
+              "tag": "ENTER_LONG",
+              "confidence": 0.91,
+              "text": "buying here, but there's been no real"
+            },
+            {
+              "line": 2786,
+              "timecode": "02:15:35",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "out in 60s in here. So we've had one,"
+            },
+            {
+              "line": 2860,
+              "timecode": "02:18:32",
+              "tag": "ENTER_SHORT",
+              "confidence": 0.91,
+              "text": "I'm short or rotational biased. Open to"
+            },
+            {
+              "line": 3309,
+              "timecode": "02:42:30",
+              "tag": "ADD",
+              "confidence": 0.89,
+              "text": "more selling here. This is where you"
+            },
+            {
+              "line": 3748,
+              "timecode": "03:03:52",
+              "tag": "ADD",
+              "confidence": 0.89,
+              "text": "buy pressure. This is why I said 20s to"
+            }
+          ]
+        },
+        "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt": {
+          "hours": 2.87,
+          "intents": 22,
+          "intents_by_tag": {
+            "ENTER_SHORT": 4,
+            "ENTER_LONG": 2,
+            "MOVE_STOP": 1,
+            "ADD": 4,
+            "TRIM": 1,
+            "EXIT_ALL": 9,
+            "MOVE_TO_BREAKEVEN": 1
+          },
+          "labelled_actions": 7,
+          "detected": 1,
+          "exact": 1,
+          "unmatched_fires": 21,
+          "fires_per_hour": 7.3,
+          "unmatched": [
+            {
+              "line": 157,
+              "timecode": "00:08:23",
+              "tag": "ENTER_SHORT",
+              "confidence": 0.91,
+              "text": "getting short at these lows, folks. Just"
+            },
+            {
+              "line": 559,
+              "timecode": "00:25:41",
+              "tag": "ENTER_LONG",
+              "confidence": 0.91,
+              "text": "All right. A little bit of buying here."
+            },
+            {
+              "line": 808,
+              "timecode": "00:37:28",
+              "tag": "MOVE_STOP",
+              "confidence": 0.93,
+              "text": "here versus what's this 50s whole"
+            },
+            {
+              "line": 864,
+              "timecode": "00:40:08",
+              "tag": "ADD",
+              "confidence": 0.89,
+              "text": "And if we can get through here, it' be"
+            },
+            {
+              "line": 1021,
+              "timecode": "00:46:44",
+              "tag": "TRIM",
+              "confidence": 0.89,
+              "text": "lows which is why we take profit out"
+            },
+            {
+              "line": 1107,
+              "timecode": "00:51:37",
+              "tag": "ENTER_SHORT",
+              "confidence": 0.91,
+              "text": "Very strong selling here coming in huge"
+            },
+            {
+              "line": 1204,
+              "timecode": "00:55:44",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "starting to flatten out a bit, bears"
+            },
+            {
+              "line": 1664,
+              "timecode": "01:15:20",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "position I stopped out. I'm interested"
+            },
+            {
+              "line": 1755,
+              "timecode": "01:20:04",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "outs and now I'm flat and just waiting"
+            },
+            {
+              "line": 1820,
+              "timecode": "01:24:00",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "got stopped out on it. I'm not going to"
+            },
+            {
+              "line": 2284,
+              "timecode": "01:51:56",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "stopped out. The guys selling the pops"
+            },
+            {
+              "line": 2421,
+              "timecode": "02:00:11",
+              "tag": "ENTER_LONG",
+              "confidence": 0.91,
+              "text": "buying here and I bet you they sell it"
+            },
+            {
+              "line": 2523,
+              "timecode": "02:05:34",
+              "tag": "ENTER_SHORT",
+              "confidence": 0.91,
+              "text": "like short on this move on the way down"
+            },
+            {
+              "line": 2524,
+              "timecode": "02:05:36",
+              "tag": "ADD",
+              "confidence": 0.89,
+              "text": "even though they're walking it. But it"
+            },
+            {
+              "line": 2616,
+              "timecode": "02:11:40",
+              "tag": "ADD",
+              "confidence": 0.89,
+              "text": "here. Big selling here. This is very"
+            },
+            {
+              "line": 2673,
+              "timecode": "02:15:41",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "up, stopped out."
+            },
+            {
+              "line": 2819,
+              "timecode": "02:25:48",
+              "tag": "ENTER_SHORT",
+              "confidence": 0.91,
+              "text": "Big big big big selling here. Huge"
+            },
+            {
+              "line": 2821,
+              "timecode": "02:25:56",
+              "tag": "ADD",
+              "confidence": 0.89,
+              "text": "here."
+            },
+            {
+              "line": 2905,
+              "timecode": "02:30:24",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "and stopped out on it. So it is what it"
+            },
+            {
+              "line": 3067,
+              "timecode": "02:37:40",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "Do I take it all out,"
+            },
+            {
+              "line": 3306,
+              "timecode": "02:49:51",
+              "tag": "MOVE_TO_BREAKEVEN",
+              "confidence": 0.91,
+              "text": "I'll go break even quicker. Yeah, if I'm"
+            }
+          ]
+        },
+        "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt": {
+          "hours": 3.05,
+          "intents": 25,
+          "intents_by_tag": {
+            "ENTER_SHORT": 4,
+            "EXIT_ALL": 7,
+            "ADD": 4,
+            "MOVE_TO_BREAKEVEN": 6,
+            "MOVE_STOP": 2,
+            "TRIM": 2
+          },
+          "labelled_actions": 3,
+          "detected": 1,
+          "exact": 1,
+          "unmatched_fires": 24,
+          "fires_per_hour": 7.9,
+          "unmatched": [
+            {
+              "line": 558,
+              "timecode": "00:27:36",
+              "tag": "ENTER_SHORT",
+              "confidence": 0.91,
+              "text": "there's some selling here."
+            },
+            {
+              "line": 748,
+              "timecode": "00:37:05",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "lots of shorts getting stopped out here."
+            },
+            {
+              "line": 912,
+              "timecode": "00:43:59",
+              "tag": "ENTER_SHORT",
+              "confidence": 0.91,
+              "text": "case. But uh I'm not getting short down"
+            },
+            {
+              "line": 913,
+              "timecode": "00:44:01",
+              "tag": "ADD",
+              "confidence": 0.89,
+              "text": "here and I don't want to play the"
+            },
+            {
+              "line": 1563,
+              "timecode": "01:11:37",
+              "tag": "ADD",
+              "confidence": 0.89,
+              "text": "Some stronger selling here again. Still"
+            },
+            {
+              "line": 1622,
+              "timecode": "01:13:54",
+              "tag": "ADD",
+              "confidence": 0.89,
+              "text": "move away from it and they and I see"
+            },
+            {
+              "line": 2011,
+              "timecode": "01:31:19",
+              "tag": "MOVE_TO_BREAKEVEN",
+              "confidence": 0.91,
+              "text": "stopping break even, saying that they're"
+            },
+            {
+              "line": 2226,
+              "timecode": "01:41:46",
+              "tag": "MOVE_STOP",
+              "confidence": 0.93,
+              "text": "Tiny Libble versus 40 just in case"
+            },
+            {
+              "line": 2233,
+              "timecode": "01:42:01",
+              "tag": "MOVE_TO_BREAKEVEN",
+              "confidence": 0.91,
+              "text": "gone break even."
+            },
+            {
+              "line": 2242,
+              "timecode": "01:42:28",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "Okay. Stopped out be on the rest. So,"
+            },
+            {
+              "line": 2278,
+              "timecode": "01:44:06",
+              "tag": "TRIM",
+              "confidence": 0.89,
+              "text": "taking some off because I don't know if"
+            },
+            {
+              "line": 2370,
+              "timecode": "01:48:06",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "Currently flatten this now and just"
+            },
+            {
+              "line": 2408,
+              "timecode": "01:49:50",
+              "tag": "ENTER_SHORT",
+              "confidence": 0.91,
+              "text": "Nice aggressive selling here. Now, can"
+            },
+            {
+              "line": 2429,
+              "timecode": "01:50:44",
+              "tag": "ADD",
+              "confidence": 0.89,
+              "text": "Some more aggressive selling here. This"
+            },
+            {
+              "line": 2525,
+              "timecode": "01:54:54",
+              "tag": "TRIM",
+              "confidence": 0.89,
+              "text": "have to pay yourself because like we"
+            },
+            {
+              "line": 2546,
+              "timecode": "01:55:56",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "level. Just come and wipe them all out."
+            },
+            {
+              "line": 2572,
+              "timecode": "01:57:31",
+              "tag": "MOVE_TO_BREAKEVEN",
+              "confidence": 0.91,
+              "text": "control. So, stops into break even. And"
+            },
+            {
+              "line": 2573,
+              "timecode": "01:57:34",
+              "tag": "MOVE_TO_BREAKEVEN",
+              "confidence": 0.91,
+              "text": "again, we can stop out if well for me"
+            },
+            {
+              "line": 2575,
+              "timecode": "01:57:37",
+              "tag": "MOVE_TO_BREAKEVEN",
+              "confidence": 0.91,
+              "text": "stop out if we need to."
+            },
+            {
+              "line": 2671,
+              "timecode": "02:04:09",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "said, I'm flattening this. Anyone's"
+            },
+            {
+              "line": 3432,
+              "timecode": "02:37:55",
+              "tag": "MOVE_TO_BREAKEVEN",
+              "confidence": 0.91,
+              "text": "get above this red line, break even for"
+            },
+            {
+              "line": 3633,
+              "timecode": "02:46:28",
+              "tag": "ENTER_SHORT",
+              "confidence": 0.91,
+              "text": "Big selling here again. Back to these"
+            },
+            {
+              "line": 3749,
+              "timecode": "02:51:56",
+              "tag": "MOVE_STOP",
+              "confidence": 0.93,
+              "text": "that. So no reclaim of 26,000. All"
+            },
+            {
+              "line": 3975,
+              "timecode": "03:02:10",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "All right, folks. I'm done. I'm out of"
+            }
+          ]
+        }
+      },
+      "totals": {
+        "hours": 15.1,
+        "intents": 86,
+        "labelled_actions": 23,
+        "detected": 5,
+        "exact": 5,
+        "unmatched_fires": 81,
+        "fires_per_hour": 5.4
+      },
+      "unmatched_flat": [
+        {
+          "file": "2025-10-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-07__rilljaZdaww.txt",
+          "line": 268,
+          "timecode": "00:13:30",
+          "tag": "ENTER_LONG",
+          "confidence": 0.91,
+          "text": "getting long at the open here given that"
+        },
+        {
+          "file": "2025-10-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-07__rilljaZdaww.txt",
+          "line": 646,
+          "timecode": "00:32:22",
+          "tag": "ENTER_LONG",
+          "confidence": 0.91,
+          "text": "before getting long."
+        },
+        {
+          "file": "2025-10-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-07__rilljaZdaww.txt",
+          "line": 897,
+          "timecode": "00:45:09",
+          "tag": "ADD",
+          "confidence": 0.89,
+          "text": "than getting long here. It's too"
+        },
+        {
+          "file": "2025-10-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-07__rilljaZdaww.txt",
+          "line": 1575,
+          "timecode": "01:19:26",
+          "tag": "MOVE_TO_BREAKEVEN",
+          "confidence": 0.91,
+          "text": "break even and just got in here for this"
+        },
+        {
+          "file": "2025-10-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-07__rilljaZdaww.txt",
+          "line": 1767,
+          "timecode": "01:28:03",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "this now. No, nice work. I'm trying to"
+        },
+        {
+          "file": "2025-10-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-07__rilljaZdaww.txt",
+          "line": 2095,
+          "timecode": "01:42:40",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "out."
+        },
+        {
+          "file": "2025-10-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-07__rilljaZdaww.txt",
+          "line": 2260,
+          "timecode": "01:50:41",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "low. I'm obviously I'm out of it now. I"
+        },
+        {
+          "file": "2025-10-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-07__rilljaZdaww.txt",
+          "line": 2326,
+          "timecode": "01:53:28",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "that off. Gonna have to review that"
+        },
+        {
+          "file": "2025-10-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-07__rilljaZdaww.txt",
+          "line": 2952,
+          "timecode": "02:30:47",
+          "tag": "ENTER_LONG",
+          "confidence": 0.91,
+          "text": "You are the reason we just rolled over"
+        },
+        {
+          "file": "2025-10-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-07__rilljaZdaww.txt",
+          "line": 3486,
+          "timecode": "02:58:21",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "It's all out there, though. It's all out"
+        },
+        {
+          "file": "2025-10-23__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-23__nFvjz1D-Oas.txt",
+          "line": 1094,
+          "timecode": "00:49:44",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "go higher. It's why I already cut that"
+        },
+        {
+          "file": "2025-10-23__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-23__nFvjz1D-Oas.txt",
+          "line": 1096,
+          "timecode": "00:49:48",
+          "tag": "MOVE_TO_BREAKEVEN",
+          "confidence": 0.91,
+          "text": "Didn't come. Cut it. Break even on it."
+        },
+        {
+          "file": "2025-10-23__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-23__nFvjz1D-Oas.txt",
+          "line": 1289,
+          "timecode": "00:58:49",
+          "tag": "ENTER_SHORT",
+          "confidence": 0.91,
+          "text": "this short pops. Looking for pops to"
+        },
+        {
+          "file": "2025-10-23__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-23__nFvjz1D-Oas.txt",
+          "line": 1304,
+          "timecode": "00:59:27",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "reclaiming uh 150. I'm out of this now,"
+        },
+        {
+          "file": "2025-10-23__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-23__nFvjz1D-Oas.txt",
+          "line": 1755,
+          "timecode": "01:22:40",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "hard. Go. Go and take them all out now."
+        },
+        {
+          "file": "2025-10-23__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-23__nFvjz1D-Oas.txt",
+          "line": 1895,
+          "timecode": "01:31:14",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "out of this now. I'm not going to sit"
+        },
+        {
+          "file": "2025-10-23__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-23__nFvjz1D-Oas.txt",
+          "line": 2657,
+          "timecode": "02:12:02",
+          "tag": "ENTER_SHORT",
+          "confidence": 0.91,
+          "text": "we're not moving lower, what does it"
+        },
+        {
+          "file": "2025-10-23__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-23__nFvjz1D-Oas.txt",
+          "line": 2823,
+          "timecode": "02:20:11",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "right now who stopped out here. All the"
+        },
+        {
+          "file": "2025-10-23__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-23__nFvjz1D-Oas.txt",
+          "line": 2824,
+          "timecode": "02:20:14",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "shorts who stopped out here, they become"
+        },
+        {
+          "file": "2025-10-23__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-23__nFvjz1D-Oas.txt",
+          "line": 3049,
+          "timecode": "02:31:20",
+          "tag": "TRIM",
+          "confidence": 0.89,
+          "text": "of this. Got to pay myself something"
+        },
+        {
+          "file": "2025-10-23__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-23__nFvjz1D-Oas.txt",
+          "line": 3114,
+          "timecode": "02:34:34",
+          "tag": "MOVE_TO_BREAKEVEN",
+          "confidence": 0.91,
+          "text": "even this morning. I called the wrong"
+        },
+        {
+          "file": "2025-10-23__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-23__nFvjz1D-Oas.txt",
+          "line": 3488,
+          "timecode": "02:54:19",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "stopped out in the right area and"
+        },
+        {
+          "file": "2025-10-23__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-23__nFvjz1D-Oas.txt",
+          "line": 3515,
+          "timecode": "02:55:28",
+          "tag": "ENTER_SHORT",
+          "confidence": 0.91,
+          "text": "add short on this way up. Absolute"
+        },
+        {
+          "file": "2025-10-23__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-23__nFvjz1D-Oas.txt",
+          "line": 3592,
+          "timecode": "02:59:35",
+          "tag": "TRIM",
+          "confidence": 0.89,
+          "text": "But you have to take profit into here."
+        },
+        {
+          "file": "2025-11-06__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-06__Luatve1nc1M.txt",
+          "line": 526,
+          "timecode": "00:26:21",
+          "tag": "ENTER_SHORT",
+          "confidence": 0.91,
+          "text": "down here, guys. I'm short versus that"
+        },
+        {
+          "file": "2025-11-06__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-06__Luatve1nc1M.txt",
+          "line": 1178,
+          "timecode": "00:56:53",
+          "tag": "TRIM",
+          "confidence": 0.89,
+          "text": "But I had to pay myself there, folks."
+        },
+        {
+          "file": "2025-11-06__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-06__Luatve1nc1M.txt",
+          "line": 1360,
+          "timecode": "01:04:51",
+          "tag": "ADD",
+          "confidence": 0.89,
+          "text": "exhausted for selling here at the"
+        },
+        {
+          "file": "2025-11-06__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-06__Luatve1nc1M.txt",
+          "line": 1830,
+          "timecode": "01:27:21",
+          "tag": "TRIM",
+          "confidence": 0.89,
+          "text": "sure you pay yourself into this box. Oh"
+        },
+        {
+          "file": "2025-11-06__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-06__Luatve1nc1M.txt",
+          "line": 2025,
+          "timecode": "01:39:53",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "unfortunately got stopped out uh on that"
+        },
+        {
+          "file": "2025-11-06__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-06__Luatve1nc1M.txt",
+          "line": 2267,
+          "timecode": "01:50:19",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "then I got stopped out on 60s reclaim."
+        },
+        {
+          "file": "2025-11-06__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-06__Luatve1nc1M.txt",
+          "line": 2268,
+          "timecode": "01:50:22",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "So, this candle here, unfortunately, it"
+        },
+        {
+          "file": "2025-11-06__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-06__Luatve1nc1M.txt",
+          "line": 2736,
+          "timecode": "02:12:44",
+          "tag": "ENTER_LONG",
+          "confidence": 0.91,
+          "text": "buying here, but there's been no real"
+        },
+        {
+          "file": "2025-11-06__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-06__Luatve1nc1M.txt",
+          "line": 2786,
+          "timecode": "02:15:35",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "out in 60s in here. So we've had one,"
+        },
+        {
+          "file": "2025-11-06__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-06__Luatve1nc1M.txt",
+          "line": 2860,
+          "timecode": "02:18:32",
+          "tag": "ENTER_SHORT",
+          "confidence": 0.91,
+          "text": "I'm short or rotational biased. Open to"
+        },
+        {
+          "file": "2025-11-06__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-06__Luatve1nc1M.txt",
+          "line": 3309,
+          "timecode": "02:42:30",
+          "tag": "ADD",
+          "confidence": 0.89,
+          "text": "more selling here. This is where you"
+        },
+        {
+          "file": "2025-11-06__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-06__Luatve1nc1M.txt",
+          "line": 3748,
+          "timecode": "03:03:52",
+          "tag": "ADD",
+          "confidence": 0.89,
+          "text": "buy pressure. This is why I said 20s to"
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 157,
+          "timecode": "00:08:23",
+          "tag": "ENTER_SHORT",
+          "confidence": 0.91,
+          "text": "getting short at these lows, folks. Just"
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 559,
+          "timecode": "00:25:41",
+          "tag": "ENTER_LONG",
+          "confidence": 0.91,
+          "text": "All right. A little bit of buying here."
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 808,
+          "timecode": "00:37:28",
+          "tag": "MOVE_STOP",
+          "confidence": 0.93,
+          "text": "here versus what's this 50s whole"
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 864,
+          "timecode": "00:40:08",
+          "tag": "ADD",
+          "confidence": 0.89,
+          "text": "And if we can get through here, it' be"
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 1021,
+          "timecode": "00:46:44",
+          "tag": "TRIM",
+          "confidence": 0.89,
+          "text": "lows which is why we take profit out"
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 1107,
+          "timecode": "00:51:37",
+          "tag": "ENTER_SHORT",
+          "confidence": 0.91,
+          "text": "Very strong selling here coming in huge"
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 1204,
+          "timecode": "00:55:44",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "starting to flatten out a bit, bears"
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 1664,
+          "timecode": "01:15:20",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "position I stopped out. I'm interested"
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 1755,
+          "timecode": "01:20:04",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "outs and now I'm flat and just waiting"
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 1820,
+          "timecode": "01:24:00",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "got stopped out on it. I'm not going to"
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 2284,
+          "timecode": "01:51:56",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "stopped out. The guys selling the pops"
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 2421,
+          "timecode": "02:00:11",
+          "tag": "ENTER_LONG",
+          "confidence": 0.91,
+          "text": "buying here and I bet you they sell it"
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 2523,
+          "timecode": "02:05:34",
+          "tag": "ENTER_SHORT",
+          "confidence": 0.91,
+          "text": "like short on this move on the way down"
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 2524,
+          "timecode": "02:05:36",
+          "tag": "ADD",
+          "confidence": 0.89,
+          "text": "even though they're walking it. But it"
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 2616,
+          "timecode": "02:11:40",
+          "tag": "ADD",
+          "confidence": 0.89,
+          "text": "here. Big selling here. This is very"
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 2673,
+          "timecode": "02:15:41",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "up, stopped out."
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 2819,
+          "timecode": "02:25:48",
+          "tag": "ENTER_SHORT",
+          "confidence": 0.91,
+          "text": "Big big big big selling here. Huge"
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 2821,
+          "timecode": "02:25:56",
+          "tag": "ADD",
+          "confidence": 0.89,
+          "text": "here."
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 2905,
+          "timecode": "02:30:24",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "and stopped out on it. So it is what it"
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 3067,
+          "timecode": "02:37:40",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "Do I take it all out,"
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 3306,
+          "timecode": "02:49:51",
+          "tag": "MOVE_TO_BREAKEVEN",
+          "confidence": 0.91,
+          "text": "I'll go break even quicker. Yeah, if I'm"
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 558,
+          "timecode": "00:27:36",
+          "tag": "ENTER_SHORT",
+          "confidence": 0.91,
+          "text": "there's some selling here."
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 748,
+          "timecode": "00:37:05",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "lots of shorts getting stopped out here."
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 912,
+          "timecode": "00:43:59",
+          "tag": "ENTER_SHORT",
+          "confidence": 0.91,
+          "text": "case. But uh I'm not getting short down"
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 913,
+          "timecode": "00:44:01",
+          "tag": "ADD",
+          "confidence": 0.89,
+          "text": "here and I don't want to play the"
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 1563,
+          "timecode": "01:11:37",
+          "tag": "ADD",
+          "confidence": 0.89,
+          "text": "Some stronger selling here again. Still"
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 1622,
+          "timecode": "01:13:54",
+          "tag": "ADD",
+          "confidence": 0.89,
+          "text": "move away from it and they and I see"
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 2011,
+          "timecode": "01:31:19",
+          "tag": "MOVE_TO_BREAKEVEN",
+          "confidence": 0.91,
+          "text": "stopping break even, saying that they're"
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 2226,
+          "timecode": "01:41:46",
+          "tag": "MOVE_STOP",
+          "confidence": 0.93,
+          "text": "Tiny Libble versus 40 just in case"
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 2233,
+          "timecode": "01:42:01",
+          "tag": "MOVE_TO_BREAKEVEN",
+          "confidence": 0.91,
+          "text": "gone break even."
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 2242,
+          "timecode": "01:42:28",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "Okay. Stopped out be on the rest. So,"
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 2278,
+          "timecode": "01:44:06",
+          "tag": "TRIM",
+          "confidence": 0.89,
+          "text": "taking some off because I don't know if"
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 2370,
+          "timecode": "01:48:06",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "Currently flatten this now and just"
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 2408,
+          "timecode": "01:49:50",
+          "tag": "ENTER_SHORT",
+          "confidence": 0.91,
+          "text": "Nice aggressive selling here. Now, can"
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 2429,
+          "timecode": "01:50:44",
+          "tag": "ADD",
+          "confidence": 0.89,
+          "text": "Some more aggressive selling here. This"
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 2525,
+          "timecode": "01:54:54",
+          "tag": "TRIM",
+          "confidence": 0.89,
+          "text": "have to pay yourself because like we"
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 2546,
+          "timecode": "01:55:56",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "level. Just come and wipe them all out."
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 2572,
+          "timecode": "01:57:31",
+          "tag": "MOVE_TO_BREAKEVEN",
+          "confidence": 0.91,
+          "text": "control. So, stops into break even. And"
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 2573,
+          "timecode": "01:57:34",
+          "tag": "MOVE_TO_BREAKEVEN",
+          "confidence": 0.91,
+          "text": "again, we can stop out if well for me"
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 2575,
+          "timecode": "01:57:37",
+          "tag": "MOVE_TO_BREAKEVEN",
+          "confidence": 0.91,
+          "text": "stop out if we need to."
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 2671,
+          "timecode": "02:04:09",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "said, I'm flattening this. Anyone's"
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 3432,
+          "timecode": "02:37:55",
+          "tag": "MOVE_TO_BREAKEVEN",
+          "confidence": 0.91,
+          "text": "get above this red line, break even for"
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 3633,
+          "timecode": "02:46:28",
+          "tag": "ENTER_SHORT",
+          "confidence": 0.91,
+          "text": "Big selling here again. Back to these"
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 3749,
+          "timecode": "02:51:56",
+          "tag": "MOVE_STOP",
+          "confidence": 0.93,
+          "text": "that. So no reclaim of 26,000. All"
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 3975,
+          "timecode": "03:02:10",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "All right, folks. I'm done. I'm out of"
+        }
+      ]
+    },
+    "modernbert": {
+      "transcripts": {
+        "2025-10-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-07__rilljaZdaww.txt": {
+          "hours": 3.0,
+          "intents": 16,
+          "intents_by_tag": {
+            "ENTER_LONG": 3,
+            "ADD": 4,
+            "EXIT_ALL": 6,
+            "MOVE_STOP": 1,
+            "MOVE_TO_BREAKEVEN": 1,
+            "ENTER_SHORT": 1
+          },
+          "labelled_actions": 6,
+          "detected": 1,
+          "exact": 1,
+          "unmatched_fires": 15,
+          "fires_per_hour": 5.0,
+          "unmatched": [
+            {
+              "line": 268,
+              "timecode": "00:13:30",
+              "tag": "ENTER_LONG",
+              "confidence": 0.91,
+              "text": "getting long at the open here given that"
+            },
+            {
+              "line": 371,
+              "timecode": "00:17:48",
+              "tag": "ADD",
+              "confidence": 0.89,
+              "text": "long out the gate here, that's for sure."
+            },
+            {
+              "line": 397,
+              "timecode": "00:18:56",
+              "tag": "ENTER_LONG",
+              "confidence": 0.91,
+              "text": "to see us come back here at this point"
+            },
+            {
+              "line": 501,
+              "timecode": "00:24:06",
+              "tag": "MOVE_STOP",
+              "confidence": 0.93,
+              "text": "So shorts are probably in versus 60s. So"
+            },
+            {
+              "line": 646,
+              "timecode": "00:32:22",
+              "tag": "ADD",
+              "confidence": 0.89,
+              "text": "before getting long."
+            },
+            {
+              "line": 897,
+              "timecode": "00:45:09",
+              "tag": "ADD",
+              "confidence": 0.89,
+              "text": "than getting long here. It's too"
+            },
+            {
+              "line": 1575,
+              "timecode": "01:19:26",
+              "tag": "MOVE_TO_BREAKEVEN",
+              "confidence": 0.91,
+              "text": "break even and just got in here for this"
+            },
+            {
+              "line": 1590,
+              "timecode": "01:20:03",
+              "tag": "ADD",
+              "confidence": 0.89,
+              "text": "draw. They probably if they reclaim"
+            },
+            {
+              "line": 1767,
+              "timecode": "01:28:03",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "this now. No, nice work. I'm trying to"
+            },
+            {
+              "line": 2095,
+              "timecode": "01:42:40",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "out."
+            },
+            {
+              "line": 2260,
+              "timecode": "01:50:41",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "low. I'm obviously I'm out of it now. I"
+            },
+            {
+              "line": 2326,
+              "timecode": "01:53:28",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "that off. Gonna have to review that"
+            },
+            {
+              "line": 2952,
+              "timecode": "02:30:47",
+              "tag": "ENTER_LONG",
+              "confidence": 0.91,
+              "text": "You are the reason we just rolled over"
+            },
+            {
+              "line": 3145,
+              "timecode": "02:41:08",
+              "tag": "ENTER_SHORT",
+              "confidence": 0.91,
+              "text": "short down here. We expect some kind of"
+            },
+            {
+              "line": 3486,
+              "timecode": "02:58:21",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "It's all out there, though. It's all out"
+            }
+          ]
+        },
+        "2025-10-23__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-23__nFvjz1D-Oas.txt": {
+          "hours": 3.08,
+          "intents": 16,
+          "intents_by_tag": {
+            "ENTER_SHORT": 4,
+            "EXIT_ALL": 8,
+            "MOVE_TO_BREAKEVEN": 2,
+            "TRIM": 2
+          },
+          "labelled_actions": 1,
+          "detected": 1,
+          "exact": 1,
+          "unmatched_fires": 15,
+          "fires_per_hour": 4.9,
+          "unmatched": [
+            {
+              "line": 1072,
+              "timecode": "00:48:28",
+              "tag": "ENTER_SHORT",
+              "confidence": 0.91,
+              "text": "there's follow through."
+            },
+            {
+              "line": 1094,
+              "timecode": "00:49:44",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "go higher. It's why I already cut that"
+            },
+            {
+              "line": 1096,
+              "timecode": "00:49:48",
+              "tag": "MOVE_TO_BREAKEVEN",
+              "confidence": 0.91,
+              "text": "Didn't come. Cut it. Break even on it."
+            },
+            {
+              "line": 1289,
+              "timecode": "00:58:49",
+              "tag": "ENTER_SHORT",
+              "confidence": 0.91,
+              "text": "this short pops. Looking for pops to"
+            },
+            {
+              "line": 1304,
+              "timecode": "00:59:27",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "reclaiming uh 150. I'm out of this now,"
+            },
+            {
+              "line": 1755,
+              "timecode": "01:22:40",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "hard. Go. Go and take them all out now."
+            },
+            {
+              "line": 1895,
+              "timecode": "01:31:14",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "out of this now. I'm not going to sit"
+            },
+            {
+              "line": 2657,
+              "timecode": "02:12:02",
+              "tag": "ENTER_SHORT",
+              "confidence": 0.91,
+              "text": "we're not moving lower, what does it"
+            },
+            {
+              "line": 2823,
+              "timecode": "02:20:11",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "right now who stopped out here. All the"
+            },
+            {
+              "line": 2824,
+              "timecode": "02:20:14",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "shorts who stopped out here, they become"
+            },
+            {
+              "line": 3049,
+              "timecode": "02:31:20",
+              "tag": "TRIM",
+              "confidence": 0.89,
+              "text": "of this. Got to pay myself something"
+            },
+            {
+              "line": 3114,
+              "timecode": "02:34:34",
+              "tag": "MOVE_TO_BREAKEVEN",
+              "confidence": 0.91,
+              "text": "even this morning. I called the wrong"
+            },
+            {
+              "line": 3488,
+              "timecode": "02:54:19",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "stopped out in the right area and"
+            },
+            {
+              "line": 3515,
+              "timecode": "02:55:28",
+              "tag": "ENTER_SHORT",
+              "confidence": 0.91,
+              "text": "add short on this way up. Absolute"
+            },
+            {
+              "line": 3592,
+              "timecode": "02:59:35",
+              "tag": "TRIM",
+              "confidence": 0.89,
+              "text": "But you have to take profit into here."
+            }
+          ]
+        },
+        "2025-11-06__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-06__Luatve1nc1M.txt": {
+          "hours": 3.1,
+          "intents": 16,
+          "intents_by_tag": {
+            "TRIM": 3,
+            "ENTER_SHORT": 2,
+            "ADD": 4,
+            "MOVE_STOP": 1,
+            "EXIT_ALL": 5,
+            "ENTER_LONG": 1
+          },
+          "labelled_actions": 6,
+          "detected": 2,
+          "exact": 2,
+          "unmatched_fires": 14,
+          "fires_per_hour": 4.5,
+          "unmatched": [
+            {
+              "line": 526,
+              "timecode": "00:26:21",
+              "tag": "ENTER_SHORT",
+              "confidence": 0.91,
+              "text": "down here, guys. I'm short versus that"
+            },
+            {
+              "line": 565,
+              "timecode": "00:28:13",
+              "tag": "ADD",
+              "confidence": 0.89,
+              "text": "potentially from here and here to here"
+            },
+            {
+              "line": 613,
+              "timecode": "00:30:22",
+              "tag": "MOVE_STOP",
+              "confidence": 0.93,
+              "text": "Here's TP1. And let's see if we can get"
+            },
+            {
+              "line": 1178,
+              "timecode": "00:56:53",
+              "tag": "TRIM",
+              "confidence": 0.89,
+              "text": "But I had to pay myself there, folks."
+            },
+            {
+              "line": 1360,
+              "timecode": "01:04:51",
+              "tag": "ADD",
+              "confidence": 0.89,
+              "text": "exhausted for selling here at the"
+            },
+            {
+              "line": 1830,
+              "timecode": "01:27:21",
+              "tag": "TRIM",
+              "confidence": 0.89,
+              "text": "sure you pay yourself into this box. Oh"
+            },
+            {
+              "line": 2025,
+              "timecode": "01:39:53",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "unfortunately got stopped out uh on that"
+            },
+            {
+              "line": 2267,
+              "timecode": "01:50:19",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "then I got stopped out on 60s reclaim."
+            },
+            {
+              "line": 2268,
+              "timecode": "01:50:22",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "So, this candle here, unfortunately, it"
+            },
+            {
+              "line": 2736,
+              "timecode": "02:12:44",
+              "tag": "ENTER_LONG",
+              "confidence": 0.91,
+              "text": "buying here, but there's been no real"
+            },
+            {
+              "line": 2786,
+              "timecode": "02:15:35",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "out in 60s in here. So we've had one,"
+            },
+            {
+              "line": 2860,
+              "timecode": "02:18:32",
+              "tag": "ENTER_SHORT",
+              "confidence": 0.91,
+              "text": "I'm short or rotational biased. Open to"
+            },
+            {
+              "line": 3309,
+              "timecode": "02:42:30",
+              "tag": "ADD",
+              "confidence": 0.89,
+              "text": "more selling here. This is where you"
+            },
+            {
+              "line": 3748,
+              "timecode": "03:03:52",
+              "tag": "ADD",
+              "confidence": 0.89,
+              "text": "buy pressure. This is why I said 20s to"
+            }
+          ]
+        },
+        "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt": {
+          "hours": 2.87,
+          "intents": 24,
+          "intents_by_tag": {
+            "ENTER_SHORT": 4,
+            "ENTER_LONG": 2,
+            "MOVE_STOP": 2,
+            "ADD": 4,
+            "TRIM": 1,
+            "EXIT_ALL": 9,
+            "MOVE_TO_BREAKEVEN": 2
+          },
+          "labelled_actions": 7,
+          "detected": 2,
+          "exact": 2,
+          "unmatched_fires": 22,
+          "fires_per_hour": 7.7,
+          "unmatched": [
+            {
+              "line": 157,
+              "timecode": "00:08:23",
+              "tag": "ENTER_SHORT",
+              "confidence": 0.91,
+              "text": "getting short at these lows, folks. Just"
+            },
+            {
+              "line": 559,
+              "timecode": "00:25:41",
+              "tag": "ENTER_LONG",
+              "confidence": 0.91,
+              "text": "All right. A little bit of buying here."
+            },
+            {
+              "line": 808,
+              "timecode": "00:37:28",
+              "tag": "MOVE_STOP",
+              "confidence": 0.93,
+              "text": "here versus what's this 50s whole"
+            },
+            {
+              "line": 1021,
+              "timecode": "00:46:44",
+              "tag": "TRIM",
+              "confidence": 0.89,
+              "text": "lows which is why we take profit out"
+            },
+            {
+              "line": 1107,
+              "timecode": "00:51:37",
+              "tag": "ENTER_SHORT",
+              "confidence": 0.91,
+              "text": "Very strong selling here coming in huge"
+            },
+            {
+              "line": 1204,
+              "timecode": "00:55:44",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "starting to flatten out a bit, bears"
+            },
+            {
+              "line": 1664,
+              "timecode": "01:15:20",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "position I stopped out. I'm interested"
+            },
+            {
+              "line": 1755,
+              "timecode": "01:20:04",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "outs and now I'm flat and just waiting"
+            },
+            {
+              "line": 1820,
+              "timecode": "01:24:00",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "got stopped out on it. I'm not going to"
+            },
+            {
+              "line": 2284,
+              "timecode": "01:51:56",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "stopped out. The guys selling the pops"
+            },
+            {
+              "line": 2421,
+              "timecode": "02:00:11",
+              "tag": "ENTER_LONG",
+              "confidence": 0.91,
+              "text": "buying here and I bet you they sell it"
+            },
+            {
+              "line": 2523,
+              "timecode": "02:05:34",
+              "tag": "ENTER_SHORT",
+              "confidence": 0.91,
+              "text": "like short on this move on the way down"
+            },
+            {
+              "line": 2524,
+              "timecode": "02:05:36",
+              "tag": "ADD",
+              "confidence": 0.89,
+              "text": "even though they're walking it. But it"
+            },
+            {
+              "line": 2561,
+              "timecode": "02:08:23",
+              "tag": "MOVE_STOP",
+              "confidence": 0.93,
+              "text": "there was a little bit above 28. I want"
+            },
+            {
+              "line": 2616,
+              "timecode": "02:11:40",
+              "tag": "ADD",
+              "confidence": 0.89,
+              "text": "here. Big selling here. This is very"
+            },
+            {
+              "line": 2673,
+              "timecode": "02:15:41",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "up, stopped out."
+            },
+            {
+              "line": 2819,
+              "timecode": "02:25:48",
+              "tag": "ENTER_SHORT",
+              "confidence": 0.91,
+              "text": "Big big big big selling here. Huge"
+            },
+            {
+              "line": 2821,
+              "timecode": "02:25:56",
+              "tag": "ADD",
+              "confidence": 0.89,
+              "text": "here."
+            },
+            {
+              "line": 2905,
+              "timecode": "02:30:24",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "and stopped out on it. So it is what it"
+            },
+            {
+              "line": 3067,
+              "timecode": "02:37:40",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "Do I take it all out,"
+            },
+            {
+              "line": 3306,
+              "timecode": "02:49:51",
+              "tag": "MOVE_TO_BREAKEVEN",
+              "confidence": 0.91,
+              "text": "I'll go break even quicker. Yeah, if I'm"
+            },
+            {
+              "line": 3308,
+              "timecode": "02:49:54",
+              "tag": "MOVE_TO_BREAKEVEN",
+              "confidence": 0.91,
+              "text": "quicker. But if I'm not playing a"
+            }
+          ]
+        },
+        "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt": {
+          "hours": 3.05,
+          "intents": 28,
+          "intents_by_tag": {
+            "ENTER_SHORT": 4,
+            "EXIT_ALL": 7,
+            "ADD": 6,
+            "MOVE_TO_BREAKEVEN": 6,
+            "MOVE_STOP": 2,
+            "TRIM": 2,
+            "ENTER_LONG": 1
+          },
+          "labelled_actions": 3,
+          "detected": 1,
+          "exact": 1,
+          "unmatched_fires": 27,
+          "fires_per_hour": 8.9,
+          "unmatched": [
+            {
+              "line": 558,
+              "timecode": "00:27:36",
+              "tag": "ENTER_SHORT",
+              "confidence": 0.91,
+              "text": "there's some selling here."
+            },
+            {
+              "line": 748,
+              "timecode": "00:37:05",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "lots of shorts getting stopped out here."
+            },
+            {
+              "line": 912,
+              "timecode": "00:43:59",
+              "tag": "ENTER_SHORT",
+              "confidence": 0.91,
+              "text": "case. But uh I'm not getting short down"
+            },
+            {
+              "line": 913,
+              "timecode": "00:44:01",
+              "tag": "ADD",
+              "confidence": 0.89,
+              "text": "here and I don't want to play the"
+            },
+            {
+              "line": 1398,
+              "timecode": "01:04:22",
+              "tag": "ADD",
+              "confidence": 0.89,
+              "text": "straight through it. So, would have had"
+            },
+            {
+              "line": 1563,
+              "timecode": "01:11:37",
+              "tag": "ADD",
+              "confidence": 0.89,
+              "text": "Some stronger selling here again. Still"
+            },
+            {
+              "line": 1622,
+              "timecode": "01:13:54",
+              "tag": "ADD",
+              "confidence": 0.89,
+              "text": "move away from it and they and I see"
+            },
+            {
+              "line": 1806,
+              "timecode": "01:21:48",
+              "tag": "ADD",
+              "confidence": 0.89,
+              "text": "Another node being built out here at the"
+            },
+            {
+              "line": 2011,
+              "timecode": "01:31:19",
+              "tag": "MOVE_TO_BREAKEVEN",
+              "confidence": 0.91,
+              "text": "stopping break even, saying that they're"
+            },
+            {
+              "line": 2226,
+              "timecode": "01:41:46",
+              "tag": "MOVE_STOP",
+              "confidence": 0.93,
+              "text": "Tiny Libble versus 40 just in case"
+            },
+            {
+              "line": 2233,
+              "timecode": "01:42:01",
+              "tag": "MOVE_TO_BREAKEVEN",
+              "confidence": 0.91,
+              "text": "gone break even."
+            },
+            {
+              "line": 2242,
+              "timecode": "01:42:28",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "Okay. Stopped out be on the rest. So,"
+            },
+            {
+              "line": 2278,
+              "timecode": "01:44:06",
+              "tag": "TRIM",
+              "confidence": 0.89,
+              "text": "taking some off because I don't know if"
+            },
+            {
+              "line": 2370,
+              "timecode": "01:48:06",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "Currently flatten this now and just"
+            },
+            {
+              "line": 2408,
+              "timecode": "01:49:50",
+              "tag": "ENTER_SHORT",
+              "confidence": 0.91,
+              "text": "Nice aggressive selling here. Now, can"
+            },
+            {
+              "line": 2429,
+              "timecode": "01:50:44",
+              "tag": "ADD",
+              "confidence": 0.89,
+              "text": "Some more aggressive selling here. This"
+            },
+            {
+              "line": 2525,
+              "timecode": "01:54:54",
+              "tag": "TRIM",
+              "confidence": 0.89,
+              "text": "have to pay yourself because like we"
+            },
+            {
+              "line": 2546,
+              "timecode": "01:55:56",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "level. Just come and wipe them all out."
+            },
+            {
+              "line": 2572,
+              "timecode": "01:57:31",
+              "tag": "MOVE_TO_BREAKEVEN",
+              "confidence": 0.91,
+              "text": "control. So, stops into break even. And"
+            },
+            {
+              "line": 2573,
+              "timecode": "01:57:34",
+              "tag": "MOVE_TO_BREAKEVEN",
+              "confidence": 0.91,
+              "text": "again, we can stop out if well for me"
+            },
+            {
+              "line": 2575,
+              "timecode": "01:57:37",
+              "tag": "MOVE_TO_BREAKEVEN",
+              "confidence": 0.91,
+              "text": "stop out if we need to."
+            },
+            {
+              "line": 2671,
+              "timecode": "02:04:09",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "said, I'm flattening this. Anyone's"
+            },
+            {
+              "line": 3432,
+              "timecode": "02:37:55",
+              "tag": "MOVE_TO_BREAKEVEN",
+              "confidence": 0.91,
+              "text": "get above this red line, break even for"
+            },
+            {
+              "line": 3616,
+              "timecode": "02:45:43",
+              "tag": "ENTER_LONG",
+              "confidence": 0.91,
+              "text": "long. We're net long over value once we"
+            },
+            {
+              "line": 3633,
+              "timecode": "02:46:28",
+              "tag": "ENTER_SHORT",
+              "confidence": 0.91,
+              "text": "Big selling here again. Back to these"
+            },
+            {
+              "line": 3749,
+              "timecode": "02:51:56",
+              "tag": "MOVE_STOP",
+              "confidence": 0.93,
+              "text": "that. So no reclaim of 26,000. All"
+            },
+            {
+              "line": 3975,
+              "timecode": "03:02:10",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "All right, folks. I'm done. I'm out of"
+            }
+          ]
+        }
+      },
+      "totals": {
+        "hours": 15.1,
+        "intents": 100,
+        "labelled_actions": 23,
+        "detected": 7,
+        "exact": 7,
+        "unmatched_fires": 93,
+        "fires_per_hour": 6.2
+      },
+      "unmatched_flat": [
+        {
+          "file": "2025-10-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-07__rilljaZdaww.txt",
+          "line": 268,
+          "timecode": "00:13:30",
+          "tag": "ENTER_LONG",
+          "confidence": 0.91,
+          "text": "getting long at the open here given that"
+        },
+        {
+          "file": "2025-10-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-07__rilljaZdaww.txt",
+          "line": 371,
+          "timecode": "00:17:48",
+          "tag": "ADD",
+          "confidence": 0.89,
+          "text": "long out the gate here, that's for sure."
+        },
+        {
+          "file": "2025-10-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-07__rilljaZdaww.txt",
+          "line": 397,
+          "timecode": "00:18:56",
+          "tag": "ENTER_LONG",
+          "confidence": 0.91,
+          "text": "to see us come back here at this point"
+        },
+        {
+          "file": "2025-10-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-07__rilljaZdaww.txt",
+          "line": 501,
+          "timecode": "00:24:06",
+          "tag": "MOVE_STOP",
+          "confidence": 0.93,
+          "text": "So shorts are probably in versus 60s. So"
+        },
+        {
+          "file": "2025-10-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-07__rilljaZdaww.txt",
+          "line": 646,
+          "timecode": "00:32:22",
+          "tag": "ADD",
+          "confidence": 0.89,
+          "text": "before getting long."
+        },
+        {
+          "file": "2025-10-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-07__rilljaZdaww.txt",
+          "line": 897,
+          "timecode": "00:45:09",
+          "tag": "ADD",
+          "confidence": 0.89,
+          "text": "than getting long here. It's too"
+        },
+        {
+          "file": "2025-10-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-07__rilljaZdaww.txt",
+          "line": 1575,
+          "timecode": "01:19:26",
+          "tag": "MOVE_TO_BREAKEVEN",
+          "confidence": 0.91,
+          "text": "break even and just got in here for this"
+        },
+        {
+          "file": "2025-10-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-07__rilljaZdaww.txt",
+          "line": 1590,
+          "timecode": "01:20:03",
+          "tag": "ADD",
+          "confidence": 0.89,
+          "text": "draw. They probably if they reclaim"
+        },
+        {
+          "file": "2025-10-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-07__rilljaZdaww.txt",
+          "line": 1767,
+          "timecode": "01:28:03",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "this now. No, nice work. I'm trying to"
+        },
+        {
+          "file": "2025-10-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-07__rilljaZdaww.txt",
+          "line": 2095,
+          "timecode": "01:42:40",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "out."
+        },
+        {
+          "file": "2025-10-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-07__rilljaZdaww.txt",
+          "line": 2260,
+          "timecode": "01:50:41",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "low. I'm obviously I'm out of it now. I"
+        },
+        {
+          "file": "2025-10-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-07__rilljaZdaww.txt",
+          "line": 2326,
+          "timecode": "01:53:28",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "that off. Gonna have to review that"
+        },
+        {
+          "file": "2025-10-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-07__rilljaZdaww.txt",
+          "line": 2952,
+          "timecode": "02:30:47",
+          "tag": "ENTER_LONG",
+          "confidence": 0.91,
+          "text": "You are the reason we just rolled over"
+        },
+        {
+          "file": "2025-10-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-07__rilljaZdaww.txt",
+          "line": 3145,
+          "timecode": "02:41:08",
+          "tag": "ENTER_SHORT",
+          "confidence": 0.91,
+          "text": "short down here. We expect some kind of"
+        },
+        {
+          "file": "2025-10-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-07__rilljaZdaww.txt",
+          "line": 3486,
+          "timecode": "02:58:21",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "It's all out there, though. It's all out"
+        },
+        {
+          "file": "2025-10-23__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-23__nFvjz1D-Oas.txt",
+          "line": 1072,
+          "timecode": "00:48:28",
+          "tag": "ENTER_SHORT",
+          "confidence": 0.91,
+          "text": "there's follow through."
+        },
+        {
+          "file": "2025-10-23__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-23__nFvjz1D-Oas.txt",
+          "line": 1094,
+          "timecode": "00:49:44",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "go higher. It's why I already cut that"
+        },
+        {
+          "file": "2025-10-23__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-23__nFvjz1D-Oas.txt",
+          "line": 1096,
+          "timecode": "00:49:48",
+          "tag": "MOVE_TO_BREAKEVEN",
+          "confidence": 0.91,
+          "text": "Didn't come. Cut it. Break even on it."
+        },
+        {
+          "file": "2025-10-23__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-23__nFvjz1D-Oas.txt",
+          "line": 1289,
+          "timecode": "00:58:49",
+          "tag": "ENTER_SHORT",
+          "confidence": 0.91,
+          "text": "this short pops. Looking for pops to"
+        },
+        {
+          "file": "2025-10-23__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-23__nFvjz1D-Oas.txt",
+          "line": 1304,
+          "timecode": "00:59:27",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "reclaiming uh 150. I'm out of this now,"
+        },
+        {
+          "file": "2025-10-23__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-23__nFvjz1D-Oas.txt",
+          "line": 1755,
+          "timecode": "01:22:40",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "hard. Go. Go and take them all out now."
+        },
+        {
+          "file": "2025-10-23__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-23__nFvjz1D-Oas.txt",
+          "line": 1895,
+          "timecode": "01:31:14",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "out of this now. I'm not going to sit"
+        },
+        {
+          "file": "2025-10-23__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-23__nFvjz1D-Oas.txt",
+          "line": 2657,
+          "timecode": "02:12:02",
+          "tag": "ENTER_SHORT",
+          "confidence": 0.91,
+          "text": "we're not moving lower, what does it"
+        },
+        {
+          "file": "2025-10-23__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-23__nFvjz1D-Oas.txt",
+          "line": 2823,
+          "timecode": "02:20:11",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "right now who stopped out here. All the"
+        },
+        {
+          "file": "2025-10-23__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-23__nFvjz1D-Oas.txt",
+          "line": 2824,
+          "timecode": "02:20:14",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "shorts who stopped out here, they become"
+        },
+        {
+          "file": "2025-10-23__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-23__nFvjz1D-Oas.txt",
+          "line": 3049,
+          "timecode": "02:31:20",
+          "tag": "TRIM",
+          "confidence": 0.89,
+          "text": "of this. Got to pay myself something"
+        },
+        {
+          "file": "2025-10-23__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-23__nFvjz1D-Oas.txt",
+          "line": 3114,
+          "timecode": "02:34:34",
+          "tag": "MOVE_TO_BREAKEVEN",
+          "confidence": 0.91,
+          "text": "even this morning. I called the wrong"
+        },
+        {
+          "file": "2025-10-23__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-23__nFvjz1D-Oas.txt",
+          "line": 3488,
+          "timecode": "02:54:19",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "stopped out in the right area and"
+        },
+        {
+          "file": "2025-10-23__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-23__nFvjz1D-Oas.txt",
+          "line": 3515,
+          "timecode": "02:55:28",
+          "tag": "ENTER_SHORT",
+          "confidence": 0.91,
+          "text": "add short on this way up. Absolute"
+        },
+        {
+          "file": "2025-10-23__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-23__nFvjz1D-Oas.txt",
+          "line": 3592,
+          "timecode": "02:59:35",
+          "tag": "TRIM",
+          "confidence": 0.89,
+          "text": "But you have to take profit into here."
+        },
+        {
+          "file": "2025-11-06__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-06__Luatve1nc1M.txt",
+          "line": 526,
+          "timecode": "00:26:21",
+          "tag": "ENTER_SHORT",
+          "confidence": 0.91,
+          "text": "down here, guys. I'm short versus that"
+        },
+        {
+          "file": "2025-11-06__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-06__Luatve1nc1M.txt",
+          "line": 565,
+          "timecode": "00:28:13",
+          "tag": "ADD",
+          "confidence": 0.89,
+          "text": "potentially from here and here to here"
+        },
+        {
+          "file": "2025-11-06__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-06__Luatve1nc1M.txt",
+          "line": 613,
+          "timecode": "00:30:22",
+          "tag": "MOVE_STOP",
+          "confidence": 0.93,
+          "text": "Here's TP1. And let's see if we can get"
+        },
+        {
+          "file": "2025-11-06__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-06__Luatve1nc1M.txt",
+          "line": 1178,
+          "timecode": "00:56:53",
+          "tag": "TRIM",
+          "confidence": 0.89,
+          "text": "But I had to pay myself there, folks."
+        },
+        {
+          "file": "2025-11-06__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-06__Luatve1nc1M.txt",
+          "line": 1360,
+          "timecode": "01:04:51",
+          "tag": "ADD",
+          "confidence": 0.89,
+          "text": "exhausted for selling here at the"
+        },
+        {
+          "file": "2025-11-06__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-06__Luatve1nc1M.txt",
+          "line": 1830,
+          "timecode": "01:27:21",
+          "tag": "TRIM",
+          "confidence": 0.89,
+          "text": "sure you pay yourself into this box. Oh"
+        },
+        {
+          "file": "2025-11-06__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-06__Luatve1nc1M.txt",
+          "line": 2025,
+          "timecode": "01:39:53",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "unfortunately got stopped out uh on that"
+        },
+        {
+          "file": "2025-11-06__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-06__Luatve1nc1M.txt",
+          "line": 2267,
+          "timecode": "01:50:19",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "then I got stopped out on 60s reclaim."
+        },
+        {
+          "file": "2025-11-06__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-06__Luatve1nc1M.txt",
+          "line": 2268,
+          "timecode": "01:50:22",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "So, this candle here, unfortunately, it"
+        },
+        {
+          "file": "2025-11-06__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-06__Luatve1nc1M.txt",
+          "line": 2736,
+          "timecode": "02:12:44",
+          "tag": "ENTER_LONG",
+          "confidence": 0.91,
+          "text": "buying here, but there's been no real"
+        },
+        {
+          "file": "2025-11-06__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-06__Luatve1nc1M.txt",
+          "line": 2786,
+          "timecode": "02:15:35",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "out in 60s in here. So we've had one,"
+        },
+        {
+          "file": "2025-11-06__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-06__Luatve1nc1M.txt",
+          "line": 2860,
+          "timecode": "02:18:32",
+          "tag": "ENTER_SHORT",
+          "confidence": 0.91,
+          "text": "I'm short or rotational biased. Open to"
+        },
+        {
+          "file": "2025-11-06__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-06__Luatve1nc1M.txt",
+          "line": 3309,
+          "timecode": "02:42:30",
+          "tag": "ADD",
+          "confidence": 0.89,
+          "text": "more selling here. This is where you"
+        },
+        {
+          "file": "2025-11-06__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-06__Luatve1nc1M.txt",
+          "line": 3748,
+          "timecode": "03:03:52",
+          "tag": "ADD",
+          "confidence": 0.89,
+          "text": "buy pressure. This is why I said 20s to"
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 157,
+          "timecode": "00:08:23",
+          "tag": "ENTER_SHORT",
+          "confidence": 0.91,
+          "text": "getting short at these lows, folks. Just"
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 559,
+          "timecode": "00:25:41",
+          "tag": "ENTER_LONG",
+          "confidence": 0.91,
+          "text": "All right. A little bit of buying here."
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 808,
+          "timecode": "00:37:28",
+          "tag": "MOVE_STOP",
+          "confidence": 0.93,
+          "text": "here versus what's this 50s whole"
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 1021,
+          "timecode": "00:46:44",
+          "tag": "TRIM",
+          "confidence": 0.89,
+          "text": "lows which is why we take profit out"
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 1107,
+          "timecode": "00:51:37",
+          "tag": "ENTER_SHORT",
+          "confidence": 0.91,
+          "text": "Very strong selling here coming in huge"
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 1204,
+          "timecode": "00:55:44",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "starting to flatten out a bit, bears"
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 1664,
+          "timecode": "01:15:20",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "position I stopped out. I'm interested"
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 1755,
+          "timecode": "01:20:04",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "outs and now I'm flat and just waiting"
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 1820,
+          "timecode": "01:24:00",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "got stopped out on it. I'm not going to"
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 2284,
+          "timecode": "01:51:56",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "stopped out. The guys selling the pops"
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 2421,
+          "timecode": "02:00:11",
+          "tag": "ENTER_LONG",
+          "confidence": 0.91,
+          "text": "buying here and I bet you they sell it"
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 2523,
+          "timecode": "02:05:34",
+          "tag": "ENTER_SHORT",
+          "confidence": 0.91,
+          "text": "like short on this move on the way down"
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 2524,
+          "timecode": "02:05:36",
+          "tag": "ADD",
+          "confidence": 0.89,
+          "text": "even though they're walking it. But it"
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 2561,
+          "timecode": "02:08:23",
+          "tag": "MOVE_STOP",
+          "confidence": 0.93,
+          "text": "there was a little bit above 28. I want"
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 2616,
+          "timecode": "02:11:40",
+          "tag": "ADD",
+          "confidence": 0.89,
+          "text": "here. Big selling here. This is very"
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 2673,
+          "timecode": "02:15:41",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "up, stopped out."
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 2819,
+          "timecode": "02:25:48",
+          "tag": "ENTER_SHORT",
+          "confidence": 0.91,
+          "text": "Big big big big selling here. Huge"
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 2821,
+          "timecode": "02:25:56",
+          "tag": "ADD",
+          "confidence": 0.89,
+          "text": "here."
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 2905,
+          "timecode": "02:30:24",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "and stopped out on it. So it is what it"
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 3067,
+          "timecode": "02:37:40",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "Do I take it all out,"
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 3306,
+          "timecode": "02:49:51",
+          "tag": "MOVE_TO_BREAKEVEN",
+          "confidence": 0.91,
+          "text": "I'll go break even quicker. Yeah, if I'm"
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 3308,
+          "timecode": "02:49:54",
+          "tag": "MOVE_TO_BREAKEVEN",
+          "confidence": 0.91,
+          "text": "quicker. But if I'm not playing a"
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 558,
+          "timecode": "00:27:36",
+          "tag": "ENTER_SHORT",
+          "confidence": 0.91,
+          "text": "there's some selling here."
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 748,
+          "timecode": "00:37:05",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "lots of shorts getting stopped out here."
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 912,
+          "timecode": "00:43:59",
+          "tag": "ENTER_SHORT",
+          "confidence": 0.91,
+          "text": "case. But uh I'm not getting short down"
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 913,
+          "timecode": "00:44:01",
+          "tag": "ADD",
+          "confidence": 0.89,
+          "text": "here and I don't want to play the"
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 1398,
+          "timecode": "01:04:22",
+          "tag": "ADD",
+          "confidence": 0.89,
+          "text": "straight through it. So, would have had"
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 1563,
+          "timecode": "01:11:37",
+          "tag": "ADD",
+          "confidence": 0.89,
+          "text": "Some stronger selling here again. Still"
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 1622,
+          "timecode": "01:13:54",
+          "tag": "ADD",
+          "confidence": 0.89,
+          "text": "move away from it and they and I see"
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 1806,
+          "timecode": "01:21:48",
+          "tag": "ADD",
+          "confidence": 0.89,
+          "text": "Another node being built out here at the"
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 2011,
+          "timecode": "01:31:19",
+          "tag": "MOVE_TO_BREAKEVEN",
+          "confidence": 0.91,
+          "text": "stopping break even, saying that they're"
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 2226,
+          "timecode": "01:41:46",
+          "tag": "MOVE_STOP",
+          "confidence": 0.93,
+          "text": "Tiny Libble versus 40 just in case"
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 2233,
+          "timecode": "01:42:01",
+          "tag": "MOVE_TO_BREAKEVEN",
+          "confidence": 0.91,
+          "text": "gone break even."
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 2242,
+          "timecode": "01:42:28",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "Okay. Stopped out be on the rest. So,"
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 2278,
+          "timecode": "01:44:06",
+          "tag": "TRIM",
+          "confidence": 0.89,
+          "text": "taking some off because I don't know if"
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 2370,
+          "timecode": "01:48:06",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "Currently flatten this now and just"
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 2408,
+          "timecode": "01:49:50",
+          "tag": "ENTER_SHORT",
+          "confidence": 0.91,
+          "text": "Nice aggressive selling here. Now, can"
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 2429,
+          "timecode": "01:50:44",
+          "tag": "ADD",
+          "confidence": 0.89,
+          "text": "Some more aggressive selling here. This"
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 2525,
+          "timecode": "01:54:54",
+          "tag": "TRIM",
+          "confidence": 0.89,
+          "text": "have to pay yourself because like we"
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 2546,
+          "timecode": "01:55:56",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "level. Just come and wipe them all out."
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 2572,
+          "timecode": "01:57:31",
+          "tag": "MOVE_TO_BREAKEVEN",
+          "confidence": 0.91,
+          "text": "control. So, stops into break even. And"
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 2573,
+          "timecode": "01:57:34",
+          "tag": "MOVE_TO_BREAKEVEN",
+          "confidence": 0.91,
+          "text": "again, we can stop out if well for me"
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 2575,
+          "timecode": "01:57:37",
+          "tag": "MOVE_TO_BREAKEVEN",
+          "confidence": 0.91,
+          "text": "stop out if we need to."
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 2671,
+          "timecode": "02:04:09",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "said, I'm flattening this. Anyone's"
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 3432,
+          "timecode": "02:37:55",
+          "tag": "MOVE_TO_BREAKEVEN",
+          "confidence": 0.91,
+          "text": "get above this red line, break even for"
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 3616,
+          "timecode": "02:45:43",
+          "tag": "ENTER_LONG",
+          "confidence": 0.91,
+          "text": "long. We're net long over value once we"
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 3633,
+          "timecode": "02:46:28",
+          "tag": "ENTER_SHORT",
+          "confidence": 0.91,
+          "text": "Big selling here again. Back to these"
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 3749,
+          "timecode": "02:51:56",
+          "tag": "MOVE_STOP",
+          "confidence": 0.93,
+          "text": "that. So no reclaim of 26,000. All"
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 3975,
+          "timecode": "03:02:10",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "All right, folks. I'm done. I'm out of"
+        }
+      ]
+    },
+    "tfidf": {
+      "transcripts": {
+        "2025-10-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-07__rilljaZdaww.txt": {
+          "hours": 3.0,
+          "intents": 16,
+          "intents_by_tag": {
+            "ENTER_LONG": 3,
+            "ADD": 4,
+            "EXIT_ALL": 6,
+            "MOVE_TO_BREAKEVEN": 1,
+            "ENTER_SHORT": 2
+          },
+          "labelled_actions": 6,
+          "detected": 1,
+          "exact": 1,
+          "unmatched_fires": 15,
+          "fires_per_hour": 5.0,
+          "unmatched": [
+            {
+              "line": 268,
+              "timecode": "00:13:30",
+              "tag": "ENTER_LONG",
+              "confidence": 0.91,
+              "text": "getting long at the open here given that"
+            },
+            {
+              "line": 371,
+              "timecode": "00:17:48",
+              "tag": "ADD",
+              "confidence": 0.89,
+              "text": "long out the gate here, that's for sure."
+            },
+            {
+              "line": 646,
+              "timecode": "00:32:22",
+              "tag": "ENTER_LONG",
+              "confidence": 0.91,
+              "text": "before getting long."
+            },
+            {
+              "line": 897,
+              "timecode": "00:45:09",
+              "tag": "ADD",
+              "confidence": 0.89,
+              "text": "than getting long here. It's too"
+            },
+            {
+              "line": 1575,
+              "timecode": "01:19:26",
+              "tag": "MOVE_TO_BREAKEVEN",
+              "confidence": 0.91,
+              "text": "break even and just got in here for this"
+            },
+            {
+              "line": 1590,
+              "timecode": "01:20:03",
+              "tag": "ADD",
+              "confidence": 0.89,
+              "text": "draw. They probably if they reclaim"
+            },
+            {
+              "line": 1767,
+              "timecode": "01:28:03",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "this now. No, nice work. I'm trying to"
+            },
+            {
+              "line": 2095,
+              "timecode": "01:42:40",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "out."
+            },
+            {
+              "line": 2260,
+              "timecode": "01:50:41",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "low. I'm obviously I'm out of it now. I"
+            },
+            {
+              "line": 2326,
+              "timecode": "01:53:28",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "that off. Gonna have to review that"
+            },
+            {
+              "line": 2936,
+              "timecode": "02:30:10",
+              "tag": "ENTER_SHORT",
+              "confidence": 0.91,
+              "text": "short down here. Even if it ended up"
+            },
+            {
+              "line": 2945,
+              "timecode": "02:30:31",
+              "tag": "ENTER_LONG",
+              "confidence": 0.91,
+              "text": "they don't break down and they reclaim,"
+            },
+            {
+              "line": 2952,
+              "timecode": "02:30:47",
+              "tag": "ADD",
+              "confidence": 0.89,
+              "text": "You are the reason we just rolled over"
+            },
+            {
+              "line": 3145,
+              "timecode": "02:41:08",
+              "tag": "ENTER_SHORT",
+              "confidence": 0.91,
+              "text": "short down here. We expect some kind of"
+            },
+            {
+              "line": 3486,
+              "timecode": "02:58:21",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "It's all out there, though. It's all out"
+            }
+          ]
+        },
+        "2025-10-23__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-23__nFvjz1D-Oas.txt": {
+          "hours": 3.08,
+          "intents": 16,
+          "intents_by_tag": {
+            "ENTER_SHORT": 4,
+            "EXIT_ALL": 8,
+            "MOVE_TO_BREAKEVEN": 2,
+            "TRIM": 2
+          },
+          "labelled_actions": 1,
+          "detected": 1,
+          "exact": 1,
+          "unmatched_fires": 15,
+          "fires_per_hour": 4.9,
+          "unmatched": [
+            {
+              "line": 1072,
+              "timecode": "00:48:28",
+              "tag": "ENTER_SHORT",
+              "confidence": 0.91,
+              "text": "there's follow through."
+            },
+            {
+              "line": 1094,
+              "timecode": "00:49:44",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "go higher. It's why I already cut that"
+            },
+            {
+              "line": 1096,
+              "timecode": "00:49:48",
+              "tag": "MOVE_TO_BREAKEVEN",
+              "confidence": 0.91,
+              "text": "Didn't come. Cut it. Break even on it."
+            },
+            {
+              "line": 1289,
+              "timecode": "00:58:49",
+              "tag": "ENTER_SHORT",
+              "confidence": 0.91,
+              "text": "this short pops. Looking for pops to"
+            },
+            {
+              "line": 1304,
+              "timecode": "00:59:27",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "reclaiming uh 150. I'm out of this now,"
+            },
+            {
+              "line": 1755,
+              "timecode": "01:22:40",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "hard. Go. Go and take them all out now."
+            },
+            {
+              "line": 1895,
+              "timecode": "01:31:14",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "out of this now. I'm not going to sit"
+            },
+            {
+              "line": 2657,
+              "timecode": "02:12:02",
+              "tag": "ENTER_SHORT",
+              "confidence": 0.91,
+              "text": "we're not moving lower, what does it"
+            },
+            {
+              "line": 2823,
+              "timecode": "02:20:11",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "right now who stopped out here. All the"
+            },
+            {
+              "line": 2824,
+              "timecode": "02:20:14",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "shorts who stopped out here, they become"
+            },
+            {
+              "line": 3049,
+              "timecode": "02:31:20",
+              "tag": "TRIM",
+              "confidence": 0.89,
+              "text": "of this. Got to pay myself something"
+            },
+            {
+              "line": 3114,
+              "timecode": "02:34:34",
+              "tag": "MOVE_TO_BREAKEVEN",
+              "confidence": 0.91,
+              "text": "even this morning. I called the wrong"
+            },
+            {
+              "line": 3488,
+              "timecode": "02:54:19",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "stopped out in the right area and"
+            },
+            {
+              "line": 3515,
+              "timecode": "02:55:28",
+              "tag": "ENTER_SHORT",
+              "confidence": 0.91,
+              "text": "add short on this way up. Absolute"
+            },
+            {
+              "line": 3592,
+              "timecode": "02:59:35",
+              "tag": "TRIM",
+              "confidence": 0.89,
+              "text": "But you have to take profit into here."
+            }
+          ]
+        },
+        "2025-11-06__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-06__Luatve1nc1M.txt": {
+          "hours": 3.1,
+          "intents": 19,
+          "intents_by_tag": {
+            "TRIM": 3,
+            "ENTER_SHORT": 5,
+            "ENTER_LONG": 2,
+            "MOVE_STOP": 1,
+            "EXIT_ALL": 6,
+            "ADD": 2
+          },
+          "labelled_actions": 6,
+          "detected": 2,
+          "exact": 2,
+          "unmatched_fires": 17,
+          "fires_per_hour": 5.5,
+          "unmatched": [
+            {
+              "line": 526,
+              "timecode": "00:26:21",
+              "tag": "ENTER_SHORT",
+              "confidence": 0.91,
+              "text": "down here, guys. I'm short versus that"
+            },
+            {
+              "line": 553,
+              "timecode": "00:27:50",
+              "tag": "ENTER_LONG",
+              "confidence": 0.91,
+              "text": "liquidity at the low which is less than"
+            },
+            {
+              "line": 565,
+              "timecode": "00:28:13",
+              "tag": "ENTER_SHORT",
+              "confidence": 0.91,
+              "text": "potentially from here and here to here"
+            },
+            {
+              "line": 613,
+              "timecode": "00:30:22",
+              "tag": "MOVE_STOP",
+              "confidence": 0.93,
+              "text": "Here's TP1. And let's see if we can get"
+            },
+            {
+              "line": 711,
+              "timecode": "00:34:39",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "going to reclaim, then it means sellers"
+            },
+            {
+              "line": 1178,
+              "timecode": "00:56:53",
+              "tag": "TRIM",
+              "confidence": 0.89,
+              "text": "But I had to pay myself there, folks."
+            },
+            {
+              "line": 1360,
+              "timecode": "01:04:51",
+              "tag": "ENTER_SHORT",
+              "confidence": 0.91,
+              "text": "exhausted for selling here at the"
+            },
+            {
+              "line": 1830,
+              "timecode": "01:27:21",
+              "tag": "TRIM",
+              "confidence": 0.89,
+              "text": "sure you pay yourself into this box. Oh"
+            },
+            {
+              "line": 2025,
+              "timecode": "01:39:53",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "unfortunately got stopped out uh on that"
+            },
+            {
+              "line": 2267,
+              "timecode": "01:50:19",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "then I got stopped out on 60s reclaim."
+            },
+            {
+              "line": 2268,
+              "timecode": "01:50:22",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "So, this candle here, unfortunately, it"
+            },
+            {
+              "line": 2435,
+              "timecode": "01:59:29",
+              "tag": "ENTER_SHORT",
+              "confidence": 0.91,
+              "text": "trapped volume. We traded away from it."
+            },
+            {
+              "line": 2736,
+              "timecode": "02:12:44",
+              "tag": "ENTER_LONG",
+              "confidence": 0.91,
+              "text": "buying here, but there's been no real"
+            },
+            {
+              "line": 2786,
+              "timecode": "02:15:35",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "out in 60s in here. So we've had one,"
+            },
+            {
+              "line": 2860,
+              "timecode": "02:18:32",
+              "tag": "ENTER_SHORT",
+              "confidence": 0.91,
+              "text": "I'm short or rotational biased. Open to"
+            },
+            {
+              "line": 3309,
+              "timecode": "02:42:30",
+              "tag": "ADD",
+              "confidence": 0.89,
+              "text": "more selling here. This is where you"
+            },
+            {
+              "line": 3748,
+              "timecode": "03:03:52",
+              "tag": "ADD",
+              "confidence": 0.89,
+              "text": "buy pressure. This is why I said 20s to"
+            }
+          ]
+        },
+        "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt": {
+          "hours": 2.87,
+          "intents": 24,
+          "intents_by_tag": {
+            "ENTER_SHORT": 4,
+            "ENTER_LONG": 2,
+            "MOVE_STOP": 2,
+            "ADD": 4,
+            "TRIM": 1,
+            "EXIT_ALL": 9,
+            "MOVE_TO_BREAKEVEN": 2
+          },
+          "labelled_actions": 7,
+          "detected": 2,
+          "exact": 2,
+          "unmatched_fires": 22,
+          "fires_per_hour": 7.7,
+          "unmatched": [
+            {
+              "line": 157,
+              "timecode": "00:08:23",
+              "tag": "ENTER_SHORT",
+              "confidence": 0.91,
+              "text": "getting short at these lows, folks. Just"
+            },
+            {
+              "line": 559,
+              "timecode": "00:25:41",
+              "tag": "ENTER_LONG",
+              "confidence": 0.91,
+              "text": "All right. A little bit of buying here."
+            },
+            {
+              "line": 808,
+              "timecode": "00:37:28",
+              "tag": "MOVE_STOP",
+              "confidence": 0.93,
+              "text": "here versus what's this 50s whole"
+            },
+            {
+              "line": 1021,
+              "timecode": "00:46:44",
+              "tag": "TRIM",
+              "confidence": 0.89,
+              "text": "lows which is why we take profit out"
+            },
+            {
+              "line": 1107,
+              "timecode": "00:51:37",
+              "tag": "ENTER_SHORT",
+              "confidence": 0.91,
+              "text": "Very strong selling here coming in huge"
+            },
+            {
+              "line": 1204,
+              "timecode": "00:55:44",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "starting to flatten out a bit, bears"
+            },
+            {
+              "line": 1664,
+              "timecode": "01:15:20",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "position I stopped out. I'm interested"
+            },
+            {
+              "line": 1755,
+              "timecode": "01:20:04",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "outs and now I'm flat and just waiting"
+            },
+            {
+              "line": 1820,
+              "timecode": "01:24:00",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "got stopped out on it. I'm not going to"
+            },
+            {
+              "line": 2284,
+              "timecode": "01:51:56",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "stopped out. The guys selling the pops"
+            },
+            {
+              "line": 2421,
+              "timecode": "02:00:11",
+              "tag": "ENTER_LONG",
+              "confidence": 0.91,
+              "text": "buying here and I bet you they sell it"
+            },
+            {
+              "line": 2523,
+              "timecode": "02:05:34",
+              "tag": "ENTER_SHORT",
+              "confidence": 0.91,
+              "text": "like short on this move on the way down"
+            },
+            {
+              "line": 2524,
+              "timecode": "02:05:36",
+              "tag": "ADD",
+              "confidence": 0.89,
+              "text": "even though they're walking it. But it"
+            },
+            {
+              "line": 2561,
+              "timecode": "02:08:23",
+              "tag": "MOVE_STOP",
+              "confidence": 0.93,
+              "text": "there was a little bit above 28. I want"
+            },
+            {
+              "line": 2616,
+              "timecode": "02:11:40",
+              "tag": "ADD",
+              "confidence": 0.89,
+              "text": "here. Big selling here. This is very"
+            },
+            {
+              "line": 2673,
+              "timecode": "02:15:41",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "up, stopped out."
+            },
+            {
+              "line": 2819,
+              "timecode": "02:25:48",
+              "tag": "ENTER_SHORT",
+              "confidence": 0.91,
+              "text": "Big big big big selling here. Huge"
+            },
+            {
+              "line": 2821,
+              "timecode": "02:25:56",
+              "tag": "ADD",
+              "confidence": 0.89,
+              "text": "here."
+            },
+            {
+              "line": 2905,
+              "timecode": "02:30:24",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "and stopped out on it. So it is what it"
+            },
+            {
+              "line": 3067,
+              "timecode": "02:37:40",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "Do I take it all out,"
+            },
+            {
+              "line": 3306,
+              "timecode": "02:49:51",
+              "tag": "MOVE_TO_BREAKEVEN",
+              "confidence": 0.91,
+              "text": "I'll go break even quicker. Yeah, if I'm"
+            },
+            {
+              "line": 3308,
+              "timecode": "02:49:54",
+              "tag": "MOVE_TO_BREAKEVEN",
+              "confidence": 0.91,
+              "text": "quicker. But if I'm not playing a"
+            }
+          ]
+        },
+        "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt": {
+          "hours": 3.05,
+          "intents": 27,
+          "intents_by_tag": {
+            "ENTER_SHORT": 4,
+            "EXIT_ALL": 7,
+            "ADD": 6,
+            "MOVE_TO_BREAKEVEN": 6,
+            "MOVE_STOP": 2,
+            "TRIM": 2
+          },
+          "labelled_actions": 3,
+          "detected": 1,
+          "exact": 1,
+          "unmatched_fires": 26,
+          "fires_per_hour": 8.5,
+          "unmatched": [
+            {
+              "line": 558,
+              "timecode": "00:27:36",
+              "tag": "ENTER_SHORT",
+              "confidence": 0.91,
+              "text": "there's some selling here."
+            },
+            {
+              "line": 748,
+              "timecode": "00:37:05",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "lots of shorts getting stopped out here."
+            },
+            {
+              "line": 912,
+              "timecode": "00:43:59",
+              "tag": "ENTER_SHORT",
+              "confidence": 0.91,
+              "text": "case. But uh I'm not getting short down"
+            },
+            {
+              "line": 913,
+              "timecode": "00:44:01",
+              "tag": "ADD",
+              "confidence": 0.89,
+              "text": "here and I don't want to play the"
+            },
+            {
+              "line": 1398,
+              "timecode": "01:04:22",
+              "tag": "ADD",
+              "confidence": 0.89,
+              "text": "straight through it. So, would have had"
+            },
+            {
+              "line": 1563,
+              "timecode": "01:11:37",
+              "tag": "ADD",
+              "confidence": 0.89,
+              "text": "Some stronger selling here again. Still"
+            },
+            {
+              "line": 1622,
+              "timecode": "01:13:54",
+              "tag": "ADD",
+              "confidence": 0.89,
+              "text": "move away from it and they and I see"
+            },
+            {
+              "line": 1806,
+              "timecode": "01:21:48",
+              "tag": "ADD",
+              "confidence": 0.89,
+              "text": "Another node being built out here at the"
+            },
+            {
+              "line": 2011,
+              "timecode": "01:31:19",
+              "tag": "MOVE_TO_BREAKEVEN",
+              "confidence": 0.91,
+              "text": "stopping break even, saying that they're"
+            },
+            {
+              "line": 2226,
+              "timecode": "01:41:46",
+              "tag": "MOVE_STOP",
+              "confidence": 0.93,
+              "text": "Tiny Libble versus 40 just in case"
+            },
+            {
+              "line": 2233,
+              "timecode": "01:42:01",
+              "tag": "MOVE_TO_BREAKEVEN",
+              "confidence": 0.91,
+              "text": "gone break even."
+            },
+            {
+              "line": 2242,
+              "timecode": "01:42:28",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "Okay. Stopped out be on the rest. So,"
+            },
+            {
+              "line": 2278,
+              "timecode": "01:44:06",
+              "tag": "TRIM",
+              "confidence": 0.89,
+              "text": "taking some off because I don't know if"
+            },
+            {
+              "line": 2370,
+              "timecode": "01:48:06",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "Currently flatten this now and just"
+            },
+            {
+              "line": 2408,
+              "timecode": "01:49:50",
+              "tag": "ENTER_SHORT",
+              "confidence": 0.91,
+              "text": "Nice aggressive selling here. Now, can"
+            },
+            {
+              "line": 2429,
+              "timecode": "01:50:44",
+              "tag": "ADD",
+              "confidence": 0.89,
+              "text": "Some more aggressive selling here. This"
+            },
+            {
+              "line": 2525,
+              "timecode": "01:54:54",
+              "tag": "TRIM",
+              "confidence": 0.89,
+              "text": "have to pay yourself because like we"
+            },
+            {
+              "line": 2546,
+              "timecode": "01:55:56",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "level. Just come and wipe them all out."
+            },
+            {
+              "line": 2572,
+              "timecode": "01:57:31",
+              "tag": "MOVE_TO_BREAKEVEN",
+              "confidence": 0.91,
+              "text": "control. So, stops into break even. And"
+            },
+            {
+              "line": 2573,
+              "timecode": "01:57:34",
+              "tag": "MOVE_TO_BREAKEVEN",
+              "confidence": 0.91,
+              "text": "again, we can stop out if well for me"
+            },
+            {
+              "line": 2575,
+              "timecode": "01:57:37",
+              "tag": "MOVE_TO_BREAKEVEN",
+              "confidence": 0.91,
+              "text": "stop out if we need to."
+            },
+            {
+              "line": 2671,
+              "timecode": "02:04:09",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "said, I'm flattening this. Anyone's"
+            },
+            {
+              "line": 3432,
+              "timecode": "02:37:55",
+              "tag": "MOVE_TO_BREAKEVEN",
+              "confidence": 0.91,
+              "text": "get above this red line, break even for"
+            },
+            {
+              "line": 3633,
+              "timecode": "02:46:28",
+              "tag": "ENTER_SHORT",
+              "confidence": 0.91,
+              "text": "Big selling here again. Back to these"
+            },
+            {
+              "line": 3749,
+              "timecode": "02:51:56",
+              "tag": "MOVE_STOP",
+              "confidence": 0.93,
+              "text": "that. So no reclaim of 26,000. All"
+            },
+            {
+              "line": 3975,
+              "timecode": "03:02:10",
+              "tag": "EXIT_ALL",
+              "confidence": 0.93,
+              "text": "All right, folks. I'm done. I'm out of"
+            }
+          ]
+        }
+      },
+      "totals": {
+        "hours": 15.1,
+        "intents": 102,
+        "labelled_actions": 23,
+        "detected": 7,
+        "exact": 7,
+        "unmatched_fires": 95,
+        "fires_per_hour": 6.3
+      },
+      "unmatched_flat": [
+        {
+          "file": "2025-10-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-07__rilljaZdaww.txt",
+          "line": 268,
+          "timecode": "00:13:30",
+          "tag": "ENTER_LONG",
+          "confidence": 0.91,
+          "text": "getting long at the open here given that"
+        },
+        {
+          "file": "2025-10-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-07__rilljaZdaww.txt",
+          "line": 371,
+          "timecode": "00:17:48",
+          "tag": "ADD",
+          "confidence": 0.89,
+          "text": "long out the gate here, that's for sure."
+        },
+        {
+          "file": "2025-10-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-07__rilljaZdaww.txt",
+          "line": 646,
+          "timecode": "00:32:22",
+          "tag": "ENTER_LONG",
+          "confidence": 0.91,
+          "text": "before getting long."
+        },
+        {
+          "file": "2025-10-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-07__rilljaZdaww.txt",
+          "line": 897,
+          "timecode": "00:45:09",
+          "tag": "ADD",
+          "confidence": 0.89,
+          "text": "than getting long here. It's too"
+        },
+        {
+          "file": "2025-10-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-07__rilljaZdaww.txt",
+          "line": 1575,
+          "timecode": "01:19:26",
+          "tag": "MOVE_TO_BREAKEVEN",
+          "confidence": 0.91,
+          "text": "break even and just got in here for this"
+        },
+        {
+          "file": "2025-10-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-07__rilljaZdaww.txt",
+          "line": 1590,
+          "timecode": "01:20:03",
+          "tag": "ADD",
+          "confidence": 0.89,
+          "text": "draw. They probably if they reclaim"
+        },
+        {
+          "file": "2025-10-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-07__rilljaZdaww.txt",
+          "line": 1767,
+          "timecode": "01:28:03",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "this now. No, nice work. I'm trying to"
+        },
+        {
+          "file": "2025-10-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-07__rilljaZdaww.txt",
+          "line": 2095,
+          "timecode": "01:42:40",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "out."
+        },
+        {
+          "file": "2025-10-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-07__rilljaZdaww.txt",
+          "line": 2260,
+          "timecode": "01:50:41",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "low. I'm obviously I'm out of it now. I"
+        },
+        {
+          "file": "2025-10-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-07__rilljaZdaww.txt",
+          "line": 2326,
+          "timecode": "01:53:28",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "that off. Gonna have to review that"
+        },
+        {
+          "file": "2025-10-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-07__rilljaZdaww.txt",
+          "line": 2936,
+          "timecode": "02:30:10",
+          "tag": "ENTER_SHORT",
+          "confidence": 0.91,
+          "text": "short down here. Even if it ended up"
+        },
+        {
+          "file": "2025-10-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-07__rilljaZdaww.txt",
+          "line": 2945,
+          "timecode": "02:30:31",
+          "tag": "ENTER_LONG",
+          "confidence": 0.91,
+          "text": "they don't break down and they reclaim,"
+        },
+        {
+          "file": "2025-10-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-07__rilljaZdaww.txt",
+          "line": 2952,
+          "timecode": "02:30:47",
+          "tag": "ADD",
+          "confidence": 0.89,
+          "text": "You are the reason we just rolled over"
+        },
+        {
+          "file": "2025-10-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-07__rilljaZdaww.txt",
+          "line": 3145,
+          "timecode": "02:41:08",
+          "tag": "ENTER_SHORT",
+          "confidence": 0.91,
+          "text": "short down here. We expect some kind of"
+        },
+        {
+          "file": "2025-10-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-07__rilljaZdaww.txt",
+          "line": 3486,
+          "timecode": "02:58:21",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "It's all out there, though. It's all out"
+        },
+        {
+          "file": "2025-10-23__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-23__nFvjz1D-Oas.txt",
+          "line": 1072,
+          "timecode": "00:48:28",
+          "tag": "ENTER_SHORT",
+          "confidence": 0.91,
+          "text": "there's follow through."
+        },
+        {
+          "file": "2025-10-23__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-23__nFvjz1D-Oas.txt",
+          "line": 1094,
+          "timecode": "00:49:44",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "go higher. It's why I already cut that"
+        },
+        {
+          "file": "2025-10-23__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-23__nFvjz1D-Oas.txt",
+          "line": 1096,
+          "timecode": "00:49:48",
+          "tag": "MOVE_TO_BREAKEVEN",
+          "confidence": 0.91,
+          "text": "Didn't come. Cut it. Break even on it."
+        },
+        {
+          "file": "2025-10-23__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-23__nFvjz1D-Oas.txt",
+          "line": 1289,
+          "timecode": "00:58:49",
+          "tag": "ENTER_SHORT",
+          "confidence": 0.91,
+          "text": "this short pops. Looking for pops to"
+        },
+        {
+          "file": "2025-10-23__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-23__nFvjz1D-Oas.txt",
+          "line": 1304,
+          "timecode": "00:59:27",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "reclaiming uh 150. I'm out of this now,"
+        },
+        {
+          "file": "2025-10-23__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-23__nFvjz1D-Oas.txt",
+          "line": 1755,
+          "timecode": "01:22:40",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "hard. Go. Go and take them all out now."
+        },
+        {
+          "file": "2025-10-23__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-23__nFvjz1D-Oas.txt",
+          "line": 1895,
+          "timecode": "01:31:14",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "out of this now. I'm not going to sit"
+        },
+        {
+          "file": "2025-10-23__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-23__nFvjz1D-Oas.txt",
+          "line": 2657,
+          "timecode": "02:12:02",
+          "tag": "ENTER_SHORT",
+          "confidence": 0.91,
+          "text": "we're not moving lower, what does it"
+        },
+        {
+          "file": "2025-10-23__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-23__nFvjz1D-Oas.txt",
+          "line": 2823,
+          "timecode": "02:20:11",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "right now who stopped out here. All the"
+        },
+        {
+          "file": "2025-10-23__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-23__nFvjz1D-Oas.txt",
+          "line": 2824,
+          "timecode": "02:20:14",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "shorts who stopped out here, they become"
+        },
+        {
+          "file": "2025-10-23__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-23__nFvjz1D-Oas.txt",
+          "line": 3049,
+          "timecode": "02:31:20",
+          "tag": "TRIM",
+          "confidence": 0.89,
+          "text": "of this. Got to pay myself something"
+        },
+        {
+          "file": "2025-10-23__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-23__nFvjz1D-Oas.txt",
+          "line": 3114,
+          "timecode": "02:34:34",
+          "tag": "MOVE_TO_BREAKEVEN",
+          "confidence": 0.91,
+          "text": "even this morning. I called the wrong"
+        },
+        {
+          "file": "2025-10-23__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-23__nFvjz1D-Oas.txt",
+          "line": 3488,
+          "timecode": "02:54:19",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "stopped out in the right area and"
+        },
+        {
+          "file": "2025-10-23__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-23__nFvjz1D-Oas.txt",
+          "line": 3515,
+          "timecode": "02:55:28",
+          "tag": "ENTER_SHORT",
+          "confidence": 0.91,
+          "text": "add short on this way up. Absolute"
+        },
+        {
+          "file": "2025-10-23__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-23__nFvjz1D-Oas.txt",
+          "line": 3592,
+          "timecode": "02:59:35",
+          "tag": "TRIM",
+          "confidence": 0.89,
+          "text": "But you have to take profit into here."
+        },
+        {
+          "file": "2025-11-06__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-06__Luatve1nc1M.txt",
+          "line": 526,
+          "timecode": "00:26:21",
+          "tag": "ENTER_SHORT",
+          "confidence": 0.91,
+          "text": "down here, guys. I'm short versus that"
+        },
+        {
+          "file": "2025-11-06__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-06__Luatve1nc1M.txt",
+          "line": 553,
+          "timecode": "00:27:50",
+          "tag": "ENTER_LONG",
+          "confidence": 0.91,
+          "text": "liquidity at the low which is less than"
+        },
+        {
+          "file": "2025-11-06__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-06__Luatve1nc1M.txt",
+          "line": 565,
+          "timecode": "00:28:13",
+          "tag": "ENTER_SHORT",
+          "confidence": 0.91,
+          "text": "potentially from here and here to here"
+        },
+        {
+          "file": "2025-11-06__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-06__Luatve1nc1M.txt",
+          "line": 613,
+          "timecode": "00:30:22",
+          "tag": "MOVE_STOP",
+          "confidence": 0.93,
+          "text": "Here's TP1. And let's see if we can get"
+        },
+        {
+          "file": "2025-11-06__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-06__Luatve1nc1M.txt",
+          "line": 711,
+          "timecode": "00:34:39",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "going to reclaim, then it means sellers"
+        },
+        {
+          "file": "2025-11-06__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-06__Luatve1nc1M.txt",
+          "line": 1178,
+          "timecode": "00:56:53",
+          "tag": "TRIM",
+          "confidence": 0.89,
+          "text": "But I had to pay myself there, folks."
+        },
+        {
+          "file": "2025-11-06__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-06__Luatve1nc1M.txt",
+          "line": 1360,
+          "timecode": "01:04:51",
+          "tag": "ENTER_SHORT",
+          "confidence": 0.91,
+          "text": "exhausted for selling here at the"
+        },
+        {
+          "file": "2025-11-06__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-06__Luatve1nc1M.txt",
+          "line": 1830,
+          "timecode": "01:27:21",
+          "tag": "TRIM",
+          "confidence": 0.89,
+          "text": "sure you pay yourself into this box. Oh"
+        },
+        {
+          "file": "2025-11-06__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-06__Luatve1nc1M.txt",
+          "line": 2025,
+          "timecode": "01:39:53",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "unfortunately got stopped out uh on that"
+        },
+        {
+          "file": "2025-11-06__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-06__Luatve1nc1M.txt",
+          "line": 2267,
+          "timecode": "01:50:19",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "then I got stopped out on 60s reclaim."
+        },
+        {
+          "file": "2025-11-06__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-06__Luatve1nc1M.txt",
+          "line": 2268,
+          "timecode": "01:50:22",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "So, this candle here, unfortunately, it"
+        },
+        {
+          "file": "2025-11-06__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-06__Luatve1nc1M.txt",
+          "line": 2435,
+          "timecode": "01:59:29",
+          "tag": "ENTER_SHORT",
+          "confidence": 0.91,
+          "text": "trapped volume. We traded away from it."
+        },
+        {
+          "file": "2025-11-06__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-06__Luatve1nc1M.txt",
+          "line": 2736,
+          "timecode": "02:12:44",
+          "tag": "ENTER_LONG",
+          "confidence": 0.91,
+          "text": "buying here, but there's been no real"
+        },
+        {
+          "file": "2025-11-06__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-06__Luatve1nc1M.txt",
+          "line": 2786,
+          "timecode": "02:15:35",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "out in 60s in here. So we've had one,"
+        },
+        {
+          "file": "2025-11-06__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-06__Luatve1nc1M.txt",
+          "line": 2860,
+          "timecode": "02:18:32",
+          "tag": "ENTER_SHORT",
+          "confidence": 0.91,
+          "text": "I'm short or rotational biased. Open to"
+        },
+        {
+          "file": "2025-11-06__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-06__Luatve1nc1M.txt",
+          "line": 3309,
+          "timecode": "02:42:30",
+          "tag": "ADD",
+          "confidence": 0.89,
+          "text": "more selling here. This is where you"
+        },
+        {
+          "file": "2025-11-06__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-06__Luatve1nc1M.txt",
+          "line": 3748,
+          "timecode": "03:03:52",
+          "tag": "ADD",
+          "confidence": 0.89,
+          "text": "buy pressure. This is why I said 20s to"
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 157,
+          "timecode": "00:08:23",
+          "tag": "ENTER_SHORT",
+          "confidence": 0.91,
+          "text": "getting short at these lows, folks. Just"
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 559,
+          "timecode": "00:25:41",
+          "tag": "ENTER_LONG",
+          "confidence": 0.91,
+          "text": "All right. A little bit of buying here."
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 808,
+          "timecode": "00:37:28",
+          "tag": "MOVE_STOP",
+          "confidence": 0.93,
+          "text": "here versus what's this 50s whole"
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 1021,
+          "timecode": "00:46:44",
+          "tag": "TRIM",
+          "confidence": 0.89,
+          "text": "lows which is why we take profit out"
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 1107,
+          "timecode": "00:51:37",
+          "tag": "ENTER_SHORT",
+          "confidence": 0.91,
+          "text": "Very strong selling here coming in huge"
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 1204,
+          "timecode": "00:55:44",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "starting to flatten out a bit, bears"
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 1664,
+          "timecode": "01:15:20",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "position I stopped out. I'm interested"
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 1755,
+          "timecode": "01:20:04",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "outs and now I'm flat and just waiting"
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 1820,
+          "timecode": "01:24:00",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "got stopped out on it. I'm not going to"
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 2284,
+          "timecode": "01:51:56",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "stopped out. The guys selling the pops"
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 2421,
+          "timecode": "02:00:11",
+          "tag": "ENTER_LONG",
+          "confidence": 0.91,
+          "text": "buying here and I bet you they sell it"
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 2523,
+          "timecode": "02:05:34",
+          "tag": "ENTER_SHORT",
+          "confidence": 0.91,
+          "text": "like short on this move on the way down"
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 2524,
+          "timecode": "02:05:36",
+          "tag": "ADD",
+          "confidence": 0.89,
+          "text": "even though they're walking it. But it"
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 2561,
+          "timecode": "02:08:23",
+          "tag": "MOVE_STOP",
+          "confidence": 0.93,
+          "text": "there was a little bit above 28. I want"
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 2616,
+          "timecode": "02:11:40",
+          "tag": "ADD",
+          "confidence": 0.89,
+          "text": "here. Big selling here. This is very"
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 2673,
+          "timecode": "02:15:41",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "up, stopped out."
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 2819,
+          "timecode": "02:25:48",
+          "tag": "ENTER_SHORT",
+          "confidence": 0.91,
+          "text": "Big big big big selling here. Huge"
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 2821,
+          "timecode": "02:25:56",
+          "tag": "ADD",
+          "confidence": 0.89,
+          "text": "here."
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 2905,
+          "timecode": "02:30:24",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "and stopped out on it. So it is what it"
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 3067,
+          "timecode": "02:37:40",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "Do I take it all out,"
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 3306,
+          "timecode": "02:49:51",
+          "tag": "MOVE_TO_BREAKEVEN",
+          "confidence": 0.91,
+          "text": "I'll go break even quicker. Yeah, if I'm"
+        },
+        {
+          "file": "2025-11-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-07__KUhMYgRYfE8.txt",
+          "line": 3308,
+          "timecode": "02:49:54",
+          "tag": "MOVE_TO_BREAKEVEN",
+          "confidence": 0.91,
+          "text": "quicker. But if I'm not playing a"
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 558,
+          "timecode": "00:27:36",
+          "tag": "ENTER_SHORT",
+          "confidence": 0.91,
+          "text": "there's some selling here."
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 748,
+          "timecode": "00:37:05",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "lots of shorts getting stopped out here."
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 912,
+          "timecode": "00:43:59",
+          "tag": "ENTER_SHORT",
+          "confidence": 0.91,
+          "text": "case. But uh I'm not getting short down"
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 913,
+          "timecode": "00:44:01",
+          "tag": "ADD",
+          "confidence": 0.89,
+          "text": "here and I don't want to play the"
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 1398,
+          "timecode": "01:04:22",
+          "tag": "ADD",
+          "confidence": 0.89,
+          "text": "straight through it. So, would have had"
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 1563,
+          "timecode": "01:11:37",
+          "tag": "ADD",
+          "confidence": 0.89,
+          "text": "Some stronger selling here again. Still"
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 1622,
+          "timecode": "01:13:54",
+          "tag": "ADD",
+          "confidence": 0.89,
+          "text": "move away from it and they and I see"
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 1806,
+          "timecode": "01:21:48",
+          "tag": "ADD",
+          "confidence": 0.89,
+          "text": "Another node being built out here at the"
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 2011,
+          "timecode": "01:31:19",
+          "tag": "MOVE_TO_BREAKEVEN",
+          "confidence": 0.91,
+          "text": "stopping break even, saying that they're"
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 2226,
+          "timecode": "01:41:46",
+          "tag": "MOVE_STOP",
+          "confidence": 0.93,
+          "text": "Tiny Libble versus 40 just in case"
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 2233,
+          "timecode": "01:42:01",
+          "tag": "MOVE_TO_BREAKEVEN",
+          "confidence": 0.91,
+          "text": "gone break even."
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 2242,
+          "timecode": "01:42:28",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "Okay. Stopped out be on the rest. So,"
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 2278,
+          "timecode": "01:44:06",
+          "tag": "TRIM",
+          "confidence": 0.89,
+          "text": "taking some off because I don't know if"
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 2370,
+          "timecode": "01:48:06",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "Currently flatten this now and just"
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 2408,
+          "timecode": "01:49:50",
+          "tag": "ENTER_SHORT",
+          "confidence": 0.91,
+          "text": "Nice aggressive selling here. Now, can"
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 2429,
+          "timecode": "01:50:44",
+          "tag": "ADD",
+          "confidence": 0.89,
+          "text": "Some more aggressive selling here. This"
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 2525,
+          "timecode": "01:54:54",
+          "tag": "TRIM",
+          "confidence": 0.89,
+          "text": "have to pay yourself because like we"
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 2546,
+          "timecode": "01:55:56",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "level. Just come and wipe them all out."
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 2572,
+          "timecode": "01:57:31",
+          "tag": "MOVE_TO_BREAKEVEN",
+          "confidence": 0.91,
+          "text": "control. So, stops into break even. And"
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 2573,
+          "timecode": "01:57:34",
+          "tag": "MOVE_TO_BREAKEVEN",
+          "confidence": 0.91,
+          "text": "again, we can stop out if well for me"
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 2575,
+          "timecode": "01:57:37",
+          "tag": "MOVE_TO_BREAKEVEN",
+          "confidence": 0.91,
+          "text": "stop out if we need to."
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 2671,
+          "timecode": "02:04:09",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "said, I'm flattening this. Anyone's"
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 3432,
+          "timecode": "02:37:55",
+          "tag": "MOVE_TO_BREAKEVEN",
+          "confidence": 0.91,
+          "text": "get above this red line, break even for"
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 3633,
+          "timecode": "02:46:28",
+          "tag": "ENTER_SHORT",
+          "confidence": 0.91,
+          "text": "Big selling here again. Back to these"
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 3749,
+          "timecode": "02:51:56",
+          "tag": "MOVE_STOP",
+          "confidence": 0.93,
+          "text": "that. So no reclaim of 26,000. All"
+        },
+        {
+          "file": "2025-11-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-14__PG2wjhIe-f4.txt",
+          "line": 3975,
+          "timecode": "03:02:10",
+          "tag": "EXIT_ALL",
+          "confidence": 0.93,
+          "text": "All right, folks. I'm done. I'm out of"
+        }
+      ]
+    }
+  }
+}
