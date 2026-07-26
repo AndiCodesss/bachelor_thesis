@@ -1,0 +1,2992 @@
+[
+  {
+    "fold": 0,
+    "true_label": "ENTER_SHORT",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=NONE\nrecent=back down here. it s the worst location\nanalysis=back down here. it s the worst location of the day but i did enter short versus\ncurrent=of the day, but I did enter short versus",
+    "evidence_text": "I did enter short versus New York here.",
+    "current_text": "of the day, but I did enter short versus",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-11-06__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-06__Luatve1nc1M.txt",
+    "timecode": "00:23:36"
+  },
+  {
+    "fold": 0,
+    "true_label": "ENTER_SHORT",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=so cover points coming up here if you re\nanalysis=so cover points coming up here if you re still in this. i ve re entered versus\ncurrent=still in this. I've re-entered versus",
+    "evidence_text": "I've re-entered versus flow zones now.",
+    "current_text": "still in this. I've re-entered versus",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-11-06__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-06__Luatve1nc1M.txt",
+    "timecode": "00:30:14"
+  },
+  {
+    "fold": 0,
+    "true_label": "ENTER_SHORT",
+    "predicted_label": "ENTER_LONG",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=NONE\nrecent=complete mix bag.\ncurrent=So, here's the cell. All right. In this",
+    "evidence_text": "So, here's the cell. All right. In this straight away versus value area, he high in here.",
+    "current_text": "So, here's the cell. All right. In this",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-10-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-07__rilljaZdaww.txt",
+    "timecode": "00:18:23"
+  },
+  {
+    "fold": 0,
+    "true_label": "EXIT_ALL",
+    "predicted_label": "TRIM",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=needs to shove up over 211s before it\nanalysis=needs to shove up over 211s before it does anything else. all right taking\ncurrent=does anything else. All right, taking",
+    "evidence_text": "taking this off. Move my stop nice and tight just in case.",
+    "current_text": "does anything else. All right, taking",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-10-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-07__rilljaZdaww.txt",
+    "timecode": "01:45:16"
+  },
+  {
+    "fold": 0,
+    "true_label": "EXIT_ALL",
+    "predicted_label": "TRIM",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=just going to see how far we drive down.\nanalysis=just going to see how far we drive down. there we go. taking that off. nice early\ncurrent=There we go. Taking that off. Nice early",
+    "evidence_text": "There we go. Taking that off. Nice early sell there.",
+    "current_text": "There we go. Taking that off. Nice early",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-10-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-07__rilljaZdaww.txt",
+    "timecode": "00:18:35"
+  },
+  {
+    "fold": 0,
+    "true_label": "EXIT_ALL",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=or is it this move back inside and that\nanalysis=or is it this move back inside and that will be driven by tech. so flat now and\ncurrent=will be driven by tech. So flat now and",
+    "evidence_text": "will be driven by tech. So flat now and",
+    "current_text": "will be driven by tech. So flat now and",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-10-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-07__rilljaZdaww.txt",
+    "timecode": "01:20:14"
+  },
+  {
+    "fold": 0,
+    "true_label": "ENTER_SHORT",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=you re going to make me short this on\nanalysis=you re going to make me short this on you. all right. in it scalp here. here\ncurrent=you. All right. In it scalp here. Here",
+    "evidence_text": "you. All right. In it scalp here. Here",
+    "current_text": "you. All right. In it scalp here. Here",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-10-07__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-07__rilljaZdaww.txt",
+    "timecode": "01:15:27"
+  },
+  {
+    "fold": 0,
+    "true_label": "TRIM",
+    "predicted_label": "ENTER_SHORT",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=now\nanalysis=now down to small size here because i m\ncurrent=down to small size here because I'm",
+    "evidence_text": "down to small size here",
+    "current_text": "down to small size here because I'm",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-12-29__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Dec-29__VtT3XfDYFm0.txt",
+    "timecode": "00:31:29"
+  },
+  {
+    "fold": 0,
+    "true_label": "TRIM",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=trade outside of the orb. okay here we\nanalysis=trade outside of the orb. okay here we go. previous day point control. cover\ncurrent=go. Previous day point of control. Cover",
+    "evidence_text": "go. Previous day point of control. Cover",
+    "current_text": "go. Previous day point of control. Cover",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-10-03__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-03__BXkLYDwjh6I.txt",
+    "timecode": "00:50:43"
+  },
+  {
+    "fold": 0,
+    "true_label": "NO_ACTION",
+    "predicted_label": "ENTER_LONG",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=LONG\nrecent=going to see follow through in this\nanalysis=going to see follow through in this session now i m open to playing\ncurrent=session? Now, I'm open to playing",
+    "evidence_text": "Now, I'm open to playing downside to previous day uh value area high if we're going to see follow through.",
+    "current_text": "session? Now, I'm open to playing",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-10-03__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-03__BXkLYDwjh6I.txt",
+    "timecode": "00:30:48"
+  },
+  {
+    "fold": 0,
+    "true_label": "NO_ACTION",
+    "predicted_label": "ENTER_LONG",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=shoulder.\nanalysis=shoulder. i m going to get in this a little bit if\ncurrent=I'm going to get in this a little bit if",
+    "evidence_text": "I'm going to get in this a little bit if we can pull back and build out a right shoulder",
+    "current_text": "I'm going to get in this a little bit if",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-10-03__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-03__BXkLYDwjh6I.txt",
+    "timecode": "00:21:33"
+  },
+  {
+    "fold": 0,
+    "true_label": "EXIT_ALL",
+    "predicted_label": "ENTER_SHORT",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=es is ripping. i ve got to drisk here\nanalysis=es is ripping. i ve got to drisk here folks. i have to drisk here. taking this\ncurrent=folks. I have to drisk here. Taking this",
+    "evidence_text": "folks. I have to drisk here. Taking this off.",
+    "current_text": "folks. I have to drisk here. Taking this",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-10-03__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-03__BXkLYDwjh6I.txt",
+    "timecode": "01:15:01"
+  },
+  {
+    "fold": 0,
+    "true_label": "NO_ACTION",
+    "predicted_label": "TRIM",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=over it. exactly what we wanted to see.\nanalysis=over it. exactly what we wanted to see. must be taking partials here folks. spy\ncurrent=Must be taking partials here, folks. Spy",
+    "evidence_text": "Must be taking partials here, folks. Spy",
+    "current_text": "Must be taking partials here, folks. Spy",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-09-29__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-September-29__mhRCzLaXcYo.txt",
+    "timecode": "00:32:38"
+  },
+  {
+    "fold": 0,
+    "true_label": "NO_ACTION",
+    "predicted_label": "EXIT_ALL",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=above for extensions.\ncurrent=There we build out this right shoulder.",
+    "evidence_text": "There we build out this right shoulder.",
+    "current_text": "There we build out this right shoulder.",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-09-29__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-September-29__mhRCzLaXcYo.txt",
+    "timecode": "01:31:51"
+  },
+  {
+    "fold": 0,
+    "true_label": "MOVE_TO_BREAKEVEN",
+    "predicted_label": "MOVE_STOP",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=folks from these lows.\ncurrent=and move my stop into break even now.",
+    "evidence_text": "and move my stop into break even now.",
+    "current_text": "and move my stop into break even now.",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-10-06__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-06__fahcwMODFLo.txt",
+    "timecode": "01:40:51"
+  },
+  {
+    "fold": 0,
+    "true_label": "EXIT_ALL",
+    "predicted_label": "TRIM",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=weakness in es starting to really drag a\nanalysis=weakness in es starting to really drag a little bit. i m going to take this off\ncurrent=little bit. I'm going to take this off",
+    "evidence_text": "ES coming back into lower day. So that weakness in ES starting to really drag a little bit. I'm going to take this off here.",
+    "current_text": "little bit. I'm going to take this off",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-10-06__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-06__fahcwMODFLo.txt",
+    "timecode": "00:42:52"
+  },
+  {
+    "fold": 0,
+    "true_label": "TRIM",
+    "predicted_label": "ENTER_SHORT",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=here we go. come on. come on. i need a\nanalysis=here we go. come on. come on. i need a break down here. all right. trimming\ncurrent=break down here. All right. Trimming",
+    "evidence_text": "Trimming some there.",
+    "current_text": "break down here. All right. Trimming",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-11__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-11__a0G5rE6TOBg.txt",
+    "timecode": "01:58:07"
+  },
+  {
+    "fold": 0,
+    "true_label": "ENTER_SHORT",
+    "predicted_label": "ENTER_LONG",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=LONG\nrecent=buyer got a little bit caught there at\nanalysis=buyer got a little bit caught there at 37. i m short on this for a small piece.\ncurrent=37. I'm short on this for a small piece.",
+    "evidence_text": "I'm short on this for a small piece.",
+    "current_text": "37. I'm short on this for a small piece.",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-11__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-11__a0G5rE6TOBg.txt",
+    "timecode": "00:52:03"
+  },
+  {
+    "fold": 0,
+    "true_label": "NO_ACTION",
+    "predicted_label": "EXIT_ALL",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=LONG\nrecent=level two mate. using bookmap. there s\nanalysis=level two mate. using bookmap. there s the bid. oh my god. stopped me out by\ncurrent=the bid. Oh my god. Stopped me out by",
+    "evidence_text": "Stopped me out by [ __ ] point or two.",
+    "current_text": "the bid. Oh my god. Stopped me out by",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-12-30__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Dec-30__RZ03dldBlwY.txt",
+    "timecode": "00:51:10"
+  },
+  {
+    "fold": 0,
+    "true_label": "NO_ACTION",
+    "predicted_label": "EXIT_ALL",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=we ll see. we will see. all right. any\nanalysis=we ll see. we will see. all right. any push through 11s here. i m out. not\ncurrent=push through 11s here. I'm out. Not",
+    "evidence_text": "Any push through 11s here. I'm out. Not holding runner through 11s.",
+    "current_text": "push through 11s here. I'm out. Not",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-10-17__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-17__uccG5JM1Hxo.txt",
+    "timecode": "00:38:49"
+  },
+  {
+    "fold": 0,
+    "true_label": "NO_ACTION",
+    "predicted_label": "ENTER_SHORT",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=starting to trade the low side. can we\nanalysis=starting to trade the low side. can we get a feeler on here on the next pop\ncurrent=get a feeler on here on the next pop?",
+    "evidence_text": "Can we get a feeler on here on the next pop?",
+    "current_text": "get a feeler on here on the next pop?",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-17__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-17__GdHAHuuZgDY.txt",
+    "timecode": "00:32:53"
+  },
+  {
+    "fold": 0,
+    "true_label": "ENTER_SHORT",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=i ll be looking to trade 705s\nanalysis=i ll be looking to trade 705s just a feeler on\ncurrent=just a feeler on",
+    "evidence_text": "just a feeler on",
+    "current_text": "just a feeler on",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-17__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-17__GdHAHuuZgDY.txt",
+    "timecode": "00:33:09"
+  },
+  {
+    "fold": 0,
+    "true_label": "NO_ACTION",
+    "predicted_label": "ENTER_SHORT",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=beer back on again now. all right let s\nanalysis=beer back on again now. all right let s see if we can trade under the value.\ncurrent=see if we can trade under the value.",
+    "evidence_text": "Beer back on again now.",
+    "current_text": "see if we can trade under the value.",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-17__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-17__GdHAHuuZgDY.txt",
+    "timecode": "00:33:43"
+  },
+  {
+    "fold": 0,
+    "true_label": "ENTER_SHORT",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=this. we do not get short above it.\ncurrent=Yes, I'm in. You you heard me say could",
+    "evidence_text": "Yes, I'm in.",
+    "current_text": "Yes, I'm in. You you heard me say could",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-17__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-17__GdHAHuuZgDY.txt",
+    "timecode": "02:24:15"
+  },
+  {
+    "fold": 0,
+    "true_label": "NO_ACTION",
+    "predicted_label": "TRIM",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=gray box. here we go.\nanalysis=gray box. here we go. lovely. all right. cover a little bit\ncurrent=Lovely. All right. Cover a little bit",
+    "evidence_text": "Cover a little bit here into 600 just in case.",
+    "current_text": "Lovely. All right. Cover a little bit",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-17__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-17__GdHAHuuZgDY.txt",
+    "timecode": "01:12:04"
+  },
+  {
+    "fold": 0,
+    "true_label": "NO_ACTION",
+    "predicted_label": "EXIT_ALL",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=just trading. ideally we clear them\nanalysis=just trading. ideally we clear them out. if we can t clear them out their\ncurrent=out. If we can't clear them out their",
+    "evidence_text": "If we can't clear them out their highs, I would still look for this trade here, right? I'll look for this backside if we leave these.",
+    "current_text": "out. If we can't clear them out their",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-17__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-17__GdHAHuuZgDY.txt",
+    "timecode": "02:14:53"
+  },
+  {
+    "fold": 0,
+    "true_label": "NO_ACTION",
+    "predicted_label": "ENTER_SHORT",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=might get a rotation between these two\nanalysis=might get a rotation between these two nodes here. we re in this short. we\ncurrent=nodes here. We're in this short. We",
+    "evidence_text": "Added a little bit.",
+    "current_text": "nodes here. We're in this short. We",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-17__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-17__GdHAHuuZgDY.txt",
+    "timecode": "00:35:10"
+  },
+  {
+    "fold": 0,
+    "true_label": "EXIT_ALL",
+    "predicted_label": "TRIM",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=they reclaim here i ll cut starting to\nanalysis=they reclaim here i ll cut starting to reclaim cut already cut already can\ncurrent=reclaim cut already cut already can",
+    "evidence_text": "cut already cut already",
+    "current_text": "reclaim cut already cut already can",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-17__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-17__GdHAHuuZgDY.txt",
+    "timecode": "00:33:15"
+  },
+  {
+    "fold": 0,
+    "true_label": "NO_ACTION",
+    "predicted_label": "TRIM",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=tickoo tickoo right back into the new\nanalysis=tickoo tickoo right back into the new york open. you can cover a piece here\ncurrent=York open. You can cover a piece here",
+    "evidence_text": "You can cover a piece here",
+    "current_text": "York open. You can cover a piece here",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-17__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-17__GdHAHuuZgDY.txt",
+    "timecode": "00:36:19"
+  },
+  {
+    "fold": 0,
+    "true_label": "NO_ACTION",
+    "predicted_label": "TRIM",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=then trap some bulls and then i can\nanalysis=then trap some bulls and then i can think about short. the higher the better\ncurrent=think about short. The higher the better",
+    "evidence_text": "then I can think about short.",
+    "current_text": "think about short. The higher the better",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-20__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-20__vDGd_4mZdt0.txt",
+    "timecode": "00:22:54"
+  },
+  {
+    "fold": 0,
+    "true_label": "NO_ACTION",
+    "predicted_label": "ENTER_SHORT",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=LONG\nrecent=today. here we go. so here s the 910s\nanalysis=today. here we go. so here s the 910s 920s. if they get through this now we\ncurrent=920s. If they get through this now, we",
+    "evidence_text": "I they knocked me out on that horrible wick.",
+    "current_text": "920s. If they get through this now, we",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-20__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-20__vDGd_4mZdt0.txt",
+    "timecode": "00:51:12"
+  },
+  {
+    "fold": 0,
+    "true_label": "ENTER_SHORT",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=NONE\nrecent=money overnight or pre market. we are\nanalysis=money overnight or pre market. we are absolutely slamming this short right\ncurrent=absolutely slamming this short right",
+    "evidence_text": "We are absolutely slamming this short right now.",
+    "current_text": "absolutely slamming this short right",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-20__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-20__vDGd_4mZdt0.txt",
+    "timecode": "00:06:23"
+  },
+  {
+    "fold": 0,
+    "true_label": "TRIM",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=previous week if we do it. but we re\nanalysis=previous week if we do it. but we re going to sell like a good chunk of our\ncurrent=going to sell like a good chunk of our",
+    "evidence_text": "But we're going to sell like a good chunk of our position here no matter what.",
+    "current_text": "going to sell like a good chunk of our",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-20__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-20__vDGd_4mZdt0.txt",
+    "timecode": "02:32:26"
+  },
+  {
+    "fold": 0,
+    "true_label": "TRIM",
+    "predicted_label": "MOVE_STOP",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=the wash under sevens. so moving down\nanalysis=the wash under sevens. so moving down now. i m going to lock these profits in\ncurrent=now. I'm going to lock these profits in",
+    "evidence_text": "I'm going to lock these profits in just so I can concentrate. There we go.",
+    "current_text": "now. I'm going to lock these profits in",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-20__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-20__vDGd_4mZdt0.txt",
+    "timecode": "00:12:03"
+  },
+  {
+    "fold": 0,
+    "true_label": "MOVE_TO_BREAKEVEN",
+    "predicted_label": "TRIM",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=nice. can we get follow through if\nanalysis=nice. can we get follow through if there s no follow through i ll cut\ncurrent=there's no follow through, I'll cut",
+    "evidence_text": "Stop break even in case they want to swipe out this player above 54s.",
+    "current_text": "there's no follow through, I'll cut",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-20__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-20__vDGd_4mZdt0.txt",
+    "timecode": "02:24:53"
+  },
+  {
+    "fold": 0,
+    "true_label": "NO_ACTION",
+    "predicted_label": "ENTER_LONG",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=LONG\nrecent=look at that. 90s failing again. can you\nanalysis=look at that. 90s failing again. can you get up to 910 here we go. all right. in\ncurrent=get up to 910? Here we go. All right. In",
+    "evidence_text": "Can you get up to 910? Here we go. All right. In this now.",
+    "current_text": "get up to 910? Here we go. All right. In",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-20__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-20__vDGd_4mZdt0.txt",
+    "timecode": "00:50:11"
+  },
+  {
+    "fold": 0,
+    "true_label": "ENTER_SHORT",
+    "predicted_label": "ENTER_LONG",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=LONG\nrecent=back downside and hold the shorts so\nanalysis=back downside and hold the shorts so far looking good. so i ve got a one lot\ncurrent=far looking good. So I've got a one lot",
+    "evidence_text": "So I've got a one lot on here short side and we'll see if we can just flush down a little bit.",
+    "current_text": "far looking good. So I've got a one lot",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-20__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-20__vDGd_4mZdt0.txt",
+    "timecode": "02:24:19"
+  },
+  {
+    "fold": 0,
+    "true_label": "ENTER_LONG",
+    "predicted_label": "ENTER_SHORT",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=very risky but it looks good.\ncurrent=Small piece on now versus 100.",
+    "evidence_text": "Small piece on now versus 100.",
+    "current_text": "Small piece on now versus 100.",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-20__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-20__vDGd_4mZdt0.txt",
+    "timecode": "02:03:04"
+  },
+  {
+    "fold": 0,
+    "true_label": "NO_ACTION",
+    "predicted_label": "EXIT_ALL",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=it s a big level. the 280s i called it\nanalysis=it s a big level. the 280s i called it out 280s 300 350s right you must be\ncurrent=out 280s, 300, 350s, right? You must be",
+    "evidence_text": "You must be paying yourself into these.",
+    "current_text": "out 280s, 300, 350s, right? You must be",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-01-21__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Jan-21__VWjhi8kp0EM.txt",
+    "timecode": "00:46:17"
+  },
+  {
+    "fold": 0,
+    "true_label": "NO_ACTION",
+    "predicted_label": "TRIM",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=really nice lift here. here we go\nanalysis=really nice lift here. here we go folks. so getting ready to try and take\ncurrent=folks. So, getting ready to try and take",
+    "evidence_text": "So, getting ready to try and take final target. I don't think I'm going to hold on beyond this the 45s.",
+    "current_text": "folks. So, getting ready to try and take",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-01-21__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Jan-21__VWjhi8kp0EM.txt",
+    "timecode": "00:50:24"
+  },
+  {
+    "fold": 0,
+    "true_label": "ENTER_SHORT",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=around here i think\nanalysis=around here i think right. so i m short here looking for\ncurrent=right. So I'm short here looking for",
+    "evidence_text": "So I'm short here looking for that breakdown.",
+    "current_text": "right. So I'm short here looking for",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-01-21__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Jan-21__VWjhi8kp0EM.txt",
+    "timecode": "03:01:22"
+  },
+  {
+    "fold": 1,
+    "true_label": "TRIM",
+    "predicted_label": "ENTER_SHORT",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=have at 64 on ninja trader. all right.\nanalysis=have at 64 on ninja trader. all right. so i have covered one into this into 64\ncurrent=So I have covered one into this into 64",
+    "evidence_text": "So I have covered one into this into 64 push. I'm trying to hold to see if we can get a wash here.",
+    "current_text": "So I have covered one into this into 64",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-11-05__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-05__ufUKRBkCJ_E.txt",
+    "timecode": "02:04:36"
+  },
+  {
+    "fold": 1,
+    "true_label": "EXIT_ALL",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=absorb this level here for now. so i\nanalysis=absorb this level here for now. so i cut the trade. i m now flat on the\ncurrent=cut the trade. I'm now flat on the",
+    "evidence_text": "So, I cut the trade. I'm now flat on the trade.",
+    "current_text": "cut the trade. I'm now flat on the",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-12-01__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Dec-01__ZcB05rJGa2M.txt",
+    "timecode": "02:06:01"
+  },
+  {
+    "fold": 1,
+    "true_label": "TRIM",
+    "predicted_label": "EXIT_ALL",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=LONG\nrecent=tag tag tag. tag me. tag me. tag me. tag\nanalysis=tag tag tag. tag me. tag me. tag me. tag me. one out here. sighs\ncurrent=me. One out here. [sighs]",
+    "evidence_text": "One out here.",
+    "current_text": "me. One out here. [sighs]",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-12-01__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Dec-01__ZcB05rJGa2M.txt",
+    "timecode": "02:03:26"
+  },
+  {
+    "fold": 1,
+    "true_label": "NO_ACTION",
+    "predicted_label": "EXIT_ALL",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=reload in here.\nanalysis=reload in here. and if it fails here i ll play short\ncurrent=And if it fails here, I'll play short",
+    "evidence_text": "And if it fails here, I'll play short back down to here maybe.",
+    "current_text": "And if it fails here, I'll play short",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-10-01__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-01__vAg4QeXjFv8.txt",
+    "timecode": "01:16:05"
+  },
+  {
+    "fold": 1,
+    "true_label": "NO_ACTION",
+    "predicted_label": "EXIT_ALL",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=don t want hesitation here otherwise\nanalysis=don t want hesitation here otherwise i ll cut runners. let s go. it s a nice\ncurrent=I'll cut runners. Let's go. It's a nice",
+    "evidence_text": "And let me move this stop.",
+    "current_text": "I'll cut runners. Let's go. It's a nice",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-10-01__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-01__vAg4QeXjFv8.txt",
+    "timecode": "01:20:44"
+  },
+  {
+    "fold": 1,
+    "true_label": "ENTER_LONG",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=come up into here and then close the\nanalysis=come up into here and then close the gap. so long at the moment now\ncurrent=gap. So, long at the moment now",
+    "evidence_text": "So, long at the moment now for a little squeeze.",
+    "current_text": "gap. So, long at the moment now",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-10-01__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-01__vAg4QeXjFv8.txt",
+    "timecode": "01:12:27"
+  },
+  {
+    "fold": 1,
+    "true_label": "EXIT_ALL",
+    "predicted_label": "ENTER_LONG",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=__ insane mate.\nanalysis=__ insane mate. all right failing to reclaim here. i m\ncurrent=All right, failing to reclaim here. I'm",
+    "evidence_text": "All right, failing to reclaim here. I'm already out of this, taking this off.",
+    "current_text": "All right, failing to reclaim here. I'm",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-10-01__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-01__vAg4QeXjFv8.txt",
+    "timecode": "01:46:17"
+  },
+  {
+    "fold": 1,
+    "true_label": "ENTER_SHORT",
+    "predicted_label": "EXIT_ALL",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=running out of time.\nanalysis=running out of time. in at that red line. that red line at\ncurrent=In at that red line. That red line at",
+    "evidence_text": "In at that red line. That red line at the chart is pointing control.",
+    "current_text": "In at that red line. That red line at",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-11-12__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-12__OfXeE3Guli4.txt",
+    "timecode": "01:27:22"
+  },
+  {
+    "fold": 1,
+    "true_label": "ENTER_SHORT",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=NONE\nrecent=is probably your short opportunity now.\nanalysis=is probably your short opportunity now. so i am in for the first time today.\ncurrent=So, I am in for the first time today.",
+    "evidence_text": "So, I am in for the first time today.",
+    "current_text": "So, I am in for the first time today.",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-11-12__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-12__OfXeE3Guli4.txt",
+    "timecode": "01:19:26"
+  },
+  {
+    "fold": 1,
+    "true_label": "ENTER_LONG",
+    "predicted_label": "ENTER_SHORT",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=LONG\nrecent=uh new york open here. got a little bit\nanalysis=uh new york open here. got a little bit of a feeler on just in case. i d much\ncurrent=of a feeler on just in case. I'd much",
+    "evidence_text": "Got a little bit of a feeler on just in case.",
+    "current_text": "of a feeler on just in case. I'd much",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-12-18__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Dec-18__cY9CGQslsFo.txt",
+    "timecode": "00:24:44"
+  },
+  {
+    "fold": 1,
+    "true_label": "EXIT_ALL",
+    "predicted_label": "TRIM",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=are in control. we re underneath vwap.\nanalysis=are in control. we re underneath vwap. this here is holding us down. i m flat\ncurrent=This here is holding us down. I'm flat",
+    "evidence_text": "I'm flat right now.",
+    "current_text": "This here is holding us down. I'm flat",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-12-18__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Dec-18__cY9CGQslsFo.txt",
+    "timecode": "00:37:17"
+  },
+  {
+    "fold": 1,
+    "true_label": "ENTER_SHORT",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=LONG\nrecent=are not getting their way yet.\nanalysis=are not getting their way yet. keep reloading. putting more size on the\ncurrent=Keep reloading. Putting more size on the",
+    "evidence_text": "Putting more size on the take down at 150 right now.",
+    "current_text": "Keep reloading. Putting more size on the",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-12-18__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Dec-18__cY9CGQslsFo.txt",
+    "timecode": "01:10:08"
+  },
+  {
+    "fold": 1,
+    "true_label": "ENTER_LONG",
+    "predicted_label": "ENTER_SHORT",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=come on.\ncurrent=I'm very very light in this because if",
+    "evidence_text": "I'm very very light in this because if we can't get 330s then uh can't size in they can resell it.",
+    "current_text": "I'm very very light in this because if",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-10-31__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-31__mCz7GldRu1w.txt",
+    "timecode": "01:25:03"
+  },
+  {
+    "fold": 1,
+    "true_label": "TRIM",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=NONE\nrecent=want to see if we push through here now.\nanalysis=want to see if we push through here now. looking for a cover into 40. so already\ncurrent=Looking for a cover into 40. So, already",
+    "evidence_text": "Looking for a cover into 40. So, already",
+    "current_text": "Looking for a cover into 40. So, already",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-10-31__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-31__mCz7GldRu1w.txt",
+    "timecode": "00:39:27"
+  },
+  {
+    "fold": 1,
+    "true_label": "ENTER_SHORT",
+    "predicted_label": "ENTER_LONG",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=LONG\nrecent=days value. do we get continuation big\nanalysis=days value. do we get continuation big seller here. all right i ve sold\ncurrent=seller here. All right, I've sold",
+    "evidence_text": "seller here. All right, I've sold",
+    "current_text": "seller here. All right, I've sold",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-10-31__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-31__mCz7GldRu1w.txt",
+    "timecode": "00:49:09"
+  },
+  {
+    "fold": 1,
+    "true_label": "ENTER_LONG",
+    "predicted_label": "TRIM",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=LONG\nrecent=wrong.\nanalysis=wrong. paying myself along the way.\ncurrent=Paying myself along the way.",
+    "evidence_text": "Lovely. All right, feathering in",
+    "current_text": "Paying myself along the way.",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-10-31__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-31__mCz7GldRu1w.txt",
+    "timecode": "00:39:33"
+  },
+  {
+    "fold": 1,
+    "true_label": "ENTER_LONG",
+    "predicted_label": "ENTER_SHORT",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=LONG\nrecent=big seller coming in here. i think we re\nanalysis=big seller coming in here. i think we re going to go higher day now. small piece\ncurrent=going to go higher day now. Small piece",
+    "evidence_text": "Small piece on.",
+    "current_text": "going to go higher day now. Small piece",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-24__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-24__A_fdmeVAQSs.txt",
+    "timecode": "01:12:42"
+  },
+  {
+    "fold": 1,
+    "true_label": "NO_ACTION",
+    "predicted_label": "EXIT_ALL",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=come on.\ncurrent=Are you going to make me take this off",
+    "evidence_text": "Taking it off again.",
+    "current_text": "Are you going to make me take this off",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-24__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-24__A_fdmeVAQSs.txt",
+    "timecode": "00:59:20"
+  },
+  {
+    "fold": 1,
+    "true_label": "TRIM",
+    "predicted_label": "EXIT_ALL",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=have you not yes. okay. filled tens\nanalysis=have you not yes. okay. filled tens now. runner for high of day. i think we\ncurrent=now. Runner for high of day. I think we",
+    "evidence_text": "Filled tens now.",
+    "current_text": "now. Runner for high of day. I think we",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-24__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-24__A_fdmeVAQSs.txt",
+    "timecode": "01:01:44"
+  },
+  {
+    "fold": 1,
+    "true_label": "TRIM",
+    "predicted_label": "ENTER_SHORT",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=so i think we ve got a chance on this\nanalysis=so i think we ve got a chance on this now on the runners but pay yourself\ncurrent=now on the runners, but pay yourself",
+    "evidence_text": "pay yourself into this 40",
+    "current_text": "now on the runners, but pay yourself",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-24__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-24__A_fdmeVAQSs.txt",
+    "timecode": "01:14:16"
+  },
+  {
+    "fold": 1,
+    "true_label": "NO_ACTION",
+    "predicted_label": "EXIT_ALL",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=approaching high of day already. i want\nanalysis=approaching high of day already. i want to be involved in this now. this is what\ncurrent=to be involved in this now. This is what",
+    "evidence_text": "I want to be involved in this now.",
+    "current_text": "to be involved in this now. This is what",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-01-15__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Jan-15__w8D0NNEHr9g.txt",
+    "timecode": "01:12:29"
+  },
+  {
+    "fold": 1,
+    "true_label": "NO_ACTION",
+    "predicted_label": "ENTER_LONG",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=LONG\nrecent=here we go folks. all right. can we get\nanalysis=here we go folks. all right. can we get through these 25s now i m looking for a\ncurrent=through these 25s now? I'm looking for a",
+    "evidence_text": "I'm looking for a squeeze through 25s and ideally up to",
+    "current_text": "through these 25s now? I'm looking for a",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-01-15__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Jan-15__w8D0NNEHr9g.txt",
+    "timecode": "02:11:26"
+  },
+  {
+    "fold": 1,
+    "true_label": "NO_ACTION",
+    "predicted_label": "ENTER_LONG",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=LONG\nrecent=still long. you ll tell me in chat.\nanalysis=still long. you ll tell me in chat. long for this squeeze.\ncurrent=long for this squeeze.",
+    "evidence_text": "long for this squeeze.",
+    "current_text": "long for this squeeze.",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-01-15__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Jan-15__w8D0NNEHr9g.txt",
+    "timecode": "02:07:56"
+  },
+  {
+    "fold": 1,
+    "true_label": "NO_ACTION",
+    "predicted_label": "ENTER_LONG",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=LONG\nrecent=we get going here now looking long\nanalysis=we get going here now looking long here trying to accelerate higher.\ncurrent=here, trying to accelerate higher.",
+    "evidence_text": "Looking long here, trying to accelerate higher.",
+    "current_text": "here, trying to accelerate higher.",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-01-15__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Jan-15__w8D0NNEHr9g.txt",
+    "timecode": "01:44:51"
+  },
+  {
+    "fold": 1,
+    "true_label": "TRIM",
+    "predicted_label": "EXIT_ALL",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=through the 45s. damage is done. we re\nanalysis=through the 45s. damage is done. we re locking in no matter what.\ncurrent=locking in no matter what.",
+    "evidence_text": "Trim some here.",
+    "current_text": "locking in no matter what.",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-01-15__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Jan-15__w8D0NNEHr9g.txt",
+    "timecode": "01:46:16"
+  },
+  {
+    "fold": 1,
+    "true_label": "NO_ACTION",
+    "predicted_label": "ENTER_LONG",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=SHORT\nrecent=probably get the squeeze up and then\nanalysis=probably get the squeeze up and then caught. am i in a long no i m not in a\ncurrent=caught. Am I in a long? No, I'm not in a",
+    "evidence_text": "Am I in a long? No, I'm not in a long. I'm waiting for the short now.",
+    "current_text": "caught. Am I in a long? No, I'm not in a",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-26__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-26__4a1_oZPdYcs.txt",
+    "timecode": "01:44:52"
+  },
+  {
+    "fold": 1,
+    "true_label": "ENTER_SHORT",
+    "predicted_label": "TRIM",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=short now and short now. covering some\nanalysis=short now and short now. covering some into these 90s. i have to get short now\ncurrent=into these 90s. I have to get short now",
+    "evidence_text": "I have to get short now",
+    "current_text": "into these 90s. I have to get short now",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-26__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-26__4a1_oZPdYcs.txt",
+    "timecode": "01:58:38"
+  },
+  {
+    "fold": 1,
+    "true_label": "NO_ACTION",
+    "predicted_label": "EXIT_ALL",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=here s current price is at 90s.\ncurrent=Watching this now into 70s. I'm short",
+    "evidence_text": "I'm short now.",
+    "current_text": "Watching this now into 70s. I'm short",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-26__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-26__4a1_oZPdYcs.txt",
+    "timecode": "01:34:45"
+  },
+  {
+    "fold": 1,
+    "true_label": "NO_ACTION",
+    "predicted_label": "ENTER_SHORT",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=NONE\nrecent=need to find acceptance back over small\nanalysis=need to find acceptance back over small size until we hold an ad.\ncurrent=size until we hold an ad.",
+    "evidence_text": "small size until we hold an ad.",
+    "current_text": "size until we hold an ad.",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-26__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-26__4a1_oZPdYcs.txt",
+    "timecode": "00:34:46"
+  },
+  {
+    "fold": 1,
+    "true_label": "ENTER_LONG",
+    "predicted_label": "ENTER_SHORT",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=NONE\nrecent=okay here s 30s.\nanalysis=okay here s 30s. so i ve got a little piece on for a\ncurrent=So, I've got a little piece on for a",
+    "evidence_text": "So, I've got a little piece on for a squeeze.",
+    "current_text": "So, I've got a little piece on for a",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-26__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-26__4a1_oZPdYcs.txt",
+    "timecode": "01:29:36"
+  },
+  {
+    "fold": 1,
+    "true_label": "ENTER_LONG",
+    "predicted_label": "TRIM",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=nice shove off this. okay. beautiful.\nanalysis=nice shove off this. okay. beautiful. got a little piece on this. let s see.\ncurrent=Got a little piece on this. Let's see.",
+    "evidence_text": "Got a little piece on this. Let's see.",
+    "current_text": "Got a little piece on this. Let's see.",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-10-30__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-30__CdGGUrOA-wo.txt",
+    "timecode": "01:07:57"
+  },
+  {
+    "fold": 1,
+    "true_label": "ENTER_SHORT",
+    "predicted_label": "ENTER_LONG",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=NONE\nrecent=this to see if they fade it. small\nanalysis=this to see if they fade it. small position in this now. just small size\ncurrent=position in this now. Just small size",
+    "evidence_text": "position in this now. Just small size",
+    "current_text": "position in this now. Just small size",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-11-24__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-24__VwcaN7Oh4oU.txt",
+    "timecode": "00:26:45"
+  },
+  {
+    "fold": 1,
+    "true_label": "EXIT_ALL",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=watching if they hold 700s i ll cut the\nanalysis=watching if they hold 700s i ll cut the rest. cut the rest there. can always get\ncurrent=rest. Cut the rest there. Can always get",
+    "evidence_text": "Cut the rest there.",
+    "current_text": "rest. Cut the rest there. Can always get",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-11-24__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-24__VwcaN7Oh4oU.txt",
+    "timecode": "00:26:54"
+  },
+  {
+    "fold": 1,
+    "true_label": "ENTER_SHORT",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=i will not hold above 20s. okay i m\nanalysis=i will not hold above 20s. okay i m short and i m not going to hold above\ncurrent=short and I'm not going to hold above",
+    "evidence_text": "I'm short",
+    "current_text": "short and I'm not going to hold above",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/transcript_09.03.26.txt",
+    "timecode": "02:26:19"
+  },
+  {
+    "fold": 1,
+    "true_label": "TRIM",
+    "predicted_label": "MOVE_STOP",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=go at it. that s a 70 check.\ncurrent=Trimmed most my size there. I've got a",
+    "evidence_text": "Trimmed most my size there.",
+    "current_text": "Trimmed most my size there. I've got a",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/transcript_09.03.26.txt",
+    "timecode": "01:05:22"
+  },
+  {
+    "fold": 1,
+    "true_label": "NO_ACTION",
+    "predicted_label": "ENTER_LONG",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=very thin now. all right i m watching\nanalysis=very thin now. all right i m watching this. i am zoomed in now to get a trade\ncurrent=this. I am zoomed in now to get a trade",
+    "evidence_text": "I am zoomed in now to get a trade here.",
+    "current_text": "this. I am zoomed in now to get a trade",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-03-03__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-March-03__NtBHX2krM-s.txt",
+    "timecode": "01:08:40"
+  },
+  {
+    "fold": 1,
+    "true_label": "MOVE_STOP",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=relentless games on the tape.\nanalysis=relentless games on the tape. well i ll risk 605s. if i m wrong i m\ncurrent=Well, I'll risk 605s. If I'm wrong, I'm",
+    "evidence_text": "Well, I'll risk 605s.",
+    "current_text": "Well, I'll risk 605s. If I'm wrong, I'm",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-03-03__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-March-03__NtBHX2krM-s.txt",
+    "timecode": "02:26:28"
+  },
+  {
+    "fold": 1,
+    "true_label": "NO_ACTION",
+    "predicted_label": "EXIT_ALL",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=so i m absorbing there. taking that off.\nanalysis=so i m absorbing there. taking that off. can always read back on. that might be\ncurrent=Can always read back on. That might be",
+    "evidence_text": "So I'm absorbing there. Taking that off.",
+    "current_text": "Can always read back on. That might be",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-03-03__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-March-03__NtBHX2krM-s.txt",
+    "timecode": "02:53:48"
+  },
+  {
+    "fold": 1,
+    "true_label": "NO_ACTION",
+    "predicted_label": "ENTER_LONG",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=get all my charts ready. there we go.\ncurrent=All right. So looking to fade this",
+    "evidence_text": "So looking to fade this market this morning. Looking to sell pops.",
+    "current_text": "All right. So looking to fade this",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-03-03__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-March-03__NtBHX2krM-s.txt",
+    "timecode": "00:21:16"
+  },
+  {
+    "fold": 1,
+    "true_label": "NO_ACTION",
+    "predicted_label": "TRIM",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=this. all right. this is tp into this\nanalysis=this. all right. this is tp into this area. so you must tp some into here. oh\ncurrent=area. So, you must TP some into here. Oh",
+    "evidence_text": "you must TP some into here.",
+    "current_text": "area. So, you must TP some into here. Oh",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-03-03__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-March-03__NtBHX2krM-s.txt",
+    "timecode": "01:15:17"
+  },
+  {
+    "fold": 1,
+    "true_label": "NO_ACTION",
+    "predicted_label": "TRIM",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=right now i m short versus 44s.\nanalysis=right now i m short versus 44s. you can pay yourself into this box. it s\ncurrent=You can pay yourself into this box. It's",
+    "evidence_text": "You can pay yourself into this box.",
+    "current_text": "You can pay yourself into this box. It's",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-03-03__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-March-03__NtBHX2krM-s.txt",
+    "timecode": "01:13:51"
+  },
+  {
+    "fold": 1,
+    "true_label": "TRIM",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=in want to re get in.\ncurrent=I have taken profit. What are you",
+    "evidence_text": "I have taken profit.",
+    "current_text": "I have taken profit. What are you",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-03-03__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-March-03__NtBHX2krM-s.txt",
+    "timecode": "01:16:18"
+  },
+  {
+    "fold": 1,
+    "true_label": "NO_ACTION",
+    "predicted_label": "TRIM",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=play out\nanalysis=play out but you can pay yourself a little piece\ncurrent=but you can pay yourself a little piece",
+    "evidence_text": "but you can pay yourself a little piece",
+    "current_text": "but you can pay yourself a little piece",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-03-03__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-March-03__NtBHX2krM-s.txt",
+    "timecode": "01:14:10"
+  },
+  {
+    "fold": 1,
+    "true_label": "NO_ACTION",
+    "predicted_label": "ENTER_SHORT",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=available. so we need a breakdown under\nanalysis=available. so we need a breakdown under this underneath 6525. now i m probably\ncurrent=this underneath 6525. Now, I'm probably",
+    "evidence_text": "Now, I'm probably going to cut.",
+    "current_text": "this underneath 6525. Now, I'm probably",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-03-03__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-March-03__NtBHX2krM-s.txt",
+    "timecode": "01:20:12"
+  },
+  {
+    "fold": 1,
+    "true_label": "ENTER_SHORT",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=ridiculous to you lot but looking for\nanalysis=ridiculous to you lot but looking for it. yeah i m in a short right now. i\ncurrent=it. Yeah, I'm in a short right now. I",
+    "evidence_text": "I'm in a short now as well.",
+    "current_text": "it. Yeah, I'm in a short right now. I",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/transcript_03.03.26.txt",
+    "timecode": "00:33:18"
+  },
+  {
+    "fold": 1,
+    "true_label": "NO_ACTION",
+    "predicted_label": "ENTER_SHORT",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=so maybe we re going to get this move\nanalysis=so maybe we re going to get this move now. i ve only got a little one guy on.\ncurrent=now. I've only got a little one guy on.",
+    "evidence_text": "I've only got a little one guy on.",
+    "current_text": "now. I've only got a little one guy on.",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/transcript_03.03.26.txt",
+    "timecode": "02:53:01"
+  },
+  {
+    "fold": 1,
+    "true_label": "NO_ACTION",
+    "predicted_label": "ENTER_SHORT",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=back down to the ib high here. they let\nanalysis=back down to the ib high here. they let go of this. i m still in this short. i\ncurrent=go of this. I'm still in this short. I",
+    "evidence_text": "I'm still in this short.",
+    "current_text": "go of this. I'm still in this short. I",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/transcript_03.03.26.txt",
+    "timecode": "02:42:44"
+  },
+  {
+    "fold": 1,
+    "true_label": "NO_ACTION",
+    "predicted_label": "EXIT_ALL",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=very very aware of this 100 lot here. so\nanalysis=very very aware of this 100 lot here. so i m making a mental note of 15s here.\ncurrent=I'm making a mental note of 15s here.",
+    "evidence_text": "Added again.",
+    "current_text": "I'm making a mental note of 15s here.",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/transcript_03.03.26.txt",
+    "timecode": "00:48:24"
+  },
+  {
+    "fold": 1,
+    "true_label": "NO_ACTION",
+    "predicted_label": "TRIM",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=yep.\nanalysis=yep. reselling here\ncurrent=reselling here",
+    "evidence_text": "reselling here",
+    "current_text": "reselling here",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/transcript_03.03.26.txt",
+    "timecode": "00:38:16"
+  },
+  {
+    "fold": 1,
+    "true_label": "NO_ACTION",
+    "predicted_label": "TRIM",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=here.\ncurrent=And we let go of this. Still absorbing",
+    "evidence_text": "Under 50s, I'm interested in adding more size if we stay heavy under 50s. Not before then.",
+    "current_text": "And we let go of this. Still absorbing",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/transcript_03.03.26.txt",
+    "timecode": "02:51:51"
+  },
+  {
+    "fold": 1,
+    "true_label": "ENTER_SHORT",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=you go. here you go. so it gave you the\nanalysis=you go. here you go. so it gave you the opportunity there to add. i finally got\ncurrent=opportunity there to add. I finally got",
+    "evidence_text": "So, it gave you the opportunity there to add. I finally got a little piece on",
+    "current_text": "opportunity there to add. I finally got",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/transcript_03.03.26.txt",
+    "timecode": "01:12:25"
+  },
+  {
+    "fold": 1,
+    "true_label": "NO_ACTION",
+    "predicted_label": "ENTER_SHORT",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=they re going to break down here. here\nanalysis=they re going to break down here. here we go. watching pwc. i m in this small\ncurrent=we go. Watching PWC. I'm in this small",
+    "evidence_text": "we go. Watching PWC. I'm in this small",
+    "current_text": "we go. Watching PWC. I'm in this small",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-10-10__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-10__12QsAt49Czk.txt",
+    "timecode": "01:52:11"
+  },
+  {
+    "fold": 1,
+    "true_label": "ENTER_LONG",
+    "predicted_label": "ENTER_SHORT",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=NONE\nrecent=rebase will be the next issue.\nanalysis=rebase will be the next issue. how much juice so small piece in here\ncurrent=How much juice? So small piece in here",
+    "evidence_text": "How much juice? So small piece in here",
+    "current_text": "How much juice? So small piece in here",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-10-10__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-10__12QsAt49Czk.txt",
+    "timecode": "00:19:46"
+  },
+  {
+    "fold": 1,
+    "true_label": "ENTER_LONG",
+    "predicted_label": "ENTER_SHORT",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=NONE\nrecent=we re going. here we go. 27s. we re\nanalysis=we re going. here we go. 27s. we re going. we re going. we re going. i m in.\ncurrent=going. We're going. We're going. I'm in.",
+    "evidence_text": "going. We're going. We're going. I'm in.",
+    "current_text": "going. We're going. We're going. I'm in.",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-11-10__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-10__sAABwsnI6BE.txt",
+    "timecode": "00:45:59"
+  },
+  {
+    "fold": 1,
+    "true_label": "EXIT_ALL",
+    "predicted_label": "ENTER_LONG",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=struggling.\nanalysis=struggling. look i m flat right now folks. i took\ncurrent=Look, I'm flat right now, folks. I took",
+    "evidence_text": "Look, I'm flat right now, folks. I took",
+    "current_text": "Look, I'm flat right now, folks. I took",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-11-18__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-18__u6ReecC8vAc.txt",
+    "timecode": "01:03:49"
+  },
+  {
+    "fold": 1,
+    "true_label": "NO_ACTION",
+    "predicted_label": "EXIT_ALL",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=liquidating everything. i just want a\nanalysis=liquidating everything. i just want a short squeeze out not to get long. i\ncurrent=short squeeze out, not to get long. I",
+    "evidence_text": "I just want a short squeeze out, not to get long. I",
+    "current_text": "short squeeze out, not to get long. I",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-11-18__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-18__u6ReecC8vAc.txt",
+    "timecode": "00:50:45"
+  },
+  {
+    "fold": 1,
+    "true_label": "EXIT_ALL",
+    "predicted_label": "MOVE_STOP",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=otherwise we re going back towards\nanalysis=otherwise we re going back towards lows. my stop is now in the money and\ncurrent=lows. My stop is now in the money and",
+    "evidence_text": "My stop is now in the money and about to get knocked out. Knocked out",
+    "current_text": "lows. My stop is now in the money and",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-11-18__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-18__u6ReecC8vAc.txt",
+    "timecode": "01:15:52"
+  },
+  {
+    "fold": 1,
+    "true_label": "NO_ACTION",
+    "predicted_label": "EXIT_ALL",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=hitting my last target.\ncurrent=We'll cut this above 80. Do not want it",
+    "evidence_text": "Out. Out.",
+    "current_text": "We'll cut this above 80. Do not want it",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-01-30__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Jan-30__FoGikaeXCq8.txt",
+    "timecode": "02:13:49"
+  },
+  {
+    "fold": 1,
+    "true_label": "MOVE_STOP",
+    "predicted_label": "TRIM",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=really don t want this back into 20s.\nanalysis=really don t want this back into 20s. so taken partial stops now at 20s\ncurrent=So, taken partial, stops now at 20s",
+    "evidence_text": "stops now at 20s",
+    "current_text": "So, taken partial, stops now at 20s",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-01-30__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Jan-30__FoGikaeXCq8.txt",
+    "timecode": "01:18:47"
+  },
+  {
+    "fold": 1,
+    "true_label": "TRIM",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=right. you do not want it under here.\nanalysis=right. you do not want it under here. tp1 here. tp2 is up here. that ll be 100\ncurrent=TP1 here. TP2 is up here. That'll be 100",
+    "evidence_text": "At least trim some on that last push",
+    "current_text": "TP1 here. TP2 is up here. That'll be 100",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-01-30__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Jan-30__FoGikaeXCq8.txt",
+    "timecode": "00:28:44"
+  },
+  {
+    "fold": 1,
+    "true_label": "NO_ACTION",
+    "predicted_label": "MOVE_STOP",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=to 26000. so tp1 tp2.\ncurrent=Move your stop up now. Do not get caught",
+    "evidence_text": "Move your stop up now.",
+    "current_text": "Move your stop up now. Do not get caught",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-01-30__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Jan-30__FoGikaeXCq8.txt",
+    "timecode": "00:28:38"
+  },
+  {
+    "fold": 1,
+    "true_label": "NO_ACTION",
+    "predicted_label": "EXIT_ALL",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=candle. be very careful. sellers getting\nanalysis=candle. be very careful. sellers getting caught at 821s here. i will cut this at\ncurrent=caught at 821s here. I will cut this at",
+    "evidence_text": "out now. Taking that off.",
+    "current_text": "caught at 821s here. I will cut this at",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-01-30__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Jan-30__FoGikaeXCq8.txt",
+    "timecode": "00:49:42"
+  },
+  {
+    "fold": 1,
+    "true_label": "NO_ACTION",
+    "predicted_label": "ENTER_LONG",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=squeeze through 30s and then go for new\nanalysis=squeeze through 30s and then go for new highs. otherwise i will cut this to all\ncurrent=highs. Otherwise, I will cut this to all",
+    "evidence_text": "Otherwise, I will cut this to all together.",
+    "current_text": "highs. Otherwise, I will cut this to all",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-19__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-19__wDFcds1uct0.txt",
+    "timecode": "01:29:17"
+  },
+  {
+    "fold": 1,
+    "true_label": "NO_ACTION",
+    "predicted_label": "ENTER_SHORT",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=who __ told you\nanalysis=who __ told you here we go. let s __\ncurrent=Here we go. Let's [ __ ]",
+    "evidence_text": "Here we go. Let's [ __ ]",
+    "current_text": "Here we go. Let's [ __ ]",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-19__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-19__wDFcds1uct0.txt",
+    "timecode": "01:14:09"
+  },
+  {
+    "fold": 1,
+    "true_label": "NO_ACTION",
+    "predicted_label": "TRIM",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=but a little bit of size on here on that\nanalysis=but a little bit of size on here on that last push.\ncurrent=last push.",
+    "evidence_text": "But a little bit of size on here on that last push.",
+    "current_text": "last push.",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-19__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-19__wDFcds1uct0.txt",
+    "timecode": "02:23:44"
+  },
+  {
+    "fold": 1,
+    "true_label": "MOVE_TO_BREAKEVEN",
+    "predicted_label": "MOVE_STOP",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=i want to be careful here. sellers\nanalysis=i want to be careful here. sellers coming in at 30. so stop now breakeven.\ncurrent=coming in at 30. So stop now break even.",
+    "evidence_text": "So stop now break even.",
+    "current_text": "coming in at 30. So stop now break even.",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-19__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-19__wDFcds1uct0.txt",
+    "timecode": "00:56:37"
+  },
+  {
+    "fold": 1,
+    "true_label": "ENTER_SHORT",
+    "predicted_label": "ENTER_LONG",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=go.\nanalysis=go. a small size in this because it s very\ncurrent=A small size in this because it's very",
+    "evidence_text": "A small size in this because it's very very dangerous in a range, but I'm wondering if we're going to expand this range down into this blue box again.",
+    "current_text": "A small size in this because it's very",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-19__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-19__wDFcds1uct0.txt",
+    "timecode": "02:03:35"
+  },
+  {
+    "fold": 1,
+    "true_label": "NO_ACTION",
+    "predicted_label": "ENTER_SHORT",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=flush it. 100 points.\nanalysis=flush it. 100 points. i m in now. small size. watching this\ncurrent=I'm in now. Small size. Watching this",
+    "evidence_text": "I'm in now. Small size. Watching this",
+    "current_text": "I'm in now. Small size. Watching this",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-19__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-19__wDFcds1uct0.txt",
+    "timecode": "01:13:58"
+  },
+  {
+    "fold": 1,
+    "true_label": "NO_ACTION",
+    "predicted_label": "ENTER_LONG",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=LONG\nrecent=after this. all right so this is an\nanalysis=after this. all right so this is an area i would now look to short in once\ncurrent=area I would now look to short in once",
+    "evidence_text": "an area I would now look to short in",
+    "current_text": "area I would now look to short in once",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-19__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-19__wDFcds1uct0.txt",
+    "timecode": "00:56:23"
+  },
+  {
+    "fold": 1,
+    "true_label": "TRIM",
+    "predicted_label": "EXIT_ALL",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=hold now because now we ve caught. so\nanalysis=hold now because now we ve caught. so taking a piece out here into 70s. i d\ncurrent=taking a piece out here into 70s. I'd",
+    "evidence_text": "taking a piece out here into 70s.",
+    "current_text": "taking a piece out here into 70s. I'd",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-19__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-19__wDFcds1uct0.txt",
+    "timecode": "02:20:49"
+  },
+  {
+    "fold": 1,
+    "true_label": "MOVE_TO_BREAKEVEN",
+    "predicted_label": "TRIM",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=absorb here into this level. here we go.\nanalysis=absorb here into this level. here we go. so stop now moved to breakeven. and uh\ncurrent=So, stop now moved to break even. And uh",
+    "evidence_text": "So, stop now moved to break even.",
+    "current_text": "So, stop now moved to break even. And uh",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-19__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-19__wDFcds1uct0.txt",
+    "timecode": "00:58:16"
+  },
+  {
+    "fold": 1,
+    "true_label": "TRIM",
+    "predicted_label": "EXIT_ALL",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=don t want this reclaim. do not want to\nanalysis=don t want this reclaim. do not want to reclaim here. otherwise i ll cut it.\ncurrent=reclaim here. Otherwise, I'll cut it.",
+    "evidence_text": "Already pay myself a little bit.",
+    "current_text": "reclaim here. Otherwise, I'll cut it.",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-19__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-19__wDFcds1uct0.txt",
+    "timecode": "00:57:02"
+  },
+  {
+    "fold": 1,
+    "true_label": "NO_ACTION",
+    "predicted_label": "ENTER_SHORT",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=if we get lower prices here.\nanalysis=if we get lower prices here. still in this right i m still in this.\ncurrent=Still in this, right? I'm still in this.",
+    "evidence_text": "Still in this, right? I'm still in this.",
+    "current_text": "Still in this, right? I'm still in this.",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-03-05__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-March-05__Pq6mbAc66kI.txt",
+    "timecode": "01:18:28"
+  },
+  {
+    "fold": 1,
+    "true_label": "ENTER_SHORT",
+    "predicted_label": "ENTER_LONG",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=moment.\nanalysis=moment. absorbing 50s. all right i ve got a\ncurrent=Absorbing 50s. All right, I've got a",
+    "evidence_text": "All right, I've got a feeler on short here",
+    "current_text": "Absorbing 50s. All right, I've got a",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-03-05__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-March-05__Pq6mbAc66kI.txt",
+    "timecode": "01:35:09"
+  },
+  {
+    "fold": 1,
+    "true_label": "ENTER_SHORT",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=maybe i ll risk do i risk 70 do i give\nanalysis=maybe i ll risk do i risk 70 do i give it 20 points could risk give it 20\ncurrent=it 20 points? Could risk give it 20",
+    "evidence_text": "All right. Putting a little piece on here. Small size because we haven't",
+    "current_text": "it 20 points? Could risk give it 20",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-03-05__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-March-05__Pq6mbAc66kI.txt",
+    "timecode": "01:56:58"
+  },
+  {
+    "fold": 1,
+    "true_label": "NO_ACTION",
+    "predicted_label": "TRIM",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=basing around vwap. we ll be careful\nanalysis=basing around vwap. we ll be careful here. previous week value area high\ncurrent=here. Previous week value area high",
+    "evidence_text": "We look for previous week point control.",
+    "current_text": "here. Previous week value area high",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-03-05__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-March-05__Pq6mbAc66kI.txt",
+    "timecode": "01:14:36"
+  },
+  {
+    "fold": 1,
+    "true_label": "ENTER_SHORT",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=targeting downside here. we re looking\nanalysis=targeting downside here. we re looking for follow through. so i ve added back\ncurrent=for follow through. So, I've added back",
+    "evidence_text": "So, I've added back in on this.",
+    "current_text": "for follow through. So, I've added back",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-03-05__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-March-05__Pq6mbAc66kI.txt",
+    "timecode": "02:06:53"
+  },
+  {
+    "fold": 1,
+    "true_label": "NO_ACTION",
+    "predicted_label": "TRIM",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=rotation here we go here s the 100\nanalysis=rotation here we go here s the 100 checks so you can pay yourself some here\ncurrent=checks so you can pay yourself some here",
+    "evidence_text": "pay yourself some here",
+    "current_text": "checks so you can pay yourself some here",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-03-05__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-March-05__Pq6mbAc66kI.txt",
+    "timecode": "01:12:52"
+  },
+  {
+    "fold": 1,
+    "true_label": "NO_ACTION",
+    "predicted_label": "TRIM",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=but we expect chop. all right. it s the\nanalysis=but we expect chop. all right. it s the kind of condition we re in.\ncurrent=kind of condition we're in.",
+    "evidence_text": "we're still looking for pops to fail now",
+    "current_text": "kind of condition we're in.",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-03-05__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-March-05__Pq6mbAc66kI.txt",
+    "timecode": "01:13:46"
+  },
+  {
+    "fold": 1,
+    "true_label": "NO_ACTION",
+    "predicted_label": "ENTER_SHORT",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=all right. putting a little piece on\nanalysis=all right. putting a little piece on here. small size because we haven t\ncurrent=here. Small size because we haven't",
+    "evidence_text": "I will be interested under 50 for the short. I want to make that clear.",
+    "current_text": "here. Small size because we haven't",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-03-05__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-March-05__Pq6mbAc66kI.txt",
+    "timecode": "01:56:46"
+  },
+  {
+    "fold": 2,
+    "true_label": "NO_ACTION",
+    "predicted_label": "ENTER_SHORT",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=now.\nanalysis=now. so flat on this. give it a moment to\ncurrent=So flat on this. Give it a moment to",
+    "evidence_text": "So flat on this.",
+    "current_text": "So flat on this. Give it a moment to",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-12-09__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Dec-09__zRQV4N3i_PU.txt",
+    "timecode": "01:58:02"
+  },
+  {
+    "fold": 2,
+    "true_label": "ENTER_SHORT",
+    "predicted_label": "TRIM",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=90. here we go folks. here we go. here\nanalysis=90. here we go folks. here we go. here we go. okay in now. let s see if we can\ncurrent=we go. Okay, in now. Let's see if we can",
+    "evidence_text": "Okay, in now.",
+    "current_text": "we go. Okay, in now. Let's see if we can",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-12-09__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Dec-09__zRQV4N3i_PU.txt",
+    "timecode": "02:19:24"
+  },
+  {
+    "fold": 2,
+    "true_label": "NO_ACTION",
+    "predicted_label": "ENTER_SHORT",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=here we go. all right last attempt.\nanalysis=here we go. all right last attempt. don t you __ me over\ncurrent=Don't you [ __ ] me over,",
+    "evidence_text": "All right, last attempt.",
+    "current_text": "Don't you [ __ ] me over,",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-12-09__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Dec-09__zRQV4N3i_PU.txt",
+    "timecode": "02:28:41"
+  },
+  {
+    "fold": 2,
+    "true_label": "ENTER_SHORT",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=watching 85s.\nanalysis=watching 85s. nice rejection there. all right i ll\ncurrent=Nice rejection there. All right, I'll",
+    "evidence_text": "Nice rejection there. All right, I'll put a little piece on here just in case",
+    "current_text": "Nice rejection there. All right, I'll",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/transcript_05.03.26.txt",
+    "timecode": "02:14:42"
+  },
+  {
+    "fold": 2,
+    "true_label": "ENTER_SHORT",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=need to see buyers get caught. 70 is\nanalysis=need to see buyers get caught. 70 is definitely a big level where buyers keep\ncurrent=definitely a big level where buyers keep",
+    "evidence_text": "I've got a feeler on short here",
+    "current_text": "definitely a big level where buyers keep",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/transcript_05.03.26.txt",
+    "timecode": "01:34:58"
+  },
+  {
+    "fold": 2,
+    "true_label": "NO_ACTION",
+    "predicted_label": "ENTER_SHORT",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=we re going to really flush. i m short\nanalysis=we re going to really flush. i m short again now. and i m going to add on a pop\ncurrent=again now. And I'm going to add on a pop",
+    "evidence_text": "And I'm going to add on a pop now",
+    "current_text": "again now. And I'm going to add on a pop",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/transcript_05.03.26.txt",
+    "timecode": "01:09:17"
+  },
+  {
+    "fold": 2,
+    "true_label": "NO_ACTION",
+    "predicted_label": "EXIT_ALL",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=want to do it. they don t want to do it.\nanalysis=want to do it. they don t want to do it. i m not going to give back. that s just\ncurrent=I'm not going to give back. That's just",
+    "evidence_text": "If they reclaim this completely out and I'll be done for the day.",
+    "current_text": "I'm not going to give back. That's just",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/transcript_05.03.26.txt",
+    "timecode": "02:21:13"
+  },
+  {
+    "fold": 2,
+    "true_label": "ENTER_SHORT",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=buyer from earlier i m looking to use\nanalysis=buyer from earlier i m looking to use this buyer s pain from earlier. right\ncurrent=this buyer's pain from earlier. Right?",
+    "evidence_text": "So, I've added back in on this. So, I cut that first one. Added back in on this.",
+    "current_text": "this buyer's pain from earlier. Right?",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/transcript_05.03.26.txt",
+    "timecode": "02:07:08"
+  },
+  {
+    "fold": 2,
+    "true_label": "MOVE_STOP",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=then this buyer gets liquidated and we\nanalysis=then this buyer gets liquidated and we get a run of stops. right. so i m going\ncurrent=get a run of stops. Right. So I'm going",
+    "evidence_text": "Right. So I'm going to risk up to sort of 6570 here on this short.",
+    "current_text": "get a run of stops. Right. So I'm going",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/transcript_05.03.26.txt",
+    "timecode": "01:58:38"
+  },
+  {
+    "fold": 2,
+    "true_label": "NO_ACTION",
+    "predicted_label": "TRIM",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=up into fair value now.\ncurrent=I just moved a level there. I think I",
+    "evidence_text": "I just moved a level there.",
+    "current_text": "I just moved a level there. I think I",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/transcript_05.03.26.txt",
+    "timecode": "02:36:11"
+  },
+  {
+    "fold": 2,
+    "true_label": "NO_ACTION",
+    "predicted_label": "ENTER_LONG",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=NONE\nrecent=market at the moment.\ncurrent=They're not done selling this yet. I'd",
+    "evidence_text": "They're not done selling this yet. I'd like to see this pull up a little bit if I'm going to sell it.",
+    "current_text": "They're not done selling this yet. I'd",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-12-02__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Dec-02__O20LiuaGdhM.txt",
+    "timecode": "01:18:49"
+  },
+  {
+    "fold": 2,
+    "true_label": "NO_ACTION",
+    "predicted_label": "MOVE_STOP",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=to move my runner lower at this point\nanalysis=to move my runner lower at this point because we ve locked in some good money.\ncurrent=because we've locked in some good money.",
+    "evidence_text": "I'm going to move my runner lower at this point",
+    "current_text": "because we've locked in some good money.",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-12-02__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Dec-02__O20LiuaGdhM.txt",
+    "timecode": "02:19:40"
+  },
+  {
+    "fold": 2,
+    "true_label": "NO_ACTION",
+    "predicted_label": "TRIM",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=some covering here into 45s. i still\nanalysis=some covering here into 45s. i still think we re going to sell through it. i\ncurrent=think we're going to sell through it. I",
+    "evidence_text": "I still think we're going to sell through it.",
+    "current_text": "think we're going to sell through it. I",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-12-02__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Dec-02__O20LiuaGdhM.txt",
+    "timecode": "02:00:47"
+  },
+  {
+    "fold": 2,
+    "true_label": "NO_ACTION",
+    "predicted_label": "EXIT_ALL",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=clears throat do that can cause a\nanalysis=clears throat do that can cause a squeeze out to 70. all right. i m not\ncurrent=squeeze out to 70. All right. I'm not",
+    "evidence_text": "I'm not looking for longs in this, by the way.",
+    "current_text": "squeeze out to 70. All right. I'm not",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-12-02__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Dec-02__O20LiuaGdhM.txt",
+    "timecode": "02:04:53"
+  },
+  {
+    "fold": 2,
+    "true_label": "NO_ACTION",
+    "predicted_label": "ENTER_SHORT",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=NONE\nrecent=draw from here to here just in case we\nanalysis=draw from here to here just in case we got this to add heavy. we didn t. so\ncurrent=got this to add heavy. We didn't. So,",
+    "evidence_text": "So, cut it.",
+    "current_text": "got this to add heavy. We didn't. So,",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-12-31__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Dec-31__Z2B9s_s_0Lg.txt",
+    "timecode": "00:47:18"
+  },
+  {
+    "fold": 2,
+    "true_label": "NO_ACTION",
+    "predicted_label": "ENTER_LONG",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=LONG\nrecent=through ib. so if you think about what\nanalysis=through ib. so if you think about what we re doing right now we re long in\ncurrent=we're doing right now, we're long in",
+    "evidence_text": "we're long in relative strength based on where we're positioned to IB.",
+    "current_text": "we're doing right now, we're long in",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-12-31__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Dec-31__Z2B9s_s_0Lg.txt",
+    "timecode": "02:14:07"
+  },
+  {
+    "fold": 2,
+    "true_label": "NO_ACTION",
+    "predicted_label": "ENTER_LONG",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=LONG\nrecent=this trade here\nanalysis=this trade here ideally and i will join in here.\ncurrent=ideally and I will join in here.",
+    "evidence_text": "ideally and I will join in here.",
+    "current_text": "ideally and I will join in here.",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-10-02__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-02__Zl2QdVODp_0.txt",
+    "timecode": "02:11:32"
+  },
+  {
+    "fold": 2,
+    "true_label": "EXIT_ALL",
+    "predicted_label": "TRIM",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=don t want to miss a huge swipe.\ncurrent=ES doesn't want to go. I'm going to take",
+    "evidence_text": "ES doesn't want to go. I'm going to take this off.",
+    "current_text": "ES doesn't want to go. I'm going to take",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-10-02__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-02__Zl2QdVODp_0.txt",
+    "timecode": "00:49:30"
+  },
+  {
+    "fold": 2,
+    "true_label": "EXIT_ALL",
+    "predicted_label": "TRIM",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=filled. and that is some serious size.\nanalysis=filled. and that is some serious size. all right. taking this off here. can\ncurrent=All right. Taking this off here. Can",
+    "evidence_text": "All right. Taking this off here.",
+    "current_text": "All right. Taking this off here. Can",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-10-02__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-02__Zl2QdVODp_0.txt",
+    "timecode": "00:24:36"
+  },
+  {
+    "fold": 2,
+    "true_label": "NO_ACTION",
+    "predicted_label": "ENTER_LONG",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=LONG\nrecent=what a pain in the butt. all right\nanalysis=what a pain in the butt. all right squeeze long here then. is it watching\ncurrent=squeeze long here then. Is it watching?",
+    "evidence_text": "squeeze long here then. Is it watching?",
+    "current_text": "squeeze long here then. Is it watching?",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-10-02__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-02__Zl2QdVODp_0.txt",
+    "timecode": "00:47:29"
+  },
+  {
+    "fold": 2,
+    "true_label": "ENTER_LONG",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=LONG\nrecent=that we don t get it at all.\nanalysis=that we don t get it at all. okay so i m buying here.\ncurrent=Okay, so I'm buying here.",
+    "evidence_text": "Okay, so I'm buying here.",
+    "current_text": "Okay, so I'm buying here.",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-10-02__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-02__Zl2QdVODp_0.txt",
+    "timecode": "00:39:00"
+  },
+  {
+    "fold": 2,
+    "true_label": "NO_ACTION",
+    "predicted_label": "TRIM",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=NONE\nrecent=this is level of interest here. so\nanalysis=this is level of interest here. so taking a little tickle off here. let s\ncurrent=taking a little tickle off here. Let's",
+    "evidence_text": "Taking a little tickle off here. Let's see if we find a bid here or here.",
+    "current_text": "taking a little tickle off here. Let's",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-10-09__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-09__xUYbiyxy2ns.txt",
+    "timecode": "00:29:36"
+  },
+  {
+    "fold": 2,
+    "true_label": "TRIM",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=NONE\nrecent=of that old range.\ncurrent=So yeah, we were short. I was short for",
+    "evidence_text": "So yeah, we were short. I was short for the breakdown to this and 90% out.",
+    "current_text": "So yeah, we were short. I was short for",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-10-09__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-09__xUYbiyxy2ns.txt",
+    "timecode": "00:31:38"
+  },
+  {
+    "fold": 2,
+    "true_label": "EXIT_ALL",
+    "predicted_label": "TRIM",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=week. so trimming some here. and if we\nanalysis=week. so trimming some here. and if we drop below 16 i m out. i m out now.\ncurrent=drop below 16, I'm out. I'm out now.",
+    "evidence_text": "I'm out now.",
+    "current_text": "drop below 16, I'm out. I'm out now.",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-12-19__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Dec-19__1G2AsmIy384.txt",
+    "timecode": "00:21:01"
+  },
+  {
+    "fold": 2,
+    "true_label": "NO_ACTION",
+    "predicted_label": "MOVE_STOP",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=spike. at least at the very least move\nanalysis=spike. at least at the very least move your stop into the money. um excellent\ncurrent=your stop into the money. Um, excellent",
+    "evidence_text": "At least at the very least move your stop into the money.",
+    "current_text": "your stop into the money. Um, excellent",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-01-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Jan-14__pSVsCL7C1QY.txt",
+    "timecode": "02:44:00"
+  },
+  {
+    "fold": 2,
+    "true_label": "TRIM",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=exactly what we want to be doing.\nanalysis=exactly what we want to be doing. good confluence. pay yourself along the\ncurrent=Good confluence. Pay yourself along the",
+    "evidence_text": "Pay yourself along the way.",
+    "current_text": "Good confluence. Pay yourself along the",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-01-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Jan-14__pSVsCL7C1QY.txt",
+    "timecode": "02:39:44"
+  },
+  {
+    "fold": 2,
+    "true_label": "NO_ACTION",
+    "predicted_label": "TRIM",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=previous week open now. 430s cover\nanalysis=previous week open now. 430s cover point. previous week open through that\ncurrent=point. Previous week open through that",
+    "evidence_text": "430s cover point.",
+    "current_text": "point. Previous week open through that",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-01-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Jan-14__pSVsCL7C1QY.txt",
+    "timecode": "02:43:22"
+  },
+  {
+    "fold": 2,
+    "true_label": "TRIM",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=you re very close to those 30s. don t be\nanalysis=you re very close to those 30s. don t be a dick for a couple points or whatever\ncurrent=a dick for a couple points or whatever",
+    "evidence_text": "and pay yourself along the way here.",
+    "current_text": "a dick for a couple points or whatever",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-01-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Jan-14__pSVsCL7C1QY.txt",
+    "timecode": "02:40:20"
+  },
+  {
+    "fold": 2,
+    "true_label": "ENTER_SHORT",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=NONE\nrecent=these 700s once we lose these. i m\nanalysis=these 700s once we lose these. i m looking for 685s. here we go. bang.\ncurrent=looking for 685s. Here we go. Bang.",
+    "evidence_text": "Here we go. Bang.",
+    "current_text": "looking for 685s. Here we go. Bang.",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-01-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Jan-14__pSVsCL7C1QY.txt",
+    "timecode": "00:19:29"
+  },
+  {
+    "fold": 2,
+    "true_label": "NO_ACTION",
+    "predicted_label": "TRIM",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=breakaway guys. here s the low of day\nanalysis=breakaway guys. here s the low of day value area low here. so cover point\ncurrent=value area low here. So, cover point",
+    "evidence_text": "So, cover point here.",
+    "current_text": "value area low here. So, cover point",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-01-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Jan-14__pSVsCL7C1QY.txt",
+    "timecode": "02:34:53"
+  },
+  {
+    "fold": 2,
+    "true_label": "NO_ACTION",
+    "predicted_label": "MOVE_STOP",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=sort of 70s to 90s. oh just going to\nanalysis=sort of 70s to 90s. oh just going to use my runner only. am i you mother\ncurrent=use my runner only. Am I? You mother",
+    "evidence_text": "Oh, just going to use my runner only. Am I?",
+    "current_text": "use my runner only. Am I? You mother",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-01-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Jan-14__pSVsCL7C1QY.txt",
+    "timecode": "00:32:40"
+  },
+  {
+    "fold": 2,
+    "true_label": "EXIT_ALL",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=new york you might get a squeeze back\nanalysis=new york you might get a squeeze back up before we come back down for it. so\ncurrent=up before we come back down for it. So,",
+    "evidence_text": "in fact, let me just take this off. I",
+    "current_text": "up before we come back down for it. So,",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-11-04__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-04__7efjnZB_y5w.txt",
+    "timecode": "02:20:27"
+  },
+  {
+    "fold": 2,
+    "true_label": "MOVE_STOP",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=can learn what did you see to take the\nanalysis=can learn what did you see to take the short okay can do that let me just move\ncurrent=short okay can do that let me just move",
+    "evidence_text": "short okay can do that let me just move",
+    "current_text": "short okay can do that let me just move",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-11-04__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-04__7efjnZB_y5w.txt",
+    "timecode": "02:14:56"
+  },
+  {
+    "fold": 2,
+    "true_label": "ENTER_SHORT",
+    "predicted_label": "ENTER_LONG",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=NONE\nrecent=starter in here soon.\nanalysis=starter in here soon. okay starting in. i want to see flush\ncurrent=Okay, starting in. I want to see flush",
+    "evidence_text": "Okay, starting in. I want to see flush",
+    "current_text": "Okay, starting in. I want to see flush",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-11-04__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-04__7efjnZB_y5w.txt",
+    "timecode": "01:39:32"
+  },
+  {
+    "fold": 2,
+    "true_label": "NO_ACTION",
+    "predicted_label": "EXIT_ALL",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=points away. don t let this flush you\nanalysis=points away. don t let this flush you out 60 70 points. right. just move your\ncurrent=out 60 70 points. Right. Just move your",
+    "evidence_text": "Just move your stop up. Lock it in.",
+    "current_text": "out 60 70 points. Right. Just move your",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-01-29__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Jan-29__f48VIDiR73M.txt",
+    "timecode": "03:08:05"
+  },
+  {
+    "fold": 2,
+    "true_label": "ENTER_LONG",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=LONG\nrecent=watching these 600s and if we get relief\nanalysis=watching these 600s and if we get relief through that 40s. got a tiny tiny tiny\ncurrent=through that 40s. Got a tiny tiny tiny",
+    "evidence_text": "Got a tiny tiny tiny piece on",
+    "current_text": "through that 40s. Got a tiny tiny tiny",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-01-29__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Jan-29__f48VIDiR73M.txt",
+    "timecode": "01:55:27"
+  },
+  {
+    "fold": 2,
+    "true_label": "NO_ACTION",
+    "predicted_label": "ENTER_LONG",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=LONG\nrecent=this for a little upside squeeze here.\ncurrent=Thank you.",
+    "evidence_text": "I'm interested in this for a little upside squeeze here.",
+    "current_text": "Thank you.",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-01-29__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Jan-29__f48VIDiR73M.txt",
+    "timecode": "01:47:08"
+  },
+  {
+    "fold": 2,
+    "true_label": "ENTER_SHORT",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=this might be it folks.\nanalysis=this might be it folks. yep. okay. trading this back downside at\ncurrent=Yep. Okay. Trading this back downside at",
+    "evidence_text": "Yep. Okay. Trading this back downside at the moment.",
+    "current_text": "Yep. Okay. Trading this back downside at",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-01-29__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Jan-29__f48VIDiR73M.txt",
+    "timecode": "00:41:12"
+  },
+  {
+    "fold": 2,
+    "true_label": "NO_ACTION",
+    "predicted_label": "MOVE_STOP",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=go. they re lifting. they re lifting.\nanalysis=go. they re lifting. they re lifting. they re lifting. keep moving that stop\ncurrent=They're lifting. Keep moving that stop",
+    "evidence_text": "Keep moving that stop",
+    "current_text": "They're lifting. Keep moving that stop",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-01-29__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Jan-29__f48VIDiR73M.txt",
+    "timecode": "03:06:16"
+  },
+  {
+    "fold": 2,
+    "true_label": "TRIM",
+    "predicted_label": "ENTER_SHORT",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=NONE\nrecent=lower. here you go. here s the move to\nanalysis=lower. here you go. here s the move to value. so in this short trimming some\ncurrent=value. So, in this short, trimming some",
+    "evidence_text": "in this short, trimming some into value now",
+    "current_text": "value. So, in this short, trimming some",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-01-29__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Jan-29__f48VIDiR73M.txt",
+    "timecode": "00:22:53"
+  },
+  {
+    "fold": 2,
+    "true_label": "NO_ACTION",
+    "predicted_label": "TRIM",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=block to block. here you go. here we go.\nanalysis=block to block. here you go. here we go. there you go. boom. you should be done.\ncurrent=There you go. Boom. You should be done.",
+    "evidence_text": "Boom. You should be done.",
+    "current_text": "There you go. Boom. You should be done.",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-01-29__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Jan-29__f48VIDiR73M.txt",
+    "timecode": "03:14:30"
+  },
+  {
+    "fold": 2,
+    "true_label": "NO_ACTION",
+    "predicted_label": "ENTER_LONG",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=LONG\nrecent=small cap based.\nanalysis=small cap based. so like ducks nate guys like that.\ncurrent=So like ducks, Nate, guys like that.",
+    "evidence_text": "So, I'm long biased this morning.",
+    "current_text": "So like ducks, Nate, guys like that.",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-03-10__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-March-10__vNEMeIAglqE.txt",
+    "timecode": "02:41:13"
+  },
+  {
+    "fold": 2,
+    "true_label": "MOVE_STOP",
+    "predicted_label": "EXIT_ALL",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=of day. here we go. is a 25000 check.\ncurrent=Stops now in the money.",
+    "evidence_text": "Stops now in the money.",
+    "current_text": "Stops now in the money.",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-03-10__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-March-10__vNEMeIAglqE.txt",
+    "timecode": "00:56:40"
+  },
+  {
+    "fold": 2,
+    "true_label": "MOVE_STOP",
+    "predicted_label": "ENTER_LONG",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=come on baby. come on baby.\nanalysis=come on baby. come on baby. all right stops moved to 55 now.\ncurrent=All right, stops moved to 55 now.",
+    "evidence_text": "All right, stops moved to 55 now.",
+    "current_text": "All right, stops moved to 55 now.",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-03-10__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-March-10__vNEMeIAglqE.txt",
+    "timecode": "01:29:50"
+  },
+  {
+    "fold": 2,
+    "true_label": "NO_ACTION",
+    "predicted_label": "EXIT_ALL",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=NONE\nrecent=build out a lot of volume down here.\nanalysis=build out a lot of volume down here. now i would be out of 90 of my shorts\ncurrent=Now, I would be out of 90% of my shorts",
+    "evidence_text": "Now, I would be out of 90% of my shorts now.",
+    "current_text": "Now, I would be out of 90% of my shorts",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-12-15__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Dec-15__xoJvsEFv57s.txt",
+    "timecode": "01:07:29"
+  },
+  {
+    "fold": 2,
+    "true_label": "MOVE_STOP",
+    "predicted_label": "TRIM",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=NONE\nrecent=cathering some more. can we get follow\nanalysis=cathering some more. can we get follow through to 60s stop moved in now. let s\ncurrent=through to 60s? Stop moved in now. Let's",
+    "evidence_text": "Stop moved in now.",
+    "current_text": "through to 60s? Stop moved in now. Let's",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-01-05__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Jan-05__8J12t69s4Y8.txt",
+    "timecode": "00:25:38"
+  },
+  {
+    "fold": 2,
+    "true_label": "TRIM",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=very whippy.\ncurrent=Back to the sixes. Down to tiny size",
+    "evidence_text": "Paid myself either way here.",
+    "current_text": "Back to the sixes. Down to tiny size",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-01-05__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Jan-05__8J12t69s4Y8.txt",
+    "timecode": "00:25:53"
+  },
+  {
+    "fold": 2,
+    "true_label": "NO_ACTION",
+    "predicted_label": "EXIT_ALL",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=LONG\nrecent=yeah he s stepping on the tape here. h\nanalysis=yeah he s stepping on the tape here. h i might be done with it.\ncurrent=I might be done with it.",
+    "evidence_text": "Close me out, please.",
+    "current_text": "I might be done with it.",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-01-05__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Jan-05__8J12t69s4Y8.txt",
+    "timecode": "02:52:15"
+  },
+  {
+    "fold": 2,
+    "true_label": "TRIM",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=possible that like if i was a seller\nanalysis=possible that like if i was a seller i d be selling into that move but it s\ncurrent=I'd be selling into that move, but it's",
+    "evidence_text": "So, peel some off here.",
+    "current_text": "I'd be selling into that move, but it's",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-01-05__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Jan-05__8J12t69s4Y8.txt",
+    "timecode": "00:36:26"
+  },
+  {
+    "fold": 2,
+    "true_label": "EXIT_ALL",
+    "predicted_label": "ENTER_SHORT",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=just got caught under 60. i m completely\nanalysis=just got caught under 60. i m completely flat now folks.\ncurrent=flat now, folks.",
+    "evidence_text": "I'm completely flat now, folks.",
+    "current_text": "flat now, folks.",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-01-05__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Jan-05__8J12t69s4Y8.txt",
+    "timecode": "00:27:23"
+  },
+  {
+    "fold": 2,
+    "true_label": "TRIM",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=SHORT\nrecent=738. yeah. so that looks good. so i\nanalysis=738. yeah. so that looks good. so i would be trimming your longs now. all\ncurrent=would be trimming your longs now. All",
+    "evidence_text": "I would be trimming your longs now.",
+    "current_text": "would be trimming your longs now. All",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-01-05__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Jan-05__8J12t69s4Y8.txt",
+    "timecode": "02:39:28"
+  },
+  {
+    "fold": 2,
+    "true_label": "EXIT_ALL",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=__ spy. can t get back under 82.\nanalysis=__ spy. can t get back under 82. i m flat. i m flat. i ll get back in if\ncurrent=I'm flat. I'm flat. I'll get back in if",
+    "evidence_text": "I'm flat. I'm flat. I'll get back in if I want to. I'm flat now.",
+    "current_text": "I'm flat. I'm flat. I'll get back in if",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-12-04__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Dec-04__yh7u-2Ad2Vc.txt",
+    "timecode": "01:58:25"
+  },
+  {
+    "fold": 2,
+    "true_label": "NO_ACTION",
+    "predicted_label": "MOVE_TO_BREAKEVEN",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=we go back into rotation. so it s about\nanalysis=we go back into rotation. so it s about to stop our breakeven here.\ncurrent=to stop our break even here.",
+    "evidence_text": "So it's about to stop our break even here.",
+    "current_text": "to stop our break even here.",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-12-04__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Dec-04__yh7u-2Ad2Vc.txt",
+    "timecode": "01:57:45"
+  },
+  {
+    "fold": 2,
+    "true_label": "NO_ACTION",
+    "predicted_label": "EXIT_ALL",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=in if we base over value.\nanalysis=in if we base over value. coming in. you re going to take me out\ncurrent=Coming in. You're going to take me out,",
+    "evidence_text": "Coming in. You're going to take me out, aren't you?",
+    "current_text": "Coming in. You're going to take me out,",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-12-17__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Dec-17__khF45LUe20Q.txt",
+    "timecode": "02:52:09"
+  },
+  {
+    "fold": 2,
+    "true_label": "MOVE_STOP",
+    "predicted_label": "EXIT_ALL",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=want to go in that low volume node. 37s\nanalysis=want to go in that low volume node. 37s let s say. don t want it under 37s on\ncurrent=let's say. Don't want it under 37s on",
+    "evidence_text": "Don't want it under 37s on this runner.",
+    "current_text": "let's say. Don't want it under 37s on",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-12-17__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Dec-17__khF45LUe20Q.txt",
+    "timecode": "02:52:02"
+  },
+  {
+    "fold": 2,
+    "true_label": "EXIT_ALL",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=those lows.\nanalysis=those lows. flat now plus 800. really nice. really\ncurrent=Flat now plus 800. Really nice. Really",
+    "evidence_text": "Flat now plus 800.",
+    "current_text": "Flat now plus 800. Really nice. Really",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-12-17__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Dec-17__khF45LUe20Q.txt",
+    "timecode": "02:27:14"
+  },
+  {
+    "fold": 2,
+    "true_label": "TRIM",
+    "predicted_label": "ENTER_LONG",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=here we go. here we go. fantastic.\nanalysis=here we go. here we go. fantastic. all right. i m going to sell a little\ncurrent=All right. I'm going to sell a little",
+    "evidence_text": "All right. I'm going to sell a little bit of a pop into this because buyers just came in there and got hit with a refresh seller.",
+    "current_text": "All right. I'm going to sell a little",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-12-17__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Dec-17__khF45LUe20Q.txt",
+    "timecode": "00:27:52"
+  },
+  {
+    "fold": 2,
+    "true_label": "ENTER_LONG",
+    "predicted_label": "ENTER_SHORT",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=they ve got to hold a flush into 17s.\nanalysis=they ve got to hold a flush into 17s. small size in this just in case it\ncurrent=Small size in this just in case it",
+    "evidence_text": "Small size in this just in case it really wants to go.",
+    "current_text": "Small size in this just in case it",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-12-17__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Dec-17__khF45LUe20Q.txt",
+    "timecode": "02:50:25"
+  },
+  {
+    "fold": 2,
+    "true_label": "NO_ACTION",
+    "predicted_label": "ENTER_SHORT",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=stepping in around 34s.\nanalysis=stepping in around 34s. me interested in this short. if we start\ncurrent=Me interested in this short. If we start",
+    "evidence_text": "Me interested in this short.",
+    "current_text": "Me interested in this short. If we start",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-23__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-23__VLIAlGTKGVY.txt",
+    "timecode": "00:44:03"
+  },
+  {
+    "fold": 2,
+    "true_label": "ENTER_LONG",
+    "predicted_label": "ENTER_SHORT",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=LONG\nrecent=this break here if you want. i ve got a\nanalysis=this break here if you want. i ve got a little piece on for this break\ncurrent=little piece on for this break",
+    "evidence_text": "I've got a little piece on for this break",
+    "current_text": "little piece on for this break",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/transcript.txt",
+    "timecode": "00:21:49"
+  },
+  {
+    "fold": 3,
+    "true_label": "MOVE_TO_BREAKEVEN",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=maybe one more push of excess.\ncurrent=Do you know what? I'm going to protect",
+    "evidence_text": "Do you know what? I'm going to protect myself and move that stop beat break even.",
+    "current_text": "Do you know what? I'm going to protect",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-18__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-18__-W1tKjAWHpI.txt",
+    "timecode": "01:15:12"
+  },
+  {
+    "fold": 3,
+    "true_label": "ENTER_SHORT",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=this very very carefully.\nanalysis=this very very carefully. back down to this buyers average at 50.\ncurrent=Back down to this buyers average at 50.",
+    "evidence_text": "Got a small piece on here now.",
+    "current_text": "Back down to this buyers average at 50.",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-18__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-18__-W1tKjAWHpI.txt",
+    "timecode": "01:19:35"
+  },
+  {
+    "fold": 3,
+    "true_label": "ENTER_SHORT",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=starting to see it back towards the 50s.\nanalysis=starting to see it back towards the 50s. i just got one. thank you. back towards\ncurrent=I just got one. Thank you. Back towards",
+    "evidence_text": "I just got one. Thank you.",
+    "current_text": "I just got one. Thank you. Back towards",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-18__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-18__-W1tKjAWHpI.txt",
+    "timecode": "01:32:16"
+  },
+  {
+    "fold": 3,
+    "true_label": "NO_ACTION",
+    "predicted_label": "ENTER_LONG",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=LONG\nrecent=here you go. here you go. here you go.\nanalysis=here you go. here you go. here you go. three ticks away. fill them for their\ncurrent=Three ticks away. fill them for their",
+    "evidence_text": "Three ticks away. fill them for their",
+    "current_text": "Three ticks away. fill them for their",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-01-27__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Jan-27__9s_n89lBCVU.txt",
+    "timecode": "02:02:57"
+  },
+  {
+    "fold": 3,
+    "true_label": "EXIT_ALL",
+    "predicted_label": "TRIM",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=you you let s go.\nanalysis=you you let s go. let s go. job done. thanks very much.\ncurrent=Let's go. Job done. Thanks very much.",
+    "evidence_text": "Let's go. Job done.",
+    "current_text": "Let's go. Job done. Thanks very much.",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-01-27__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Jan-27__9s_n89lBCVU.txt",
+    "timecode": "00:47:21"
+  },
+  {
+    "fold": 3,
+    "true_label": "NO_ACTION",
+    "predicted_label": "TRIM",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=here. i do not want to see 267 go. so\nanalysis=here. i do not want to see 267 go. so at least move it to 26000. here we go.\ncurrent=at least move it to 26,000. Here we go.",
+    "evidence_text": "at least move it to 26,000.",
+    "current_text": "at least move it to 26,000. Here we go.",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-01-27__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Jan-27__9s_n89lBCVU.txt",
+    "timecode": "00:47:15"
+  },
+  {
+    "fold": 3,
+    "true_label": "NO_ACTION",
+    "predicted_label": "EXIT_ALL",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=well. come on. give me 47s baby. let s\nanalysis=well. come on. give me 47s baby. let s get a limit order out there.\ncurrent=get a limit order out there.",
+    "evidence_text": "get a limit order out there.",
+    "current_text": "get a limit order out there.",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-01-27__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Jan-27__9s_n89lBCVU.txt",
+    "timecode": "00:46:01"
+  },
+  {
+    "fold": 3,
+    "true_label": "NO_ACTION",
+    "predicted_label": "EXIT_ALL",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=LONG\nrecent=get it we hit it. woohoo. happy ending.\nanalysis=get it we hit it. woohoo. happy ending. that guy just got taken out.\ncurrent=That guy just got taken out.",
+    "evidence_text": "We hit it. Woohoo. Happy ending.",
+    "current_text": "That guy just got taken out.",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-01-27__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Jan-27__9s_n89lBCVU.txt",
+    "timecode": "02:09:01"
+  },
+  {
+    "fold": 3,
+    "true_label": "EXIT_ALL",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=talked about. once they lifted through i\nanalysis=talked about. once they lifted through i covered uh my runner where i was hoping\ncurrent=covered uh my runner where I was hoping",
+    "evidence_text": "I covered uh my runner",
+    "current_text": "covered uh my runner where I was hoping",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-04__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-04__s0Wd5wkYDC0.txt",
+    "timecode": "01:05:36"
+  },
+  {
+    "fold": 3,
+    "true_label": "NO_ACTION",
+    "predicted_label": "ENTER_SHORT",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=think about 25000\nanalysis=think about 25000 now. and here we go. here s the wish\ncurrent=now. And here we go. Here's the wish",
+    "evidence_text": "Some of your wish orders should be getting hit here.",
+    "current_text": "now. And here we go. Here's the wish",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-04__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-04__s0Wd5wkYDC0.txt",
+    "timecode": "02:31:38"
+  },
+  {
+    "fold": 3,
+    "true_label": "NO_ACTION",
+    "predicted_label": "EXIT_ALL",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=get out of my way. get out of my way.\nanalysis=get out of my way. get out of my way. get out of my way. thank you very much.\ncurrent=Get out of my way. Thank you very much.",
+    "evidence_text": "Get out of my way. Get out of my way. Get out of my way. Thank you very much. Nothing but nets on Flowzone Trader.",
+    "current_text": "Get out of my way. Thank you very much.",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-04__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-04__s0Wd5wkYDC0.txt",
+    "timecode": "00:49:19"
+  },
+  {
+    "fold": 3,
+    "true_label": "EXIT_ALL",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=is where i d love to get short.\nanalysis=is where i d love to get short. so flat now and just waiting. i m not\ncurrent=So, flat now and just waiting. I'm not",
+    "evidence_text": "So, flat now and just waiting.",
+    "current_text": "So, flat now and just waiting. I'm not",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-04__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-04__s0Wd5wkYDC0.txt",
+    "timecode": "00:28:27"
+  },
+  {
+    "fold": 3,
+    "true_label": "ENTER_SHORT",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=nothing. so i was like right well i m\nanalysis=nothing. so i was like right well i m joining short risking that and if we\ncurrent=joining short risking that and if we",
+    "evidence_text": "I'm joining short risking that",
+    "current_text": "joining short risking that and if we",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-04__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-04__s0Wd5wkYDC0.txt",
+    "timecode": "01:05:14"
+  },
+  {
+    "fold": 3,
+    "true_label": "NO_ACTION",
+    "predicted_label": "ENTER_SHORT",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=now being developed down here. there s\nanalysis=now being developed down here. there s the drive back in towards 46es. if they\ncurrent=the drive back in towards 46es. If they",
+    "evidence_text": "Probably look to resell",
+    "current_text": "the drive back in towards 46es. If they",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-04__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-04__s0Wd5wkYDC0.txt",
+    "timecode": "03:22:32"
+  },
+  {
+    "fold": 3,
+    "true_label": "ENTER_SHORT",
+    "predicted_label": "ENTER_LONG",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=NONE\nrecent=go.\nanalysis=go. and can we get all the way down so in\ncurrent=And can we get all the way down? So, in",
+    "evidence_text": "And can we get all the way down? So, in the short now, beautiful",
+    "current_text": "And can we get all the way down? So, in",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-09-30__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-September-30__3dbvmU4XRoA.txt",
+    "timecode": "00:25:25"
+  },
+  {
+    "fold": 3,
+    "true_label": "TRIM",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=week open here can we keep going can\nanalysis=week open here can we keep going can we keep going can we keep going taking\ncurrent=we keep going? Can we keep going? Taking",
+    "evidence_text": "Can we keep going? Taking more here.",
+    "current_text": "we keep going? Can we keep going? Taking",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-09-30__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-September-30__3dbvmU4XRoA.txt",
+    "timecode": "01:47:56"
+  },
+  {
+    "fold": 3,
+    "true_label": "ENTER_LONG",
+    "predicted_label": "TRIM",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=unfortunately but we look good for more\nanalysis=unfortunately but we look good for more upside. so rejoining this a little bit\ncurrent=upside. So, rejoining this a little bit",
+    "evidence_text": "So, rejoining this a little bit here into this next anchor.",
+    "current_text": "upside. So, rejoining this a little bit",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-09-30__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-September-30__3dbvmU4XRoA.txt",
+    "timecode": "01:47:42"
+  },
+  {
+    "fold": 3,
+    "true_label": "EXIT_ALL",
+    "predicted_label": "ENTER_LONG",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=183s. 183s.\ncurrent=All right. So, no acceptance above value",
+    "evidence_text": "All right. So, no acceptance above value area low. Taking this off already. Be on",
+    "current_text": "All right. So, no acceptance above value",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-09-30__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-September-30__3dbvmU4XRoA.txt",
+    "timecode": "00:38:27"
+  },
+  {
+    "fold": 3,
+    "true_label": "TRIM",
+    "predicted_label": "ENTER_LONG",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=forced me to join in there once it\nanalysis=forced me to join in there once it broke. all right. tp here.\ncurrent=broke. All right. TP here.",
+    "evidence_text": "All right. TP here.",
+    "current_text": "broke. All right. TP here.",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-09-30__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-September-30__3dbvmU4XRoA.txt",
+    "timecode": "01:40:33"
+  },
+  {
+    "fold": 3,
+    "true_label": "ENTER_LONG",
+    "predicted_label": "TRIM",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=LONG\nrecent=go. let s watch this imbalance into 23s.\nanalysis=go. let s watch this imbalance into 23s. i m long. see if we can get through 23s\ncurrent=I'm long. See if we can get through 23s",
+    "evidence_text": "I'm long.",
+    "current_text": "I'm long. See if we can get through 23s",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-05__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-05__Wx1wLethc7w.txt",
+    "timecode": "02:07:03"
+  },
+  {
+    "fold": 3,
+    "true_label": "NO_ACTION",
+    "predicted_label": "ENTER_LONG",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=this to 92s. right. i m trying to attack\nanalysis=this to 92s. right. i m trying to attack from here now. the reclaim through this\ncurrent=from here now. The reclaim through this",
+    "evidence_text": "selling some here.",
+    "current_text": "from here now. The reclaim through this",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-05__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-05__Wx1wLethc7w.txt",
+    "timecode": "02:07:30"
+  },
+  {
+    "fold": 3,
+    "true_label": "TRIM",
+    "predicted_label": "EXIT_ALL",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=we get lucky we re going to get the\nanalysis=we get lucky we re going to get the 800s. but i m 80 out of this now. and\ncurrent=800s. But I'm 80% out of this now. And",
+    "evidence_text": "But I'm 80% out of this now.",
+    "current_text": "800s. But I'm 80% out of this now. And",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-05__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-05__Wx1wLethc7w.txt",
+    "timecode": "02:11:39"
+  },
+  {
+    "fold": 3,
+    "true_label": "TRIM",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=LONG\nrecent=do i want to take the trade before 7\nanalysis=do i want to take the trade before 7 before the news probably not.\ncurrent=before the news? Probably not.",
+    "evidence_text": "Peeling some off there.",
+    "current_text": "before the news? Probably not.",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-05__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-05__Wx1wLethc7w.txt",
+    "timecode": "00:45:07"
+  },
+  {
+    "fold": 3,
+    "true_label": "TRIM",
+    "predicted_label": "ENTER_LONG",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=so i m long from this turn around.\ncurrent=I'm already partiing out.",
+    "evidence_text": "I'm already partiing out.",
+    "current_text": "I'm already partiing out.",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-05__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-05__Wx1wLethc7w.txt",
+    "timecode": "02:09:49"
+  },
+  {
+    "fold": 3,
+    "true_label": "NO_ACTION",
+    "predicted_label": "MOVE_STOP",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=LONG\nrecent=the way down on you to 800. all right\nanalysis=the way down on you to 800. all right so move your stop up to start protecting\ncurrent=so move your stop up to start protecting",
+    "evidence_text": "so move your stop up to start protecting these profits very aggressively.",
+    "current_text": "so move your stop up to start protecting",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-05__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-05__Wx1wLethc7w.txt",
+    "timecode": "00:30:28"
+  },
+  {
+    "fold": 3,
+    "true_label": "MOVE_STOP",
+    "predicted_label": "TRIM",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=be taking most my position off here.\nanalysis=be taking most my position off here. covering most into here. oh we re\ncurrent=Covering most into here. Oh, we're",
+    "evidence_text": "moving stop tighter here on a runner.",
+    "current_text": "Covering most into here. Oh, we're",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-05__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-05__Wx1wLethc7w.txt",
+    "timecode": "00:47:04"
+  },
+  {
+    "fold": 3,
+    "true_label": "EXIT_ALL",
+    "predicted_label": "TRIM",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=taking most off here. so versus this\nanalysis=taking most off here. so versus this flush leaving this shelf back down into\ncurrent=flush, leaving this shelf back down into",
+    "evidence_text": "Out here.",
+    "current_text": "flush, leaving this shelf back down into",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-05__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-05__Wx1wLethc7w.txt",
+    "timecode": "00:47:10"
+  },
+  {
+    "fold": 3,
+    "true_label": "EXIT_ALL",
+    "predicted_label": "TRIM",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=aggressively into 75s. thanks.\ncurrent=Take my runner off here.",
+    "evidence_text": "Take my runner off here.",
+    "current_text": "Take my runner off here.",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-01-20__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Jan-20__Xa3sxUnTbHw.txt",
+    "timecode": "02:20:40"
+  },
+  {
+    "fold": 3,
+    "true_label": "ENTER_SHORT",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=NONE\nrecent=to drive much much higher. but so far we\nanalysis=to drive much much higher. but so far we are finding sellers up here. i ve joined\ncurrent=are finding sellers up here. I've joined",
+    "evidence_text": "I've joined this short just to snap short back down.",
+    "current_text": "are finding sellers up here. I've joined",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-01-20__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Jan-20__Xa3sxUnTbHw.txt",
+    "timecode": "00:23:05"
+  },
+  {
+    "fold": 3,
+    "true_label": "ENTER_SHORT",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=they re going to go 500s very quickly.\nanalysis=they re going to go 500s very quickly. the short versus 80s right now.\ncurrent=the short versus 80s right now.",
+    "evidence_text": "All right, a little piece on this.",
+    "current_text": "the short versus 80s right now.",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-03-09__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-March-09__7P-ztrzersk.txt",
+    "timecode": "00:25:07"
+  },
+  {
+    "fold": 3,
+    "true_label": "TRIM",
+    "predicted_label": "EXIT_ALL",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=old imbalance at 91s. no close under 85.\nanalysis=old imbalance at 91s. no close under 85. i m trimming this now. so i don t want\ncurrent=I'm trimming this now. So, I don't want",
+    "evidence_text": "I'm trimming this now.",
+    "current_text": "I'm trimming this now. So, I don't want",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-03-09__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-March-09__7P-ztrzersk.txt",
+    "timecode": "02:28:47"
+  },
+  {
+    "fold": 3,
+    "true_label": "NO_ACTION",
+    "predicted_label": "EXIT_ALL",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=we get enough liquidity built out. maybe\nanalysis=we get enough liquidity built out. maybe clear out one side before they do it.\ncurrent=clear out one side before they do it.",
+    "evidence_text": "It's why I'm going to wait for the short opportunity.",
+    "current_text": "clear out one side before they do it.",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-03-09__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-March-09__7P-ztrzersk.txt",
+    "timecode": "01:50:57"
+  },
+  {
+    "fold": 3,
+    "true_label": "NO_ACTION",
+    "predicted_label": "ENTER_SHORT",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=watching this now.\nanalysis=watching this now. break on the 50s and staying heavy. i m\ncurrent=break on the 50s and staying heavy. I'm",
+    "evidence_text": "break on the 50s and staying heavy. I'm going to be in like this, right?",
+    "current_text": "break on the 50s and staying heavy. I'm",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-03-09__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-March-09__7P-ztrzersk.txt",
+    "timecode": "01:01:57"
+  },
+  {
+    "fold": 3,
+    "true_label": "ENTER_SHORT",
+    "predicted_label": "ENTER_LONG",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=LONG\nrecent=let s go.\ncurrent=Finally got me some today.",
+    "evidence_text": "Finally got me some today.",
+    "current_text": "Finally got me some today.",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-01-22__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Jan-22__LwIv-Wk12WI.txt",
+    "timecode": "01:43:14"
+  },
+  {
+    "fold": 3,
+    "true_label": "NO_ACTION",
+    "predicted_label": "EXIT_ALL",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=now by the looks of it. here you go.\nanalysis=now by the looks of it. here you go. i m about to be stopped out\ncurrent=I'm about to be stopped out",
+    "evidence_text": "out",
+    "current_text": "I'm about to be stopped out",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-03__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-03__qFAXRr_b5lk.txt",
+    "timecode": "00:41:12"
+  },
+  {
+    "fold": 3,
+    "true_label": "ENTER_LONG",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=LONG\nrecent=value area low to get into 600. all\nanalysis=value area low to get into 600. all right. so i m long looking to see if we\ncurrent=right. So, I'm long looking to see if we",
+    "evidence_text": "I'm in a little piece long here. Seeing",
+    "current_text": "right. So, I'm long looking to see if we",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-03__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-03__qFAXRr_b5lk.txt",
+    "timecode": "01:38:18"
+  },
+  {
+    "fold": 3,
+    "true_label": "NO_ACTION",
+    "predicted_label": "ENTER_LONG",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=LONG\nrecent=feel good about shorting at the moment.\ncurrent=Maybe just me. Just not high enough for",
+    "evidence_text": "I need a big shove up. Good couple hundred points for me to think about shorting back into.",
+    "current_text": "Maybe just me. Just not high enough for",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-03__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-03__qFAXRr_b5lk.txt",
+    "timecode": "01:03:08"
+  },
+  {
+    "fold": 3,
+    "true_label": "ENTER_LONG",
+    "predicted_label": "ENTER_SHORT",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=this i ll think about joining. all\nanalysis=this i ll think about joining. all right small piece joining then. bucket\ncurrent=right, small piece joining then. Bucket",
+    "evidence_text": "All right, small piece joining then. Bucket into previous week open here.",
+    "current_text": "right, small piece joining then. Bucket",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-03__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-03__qFAXRr_b5lk.txt",
+    "timecode": "01:06:26"
+  },
+  {
+    "fold": 3,
+    "true_label": "NO_ACTION",
+    "predicted_label": "ENTER_LONG",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=those 20s. i ve talked about it. we just\nanalysis=those 20s. i ve talked about it. we just held those 20s. watching this long\ncurrent=held those 20s. Watching this long",
+    "evidence_text": "Watching this long trigger now.",
+    "current_text": "held those 20s. Watching this long",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-03__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-03__qFAXRr_b5lk.txt",
+    "timecode": "01:23:03"
+  },
+  {
+    "fold": 3,
+    "true_label": "MOVE_STOP",
+    "predicted_label": "ENTER_LONG",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=so longing this at the moment. small\nanalysis=so longing this at the moment. small size. i m going to use the guy at 54 as\ncurrent=size. I'm going to use the guy at 54 as",
+    "evidence_text": "I'm going to use the guy at 54 as my stop",
+    "current_text": "size. I'm going to use the guy at 54 as",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-03__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-03__qFAXRr_b5lk.txt",
+    "timecode": "00:37:11"
+  },
+  {
+    "fold": 3,
+    "true_label": "MOVE_TO_BREAKEVEN",
+    "predicted_label": "MOVE_STOP",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=it and they haven t. still holding one.\nanalysis=it and they haven t. still holding one. i m going to move my stop breakeven\ncurrent=I'm going to move my stop break even",
+    "evidence_text": "I'm going to move my stop break even though.",
+    "current_text": "I'm going to move my stop break even",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-12-10__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Dec-10___7jUl6MpwBw.txt",
+    "timecode": "01:39:36"
+  },
+  {
+    "fold": 3,
+    "true_label": "NO_ACTION",
+    "predicted_label": "ENTER_LONG",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=NONE\nrecent=here. look below here.\ncurrent=look for lower here. Here we go. So,",
+    "evidence_text": "look for lower here.",
+    "current_text": "look for lower here. Here we go. So,",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-12-10__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Dec-10___7jUl6MpwBw.txt",
+    "timecode": "01:33:38"
+  },
+  {
+    "fold": 3,
+    "true_label": "TRIM",
+    "predicted_label": "EXIT_ALL",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=out. not going to give this all the way.\nanalysis=out. not going to give this all the way. okay i m going to cover one just in\ncurrent=Okay, I'm going to cover one just in",
+    "evidence_text": "Okay, I'm going to cover one just in case. I want to be greedy.",
+    "current_text": "Okay, I'm going to cover one just in",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-12-10__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Dec-10___7jUl6MpwBw.txt",
+    "timecode": "01:38:49"
+  },
+  {
+    "fold": 3,
+    "true_label": "TRIM",
+    "predicted_label": "EXIT_ALL",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=out of this\nanalysis=out of this there we go. got out of one at least.\ncurrent=There we go. Got out of one at least.",
+    "evidence_text": "There we go. Got out of one at least.",
+    "current_text": "There we go. Got out of one at least.",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-03-06__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-March-06__S_S6AODUXco.txt",
+    "timecode": "03:26:38"
+  },
+  {
+    "fold": 3,
+    "true_label": "NO_ACTION",
+    "predicted_label": "ENTER_SHORT",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=back and like reject 75 i ll hit it\nanalysis=back and like reject 75 i ll hit it harder. we just got piece on in case we\ncurrent=harder. We just got peace on in case we",
+    "evidence_text": "Adding a bit more.",
+    "current_text": "harder. We just got peace on in case we",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-03-06__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-March-06__S_S6AODUXco.txt",
+    "timecode": "00:49:00"
+  },
+  {
+    "fold": 3,
+    "true_label": "MOVE_STOP",
+    "predicted_label": "EXIT_ALL",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=initial balance.\ncurrent=Move this now.",
+    "evidence_text": "Move this now.",
+    "current_text": "Move this now.",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-03-06__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-March-06__S_S6AODUXco.txt",
+    "timecode": "02:03:25"
+  },
+  {
+    "fold": 3,
+    "true_label": "ENTER_SHORT",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=tape s not really shifted that heavy\nanalysis=tape s not really shifted that heavy yet. so i m selling coming now. it\ncurrent=yet. So, I'm selling coming now. It",
+    "evidence_text": "So, I'm selling coming now.",
+    "current_text": "yet. So, I'm selling coming now. It",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-03-06__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-March-06__S_S6AODUXco.txt",
+    "timecode": "02:02:48"
+  },
+  {
+    "fold": 3,
+    "true_label": "NO_ACTION",
+    "predicted_label": "ENTER_SHORT",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=through under 70s. now here we come.\ncurrent=Let's break down under 70s and we'll",
+    "evidence_text": "Let's break down under 70s and we'll start adding if we can stay heavy under 70s here.",
+    "current_text": "Let's break down under 70s and we'll",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-03-06__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-March-06__S_S6AODUXco.txt",
+    "timecode": "01:03:44"
+  },
+  {
+    "fold": 3,
+    "true_label": "NO_ACTION",
+    "predicted_label": "EXIT_ALL",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=have gamma squeezes out of these levels.\nanalysis=have gamma squeezes out of these levels. i will not be playing longs. i will let\ncurrent=I will not be playing longs. I will let",
+    "evidence_text": "see if they can lift it and get some bulls to chase in and trap them. Vick's got a little bit stuck at uh 2850s here. Remember, like I talked about, we can have gamma squeezes out of these levels. I will not be playing longs. I will let the squeezes finish out and play shorts like we've done all week. If they're going to turn this into a gamma squeeze and a lift, I'm just going to let them do it and I will fade it when they're finished with it.",
+    "current_text": "I will not be playing longs. I will let",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-03-06__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-March-06__S_S6AODUXco.txt",
+    "timecode": "00:33:10"
+  },
+  {
+    "fold": 3,
+    "true_label": "ENTER_SHORT",
+    "predicted_label": "ENTER_LONG",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=LONG\nrecent=cleared it out. buyer is caught at a\nanalysis=cleared it out. buyer is caught at a high. i m in a tiny little sell here\ncurrent=high. I'm in a tiny little sell here,",
+    "evidence_text": "I'm in a tiny little sell here, guys, just to be honest with you.",
+    "current_text": "high. I'm in a tiny little sell here,",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-09__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-09__AaZvYXdIvUA.txt",
+    "timecode": "01:11:08"
+  },
+  {
+    "fold": 3,
+    "true_label": "EXIT_ALL",
+    "predicted_label": "ENTER_SHORT",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=coming in here under 50 and getting\nanalysis=coming in here under 50 and getting caught. i do not like that. i ve cut.\ncurrent=caught. I do not like that. I've cut.",
+    "evidence_text": "I do not like that. I've cut.",
+    "current_text": "caught. I do not like that. I've cut.",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-09__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-09__AaZvYXdIvUA.txt",
+    "timecode": "02:24:35"
+  },
+  {
+    "fold": 3,
+    "true_label": "ENTER_SHORT",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=it s going to become hard. here we go. i\nanalysis=it s going to become hard. here we go. i __ have the short as well.\ncurrent=[ __ ] have the short as well.",
+    "evidence_text": "[ __ ] have the short as well.",
+    "current_text": "[ __ ] have the short as well.",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-09__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-09__AaZvYXdIvUA.txt",
+    "timecode": "01:15:19"
+  },
+  {
+    "fold": 3,
+    "true_label": "ENTER_LONG",
+    "predicted_label": "ENTER_SHORT",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=want to be careful.\ncurrent=All right. in this now forcing me to",
+    "evidence_text": "All right. in this now forcing me to join",
+    "current_text": "All right. in this now forcing me to",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-10-08__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-08__Pv4C3ZlGlPU.txt",
+    "timecode": "01:48:44"
+  },
+  {
+    "fold": 3,
+    "true_label": "MOVE_TO_BREAKEVEN",
+    "predicted_label": "MOVE_STOP",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=wanted. come on.\nanalysis=wanted. come on. going to move my stop to breakeven\ncurrent=Going to move my stop to break even",
+    "evidence_text": "Going to move my stop to break even here.",
+    "current_text": "Going to move my stop to break even",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-03-04__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-March-04__vIwkVahJKgo.txt",
+    "timecode": "00:39:06"
+  },
+  {
+    "fold": 3,
+    "true_label": "ENTER_LONG",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=LONG\nrecent=so we want to clear out all this\nanalysis=so we want to clear out all this liquidity above. i m now longing this.\ncurrent=liquidity above. I'm now longing this.",
+    "evidence_text": "I'm now longing this.",
+    "current_text": "liquidity above. I'm now longing this.",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-03-04__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-March-04__vIwkVahJKgo.txt",
+    "timecode": "00:59:14"
+  },
+  {
+    "fold": 3,
+    "true_label": "ENTER_LONG",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=LONG\nrecent=it i m going to get short. here s a\nanalysis=it i m going to get short. here s a retest. i m putting someone long here.\ncurrent=retest. I'm putting someone long here.",
+    "evidence_text": "I'm putting someone long here.",
+    "current_text": "retest. I'm putting someone long here.",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-03-04__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-March-04__vIwkVahJKgo.txt",
+    "timecode": "01:41:46"
+  },
+  {
+    "fold": 3,
+    "true_label": "EXIT_ALL",
+    "predicted_label": "MOVE_STOP",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=going to move my stop to breakeven\nanalysis=going to move my stop to breakeven here. about to take me out. yep. out\ncurrent=here. About to take me out. Yep. Out",
+    "evidence_text": "About to take me out. Yep. Out there on the runner.",
+    "current_text": "here. About to take me out. Yep. Out",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-03-04__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-March-04__vIwkVahJKgo.txt",
+    "timecode": "00:39:08"
+  },
+  {
+    "fold": 3,
+    "true_label": "EXIT_ALL",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=that we talked about. so want to be very\nanalysis=that we talked about. so want to be very very careful. i ve already cut my\ncurrent=very careful. I've already cut my",
+    "evidence_text": "I've already cut my position now on the reclaim of initial balance.",
+    "current_text": "very careful. I've already cut my",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-10-28__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-28__Io3LNgYi5R8.txt",
+    "timecode": "01:35:36"
+  },
+  {
+    "fold": 3,
+    "true_label": "ENTER_SHORT",
+    "predicted_label": "ENTER_LONG",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=NONE\nrecent=level carefully if they re going to\nanalysis=level carefully if they re going to start letting go. here we go. so small\ncurrent=start letting go. Here we go. So, small",
+    "evidence_text": "Here we go. So, small piece on here again. Aggressive with a stop instantly because I'm not going to be early on this. If they can't keep fading versus New York open, I'll just take it off instantly. And a very, very small because I'm early.",
+    "current_text": "start letting go. Here we go. So, small",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-10-28__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-28__Io3LNgYi5R8.txt",
+    "timecode": "00:23:33"
+  },
+  {
+    "fold": 3,
+    "true_label": "EXIT_ALL",
+    "predicted_label": "ENTER_SHORT",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=coming back in here at 55. so a bit of a\nanalysis=coming back in here at 55. so a bit of a battle here. here we go. so take this\ncurrent=battle here. Here we go. So take this",
+    "evidence_text": "Here we go. So take this off. This early one can come straight off. We can always re-enter if it's ready.",
+    "current_text": "battle here. Here we go. So take this",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-10-28__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-28__Io3LNgYi5R8.txt",
+    "timecode": "00:24:20"
+  },
+  {
+    "fold": 3,
+    "true_label": "ENTER_SHORT",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=too many of the names. i want to be\nanalysis=too many of the names. i want to be careful here. i m i m in short now. i m\ncurrent=careful here. I'm I'm in short now. I'm",
+    "evidence_text": "careful here. I'm I'm in short now. I'm",
+    "current_text": "careful here. I'm I'm in short now. I'm",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-10-28__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-28__Io3LNgYi5R8.txt",
+    "timecode": "01:27:19"
+  },
+  {
+    "fold": 3,
+    "true_label": "TRIM",
+    "predicted_label": "ENTER_SHORT",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=to pdc.\nanalysis=to pdc. i got a little piece. tiny little piece.\ncurrent=I got a little piece. Tiny little piece.",
+    "evidence_text": "I got a little piece. Tiny little piece.",
+    "current_text": "I got a little piece. Tiny little piece.",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-01-16__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Jan-16__SdV9M9oHF4U.txt",
+    "timecode": "00:56:21"
+  },
+  {
+    "fold": 3,
+    "true_label": "EXIT_ALL",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=we re about to start squeezing. in fact\nanalysis=we re about to start squeezing. in fact i m going to just take this off here and\ncurrent=I'm going to just take this off here and",
+    "evidence_text": "I'm going to just take this off here and not even worry about it. That's me done.",
+    "current_text": "I'm going to just take this off here and",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-01-16__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Jan-16__SdV9M9oHF4U.txt",
+    "timecode": "01:42:17"
+  },
+  {
+    "fold": 3,
+    "true_label": "TRIM",
+    "predicted_label": "ENTER_SHORT",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=640 to 570 is a level. here we go\nanalysis=640 to 570 is a level. here we go folks. all right next tp now hit.\ncurrent=folks. All right, next TP now hit.",
+    "evidence_text": "next TP now hit.",
+    "current_text": "folks. All right, next TP now hit.",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-01-16__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Jan-16__SdV9M9oHF4U.txt",
+    "timecode": "01:10:52"
+  },
+  {
+    "fold": 3,
+    "true_label": "NO_ACTION",
+    "predicted_label": "ENTER_SHORT",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=be cautious on here because this is such\nanalysis=be cautious on here because this is such a big move. cough we enter short here.\ncurrent=a big move. [cough] We enter short here.",
+    "evidence_text": "We enter short here.",
+    "current_text": "a big move. [cough] We enter short here.",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-01-16__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Jan-16__SdV9M9oHF4U.txt",
+    "timecode": "01:11:45"
+  },
+  {
+    "fold": 3,
+    "true_label": "NO_ACTION",
+    "predicted_label": "ENTER_SHORT",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=let s go. come on.\nanalysis=let s go. come on. got some limits out here at pdc. if you\ncurrent=Got some limits out here at PDC. If you",
+    "evidence_text": "Got some limits out here at PDC.",
+    "current_text": "Got some limits out here at PDC. If you",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-01-16__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Jan-16__SdV9M9oHF4U.txt",
+    "timecode": "01:06:05"
+  },
+  {
+    "fold": 4,
+    "true_label": "ENTER_LONG",
+    "predicted_label": "TRIM",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=this reclaim now. got a bit more on\nanalysis=this reclaim now. got a bit more on here.\ncurrent=here.",
+    "evidence_text": "Got a bit more on here.",
+    "current_text": "here.",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-25__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-25__4Ygr3ZhSwx0.txt",
+    "timecode": "01:54:11"
+  },
+  {
+    "fold": 4,
+    "true_label": "NO_ACTION",
+    "predicted_label": "ENTER_LONG",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=not right now. i ll check btc just in in\nanalysis=not right now. i ll check btc just in in a bit. just in case i set up the long\ncurrent=a bit. Just in case I set up the long",
+    "evidence_text": "I set up the long here.",
+    "current_text": "a bit. Just in case I set up the long",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-25__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-25__4Ygr3ZhSwx0.txt",
+    "timecode": "02:22:41"
+  },
+  {
+    "fold": 4,
+    "true_label": "ENTER_LONG",
+    "predicted_label": "ENTER_SHORT",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=about adding heavy.\nanalysis=about adding heavy. so i ve got a small piece on but\ncurrent=So I've got a small piece on, but",
+    "evidence_text": "So I've got a small piece on, but nothing. No notable size yet.",
+    "current_text": "So I've got a small piece on, but",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-25__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-25__4Ygr3ZhSwx0.txt",
+    "timecode": "01:52:24"
+  },
+  {
+    "fold": 4,
+    "true_label": "NO_ACTION",
+    "predicted_label": "EXIT_ALL",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=bid.\ncurrent=Just waiting now for a short opportunity",
+    "evidence_text": "Just waiting now for a short opportunity at this point.",
+    "current_text": "Just waiting now for a short opportunity",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-25__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-25__4Ygr3ZhSwx0.txt",
+    "timecode": "00:43:40"
+  },
+  {
+    "fold": 4,
+    "true_label": "ENTER_LONG",
+    "predicted_label": "EXIT_ALL",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=here for this squeeze out. it s getting\nanalysis=here for this squeeze out. it s getting close. all right one on here. let s\ncurrent=close. All right, one on here. Let's",
+    "evidence_text": "All right, one on here.",
+    "current_text": "close. All right, one on here. Let's",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-25__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-25__4Ygr3ZhSwx0.txt",
+    "timecode": "02:22:49"
+  },
+  {
+    "fold": 4,
+    "true_label": "NO_ACTION",
+    "predicted_label": "ENTER_LONG",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=day and q just stuck. nvidia trying to\nanalysis=day and q just stuck. nvidia trying to go as well. i still want to get long in\ncurrent=go as well. I still want to get long in",
+    "evidence_text": "I still want to get long in this.",
+    "current_text": "go as well. I still want to get long in",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-25__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-25__4Ygr3ZhSwx0.txt",
+    "timecode": "02:22:14"
+  },
+  {
+    "fold": 4,
+    "true_label": "MOVE_TO_BREAKEVEN",
+    "predicted_label": "MOVE_STOP",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=through the twelves. here we go. right.\nanalysis=through the twelves. here we go. right. moving my stop breakeven because it is\ncurrent=Moving my stop break even because it is",
+    "evidence_text": "Moving my stop break even because it is nothing more than a squeeze.",
+    "current_text": "Moving my stop break even because it is",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-10__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-10__GZJ_9QrtrsM.txt",
+    "timecode": "00:28:40"
+  },
+  {
+    "fold": 4,
+    "true_label": "TRIM",
+    "predicted_label": "ENTER_LONG",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=good. here we go folks.\nanalysis=good. here we go folks. tp. all right runners. now let s see\ncurrent=TP. All right, runners. Now, let's see",
+    "evidence_text": "TP. All right, runners.",
+    "current_text": "TP. All right, runners. Now, let's see",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-10__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-10__GZJ_9QrtrsM.txt",
+    "timecode": "00:44:13"
+  },
+  {
+    "fold": 4,
+    "true_label": "EXIT_ALL",
+    "predicted_label": "TRIM",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=320s 329 343.\nanalysis=320s 329 343. woo tp s hit. thanks for playing. i m\ncurrent=Woo! TP's hit. Thanks for playing. I'm",
+    "evidence_text": "Woo! TP's hit. Thanks for playing. I'm out of there. I'm out of there. I am out of there. I don't even have a little guy. We just hit my level.",
+    "current_text": "Woo! TP's hit. Thanks for playing. I'm",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-10__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-10__GZJ_9QrtrsM.txt",
+    "timecode": "00:55:57"
+  },
+  {
+    "fold": 4,
+    "true_label": "ENTER_SHORT",
+    "predicted_label": "ENTER_LONG",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=NONE\nrecent=so if they flush this we go vwap\nanalysis=so if they flush this we go vwap so in for a very small short here from\ncurrent=So in for a very small short here from",
+    "evidence_text": "So in for a very small short here from that New York print already coming",
+    "current_text": "So in for a very small short here from",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-10-27__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-27__WBS1vaeQn-A.txt",
+    "timecode": "00:25:01"
+  },
+  {
+    "fold": 4,
+    "true_label": "NO_ACTION",
+    "predicted_label": "ENTER_SHORT",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=this guy here 50s. all right. so\nanalysis=this guy here 50s. all right. so really i m watching 650s 750s 550s.\ncurrent=really, I'm watching 650s, 750s, 550s.",
+    "evidence_text": "Really, I'm watching 650s, 750s, 550s.",
+    "current_text": "really, I'm watching 650s, 750s, 550s.",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-01-26__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Jan-26__2bFtc31kI14.txt",
+    "timecode": "00:21:47"
+  },
+  {
+    "fold": 4,
+    "true_label": "NO_ACTION",
+    "predicted_label": "ENTER_LONG",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=LONG\nrecent=chopfest. all right that is your\nanalysis=chopfest. all right that is your chopfest in here. if we find acceptance\ncurrent=chopfest in here. If we find acceptance",
+    "evidence_text": "If we find acceptance below 550 underneath the fire day, maybe we come back and retest four and maybe even threes.",
+    "current_text": "chopfest in here. If we find acceptance",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-01-26__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Jan-26__2bFtc31kI14.txt",
+    "timecode": "00:13:08"
+  },
+  {
+    "fold": 4,
+    "true_label": "EXIT_ALL",
+    "predicted_label": "MOVE_STOP",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=i m moving my stop into 69. they need to\nanalysis=i m moving my stop into 69. they need to hold 70s in my mind. otherwise i m out.\ncurrent=hold 70s in my mind. Otherwise, I'm out.",
+    "evidence_text": "Okay, out of this.",
+    "current_text": "hold 70s in my mind. Otherwise, I'm out.",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-12-16__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Dec-16__qnf0RL_FJec.txt",
+    "timecode": "00:41:00"
+  },
+  {
+    "fold": 4,
+    "true_label": "NO_ACTION",
+    "predicted_label": "TRIM",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=this high.\nanalysis=this high. just missed me there. i m going to cover\ncurrent=Just missed me there. I'm going to cover",
+    "evidence_text": "I'm going to cover one into this.",
+    "current_text": "Just missed me there. I'm going to cover",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-12-16__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Dec-16__qnf0RL_FJec.txt",
+    "timecode": "00:40:26"
+  },
+  {
+    "fold": 4,
+    "true_label": "TRIM",
+    "predicted_label": "EXIT_ALL",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=here is previous day s value. tap tap\nanalysis=here is previous day s value. tap tap tap. i m out of a bit now by the way\ncurrent=tap. I'm out of a bit now, by the way,",
+    "evidence_text": "I'm out of a bit now, by the way, folks.",
+    "current_text": "tap. I'm out of a bit now, by the way,",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-12-16__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Dec-16__qnf0RL_FJec.txt",
+    "timecode": "00:31:00"
+  },
+  {
+    "fold": 4,
+    "true_label": "NO_ACTION",
+    "predicted_label": "EXIT_ALL",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=close back under that. oh look at that.\nanalysis=close back under that. oh look at that. am i going to get stopped out instantly\ncurrent=Am I going to get stopped out instantly?",
+    "evidence_text": "Okay, out of this. [ __ ] me. That was quick.",
+    "current_text": "Am I going to get stopped out instantly?",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-12-16__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Dec-16__qnf0RL_FJec.txt",
+    "timecode": "01:18:30"
+  },
+  {
+    "fold": 4,
+    "true_label": "NO_ACTION",
+    "predicted_label": "TRIM",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=LONG\nrecent=can t defend that we will rotate\nanalysis=can t defend that we will rotate aggressively higher. taking some profit\ncurrent=aggressively higher. Taking some profit",
+    "evidence_text": "attacking this long now",
+    "current_text": "aggressively higher. Taking some profit",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-12-22__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Dec-22__0siTiykPc6k.txt",
+    "timecode": "01:10:05"
+  },
+  {
+    "fold": 4,
+    "true_label": "ENTER_SHORT",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=really interested in holding the short\nanalysis=really interested in holding the short much longer. right. so in this for this\ncurrent=much longer. Right. So in this for this",
+    "evidence_text": "much longer. Right. So in this for this",
+    "current_text": "much longer. Right. So in this for this",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-11-13__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Nov-13__lZxH5mvQiDc.txt",
+    "timecode": "01:12:36"
+  },
+  {
+    "fold": 4,
+    "true_label": "MOVE_TO_BREAKEVEN",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=filled it gap. coming back up to my\nanalysis=filled it gap. coming back up to my entry here. i will eat a be here. don t\ncurrent=entry here. I will eat a be here. Don't",
+    "evidence_text": "Coming back up to my entry here. I will eat a be here. Don't mind there's a imbalance here. So I'll eat a break even. I'll give it like an extra point or two to 62 and I'll stop out at 62s",
+    "current_text": "entry here. I will eat a be here. Don't",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-03-02__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-March-02__ywonLx750cQ.txt",
+    "timecode": "02:10:33"
+  },
+  {
+    "fold": 4,
+    "true_label": "EXIT_ALL",
+    "predicted_label": "MOVE_STOP",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=wouldn t surprise me at all. okay about\nanalysis=wouldn t surprise me at all. okay about to eat my stop here. oh already ate it.\ncurrent=to eat my stop here. Oh, already ate it.",
+    "evidence_text": "About to eat my stop here. Oh, already ate it. Sorry, I didn't even see that on the screen. They're already out of this.",
+    "current_text": "to eat my stop here. Oh, already ate it.",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-03-02__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-March-02__ywonLx750cQ.txt",
+    "timecode": "01:59:27"
+  },
+  {
+    "fold": 4,
+    "true_label": "ENTER_SHORT",
+    "predicted_label": "ENTER_LONG",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=NONE\nrecent=there we go. here s the break. all\nanalysis=there we go. here s the break. all right let s try a bit here. see if we\ncurrent=right, let's try a bit here. See if we",
+    "evidence_text": "All right, let's try a bit here.",
+    "current_text": "right, let's try a bit here. See if we",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-03-02__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-March-02__ywonLx750cQ.txt",
+    "timecode": "00:31:13"
+  },
+  {
+    "fold": 4,
+    "true_label": "NO_ACTION",
+    "predicted_label": "EXIT_ALL",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=come on. do they want to let this go\nanalysis=come on. do they want to let this go i ll cut the rest out at 20s here. if\ncurrent=I'll cut the rest out at 20s here. If",
+    "evidence_text": "I'll cut the rest out at 20s here.",
+    "current_text": "I'll cut the rest out at 20s here. If",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-03-02__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-March-02__ywonLx750cQ.txt",
+    "timecode": "00:32:06"
+  },
+  {
+    "fold": 4,
+    "true_label": "NO_ACTION",
+    "predicted_label": "TRIM",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=going to like really start washing hard.\nanalysis=going to like really start washing hard. so we can start paying ourselves now.\ncurrent=So we can start paying ourselves now.",
+    "evidence_text": "So we can start paying ourselves now.",
+    "current_text": "So we can start paying ourselves now.",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-03-02__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-March-02__ywonLx750cQ.txt",
+    "timecode": "01:46:45"
+  },
+  {
+    "fold": 4,
+    "true_label": "NO_ACTION",
+    "predicted_label": "ENTER_SHORT",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=the 40s. we re going to test 20s pretty\nanalysis=the 40s. we re going to test 20s pretty quick i would say. here we come. so in\ncurrent=quick I would say. Here we come. So in",
+    "evidence_text": "Here we come. So in short and let's see under the 40s.",
+    "current_text": "quick I would say. Here we come. So in",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-03-02__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-March-02__ywonLx750cQ.txt",
+    "timecode": "02:09:32"
+  },
+  {
+    "fold": 4,
+    "true_label": "EXIT_ALL",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=rotate value. now if we reclaim this\nanalysis=rotate value. now if we reclaim this we re out because that will be a sweet\ncurrent=we're out because that will be a sweet",
+    "evidence_text": "Okay, while this figures itself out, I'm going to stop out here.",
+    "current_text": "we're out because that will be a sweet",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-03-02__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-March-02__ywonLx750cQ.txt",
+    "timecode": "01:22:05"
+  },
+  {
+    "fold": 4,
+    "true_label": "ENTER_SHORT",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=buy still stuck at 95s and over right\nanalysis=buy still stuck at 95s and over right now. i m going to have to __ put\ncurrent=now. I'm going to have to [ __ ] put",
+    "evidence_text": "I'm going to have to [ __ ] put something on this again",
+    "current_text": "now. I'm going to have to [ __ ] put",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-27__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-27__LVcp4LdMK8g.txt",
+    "timecode": "00:50:12"
+  },
+  {
+    "fold": 4,
+    "true_label": "ENTER_SHORT",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=under 800 we will really puke.\nanalysis=under 800 we will really puke. i m in this short again now looking for\ncurrent=I'm in this short again now looking for",
+    "evidence_text": "I'm in this short again now looking for",
+    "current_text": "I'm in this short again now looking for",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-27__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-27__LVcp4LdMK8g.txt",
+    "timecode": "00:31:02"
+  },
+  {
+    "fold": 4,
+    "true_label": "ENTER_SHORT",
+    "predicted_label": "TRIM",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=all right here we go. adding into this\nanalysis=all right here we go. adding into this now. here we go folks. we need to get\ncurrent=now. Here we go, folks. We need to get",
+    "evidence_text": "All right, here we go. Adding into this now.",
+    "current_text": "now. Here we go, folks. We need to get",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-27__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-27__LVcp4LdMK8g.txt",
+    "timecode": "00:43:48"
+  },
+  {
+    "fold": 4,
+    "true_label": "ENTER_SHORT",
+    "predicted_label": "ENTER_LONG",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=here. and i ll start joining.\ncurrent=Here they come. All right. Small piece",
+    "evidence_text": "Small piece on.",
+    "current_text": "Here they come. All right. Small piece",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-27__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-27__LVcp4LdMK8g.txt",
+    "timecode": "01:23:54"
+  },
+  {
+    "fold": 4,
+    "true_label": "NO_ACTION",
+    "predicted_label": "ENTER_SHORT",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=enjoyed making it hard.\ncurrent=So, I'm going to have one more shot",
+    "evidence_text": "I'm going to have one more shot short somewhere up here.",
+    "current_text": "So, I'm going to have one more shot",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-27__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-27__LVcp4LdMK8g.txt",
+    "timecode": "01:30:01"
+  },
+  {
+    "fold": 4,
+    "true_label": "NO_ACTION",
+    "predicted_label": "EXIT_ALL",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=space.\nanalysis=space. i ve moved that too far around have i\ncurrent=I've moved that too far around, have I?",
+    "evidence_text": "I've moved that too far around, have I?",
+    "current_text": "I've moved that too far around, have I?",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-27__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-27__LVcp4LdMK8g.txt",
+    "timecode": "02:01:59"
+  },
+  {
+    "fold": 4,
+    "true_label": "TRIM",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=up it will be a cut and then get back\nanalysis=up it will be a cut and then get back in again. just trimming around core\ncurrent=in again. Just trimming around core",
+    "evidence_text": "Just trimming around core",
+    "current_text": "in again. Just trimming around core",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-27__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-27__LVcp4LdMK8g.txt",
+    "timecode": "00:28:40"
+  },
+  {
+    "fold": 4,
+    "true_label": "NO_ACTION",
+    "predicted_label": "ENTER_SHORT",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=in. mr. buyer at 50s is back again. is\nanalysis=in. mr. buyer at 50s is back again. is he you __ __ all right so cut\ncurrent=he you [ __ ] [ __ ] All right, so cut",
+    "evidence_text": "All right, so cut this now",
+    "current_text": "he you [ __ ] [ __ ] All right, so cut",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-27__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-27__LVcp4LdMK8g.txt",
+    "timecode": "01:46:43"
+  },
+  {
+    "fold": 4,
+    "true_label": "ENTER_SHORT",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=we go. we re starting to lose bids here.\nanalysis=we go. we re starting to lose bids here. so i m short again here. and i will add\ncurrent=So, I'm short again here. And I will add",
+    "evidence_text": "So, I'm short again here.",
+    "current_text": "So, I'm short again here. And I will add",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-27__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-27__LVcp4LdMK8g.txt",
+    "timecode": "00:43:00"
+  },
+  {
+    "fold": 4,
+    "true_label": "TRIM",
+    "predicted_label": "EXIT_ALL",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=NONE\nrecent=want reclaims of 80s. now give me v ws.\ncurrent=Watching this RBS. We can hold RBS. I'm",
+    "evidence_text": "Watching this RBS. We can hold RBS. I'm taking some partials in front of this QQQ into a big big big level here as well.",
+    "current_text": "Watching this RBS. We can hold RBS. I'm",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-10-14__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-14__mZQlSH-wU9o.txt",
+    "timecode": "01:44:56"
+  },
+  {
+    "fold": 4,
+    "true_label": "TRIM",
+    "predicted_label": "EXIT_ALL",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=us to take out 180s here. we look good\nanalysis=us to take out 180s here. we look good to take out 180s here. taking partial\ncurrent=to take out 180s here. Taking partial",
+    "evidence_text": "to take out 180s here. Taking partial into this",
+    "current_text": "to take out 180s here. Taking partial",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-10-20__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-20__XXhM8ghAbcc.txt",
+    "timecode": "00:15:02"
+  },
+  {
+    "fold": 4,
+    "true_label": "ENTER_LONG",
+    "predicted_label": "ENTER_SHORT",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=LONG\nrecent=stuffed it. yep. okay.\nanalysis=stuffed it. yep. okay. you got any more in you i m in this.\ncurrent=You got any more in you? I'm in this.",
+    "evidence_text": "You got any more in you? I'm in this. Let's go then. Lift off. Let's go back towards view weapon.",
+    "current_text": "You got any more in you? I'm in this.",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-10-21__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Oct-21__9Oy3WseZ4nY.txt",
+    "timecode": "00:55:57"
+  },
+  {
+    "fold": 4,
+    "true_label": "MOVE_STOP",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=LONG\nlast_side=LONG\nrecent=get up to 25s and 50s. uh versus 95. not\nanalysis=get up to 25s and 50s. uh versus 95. not going to let it come under 95. that\ncurrent=going to let it come under 95. That",
+    "evidence_text": "Not going to let it come under 95.",
+    "current_text": "going to let it come under 95. That",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-13__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-13__Z-sf0fQzvg8.txt",
+    "timecode": "01:14:22"
+  },
+  {
+    "fold": 4,
+    "true_label": "NO_ACTION",
+    "predicted_label": "ENTER_SHORT",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=LONG\nrecent=40s. can we get 50s here we go folks.\nanalysis=40s. can we get 50s here we go folks. but me finally getting something. and\ncurrent=But me finally getting something. And",
+    "evidence_text": "But me finally getting something.",
+    "current_text": "But me finally getting something. And",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-13__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-13__Z-sf0fQzvg8.txt",
+    "timecode": "00:35:46"
+  },
+  {
+    "fold": 4,
+    "true_label": "NO_ACTION",
+    "predicted_label": "ENTER_SHORT",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=LONG\nrecent=i m watching this now very very very\nanalysis=i m watching this now very very very carefully for the short here. here we go\ncurrent=carefully for the short here. Here we go",
+    "evidence_text": "Here we go in now.",
+    "current_text": "carefully for the short here. Here we go",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-13__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-13__Z-sf0fQzvg8.txt",
+    "timecode": "01:44:06"
+  },
+  {
+    "fold": 4,
+    "true_label": "TRIM",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=LONG\nrecent=that i was looking up for. this is what\nanalysis=that i was looking up for. this is what we just talked about. right. covering\ncurrent=we just talked about. Right. Covering",
+    "evidence_text": "Covering some 800s.",
+    "current_text": "we just talked about. Right. Covering",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-13__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-13__Z-sf0fQzvg8.txt",
+    "timecode": "01:44:40"
+  },
+  {
+    "fold": 4,
+    "true_label": "ENTER_LONG",
+    "predicted_label": "ENTER_SHORT",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=LONG\nrecent=50s. that seller s just got caught. here\nanalysis=50s. that seller s just got caught. here we go. all right. i m going to try a\ncurrent=we go. All right. I'm going to try a",
+    "evidence_text": "All right. I'm going to try a little piece long here.",
+    "current_text": "we go. All right. I'm going to try a",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-13__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-13__Z-sf0fQzvg8.txt",
+    "timecode": "01:14:16"
+  },
+  {
+    "fold": 4,
+    "true_label": "MOVE_STOP",
+    "predicted_label": "TRIM",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=a complete collapse and leave buyers\nanalysis=a complete collapse and leave buyers trapped. here we go. so no matter what\ncurrent=trapped. Here we go. So, no matter what",
+    "evidence_text": "Here we go. So, no matter what going to protect my stop now and we just see if we're going to come lower now at this point into this block. Here we go, folks.",
+    "current_text": "trapped. Here we go. So, no matter what",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-02__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-02__Dk-9N98RkxE.txt",
+    "timecode": "00:47:28"
+  },
+  {
+    "fold": 4,
+    "true_label": "NO_ACTION",
+    "predicted_label": "TRIM",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=so they ve cleared him out. make sure\nanalysis=so they ve cleared him out. make sure you re locking some in. es new high of\ncurrent=you're locking some in. ES new high of",
+    "evidence_text": "Make sure you're locking some in.",
+    "current_text": "you're locking some in. ES new high of",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-02__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-02__Dk-9N98RkxE.txt",
+    "timecode": "02:48:32"
+  },
+  {
+    "fold": 4,
+    "true_label": "NO_ACTION",
+    "predicted_label": "MOVE_STOP",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=careful your counter trend. do not get\nanalysis=careful your counter trend. do not get oversized here. move your stop into the\ncurrent=oversized here. Move your stop into the",
+    "evidence_text": "Move your stop into the money, please.",
+    "current_text": "oversized here. Move your stop into the",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-02__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-02__Dk-9N98RkxE.txt",
+    "timecode": "01:46:27"
+  },
+  {
+    "fold": 4,
+    "true_label": "ENTER_SHORT",
+    "predicted_label": "TRIM",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=can we get going now into this gray box\ncurrent=Taking a little piece here just in case",
+    "evidence_text": "Taking a little piece here just in case",
+    "current_text": "Taking a little piece here just in case",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-02__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-02__Dk-9N98RkxE.txt",
+    "timecode": "01:45:59"
+  },
+  {
+    "fold": 4,
+    "true_label": "ENTER_SHORT",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=very very aggressive.\ncurrent=So I'm selling here and if they keep",
+    "evidence_text": "So I'm selling here and if they keep absorbing versus 85 they've got a chance to move higher.",
+    "current_text": "So I'm selling here and if they keep",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-02__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-02__Dk-9N98RkxE.txt",
+    "timecode": "00:41:02"
+  },
+  {
+    "fold": 4,
+    "true_label": "NO_ACTION",
+    "predicted_label": "TRIM",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=course. just go to the end. one of the\nanalysis=course. just go to the end. one of the end modules will tell you. here we go.\ncurrent=end modules will tell you. Here we go.",
+    "evidence_text": "Here we go. TP here.",
+    "current_text": "end modules will tell you. Here we go.",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-02__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-02__Dk-9N98RkxE.txt",
+    "timecode": "00:47:10"
+  },
+  {
+    "fold": 4,
+    "true_label": "ENTER_SHORT",
+    "predicted_label": "NO_ACTION",
+    "prompt": "symbol=MNQ 03-26\nposition=SHORT\nlast_side=SHORT\nrecent=hold this it s going to flip this whole\nanalysis=hold this it s going to flip this whole block for this move here. so short for\ncurrent=block for this move here. So short for",
+    "evidence_text": "So short for the 600 break straight down into this",
+    "current_text": "block for this move here. So short for",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2026-02-02__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Feb-02__Dk-9N98RkxE.txt",
+    "timecode": "00:20:58"
+  },
+  {
+    "fold": 4,
+    "true_label": "ENTER_SHORT",
+    "predicted_label": "TRIM",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=here we go. right. hold. now i m in this\nanalysis=here we go. right. hold. now i m in this short by the way. now cover some here.\ncurrent=short, by the way. Now, cover some here.",
+    "evidence_text": "Now I'm in this short, by the way.",
+    "current_text": "short, by the way. Now, cover some here.",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-12-12__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Dec-12__z-9kqTGSWuM.txt",
+    "timecode": "01:51:30"
+  },
+  {
+    "fold": 4,
+    "true_label": "ENTER_SHORT",
+    "predicted_label": "TRIM",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=into 360s. you must cover some in 360s.\nanalysis=into 360s. you must cover some in 360s. i m currently short in this now. and i\ncurrent=I'm currently short in this now. And I",
+    "evidence_text": "I'm currently short in this now.",
+    "current_text": "I'm currently short in this now. And I",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-12-12__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Dec-12__z-9kqTGSWuM.txt",
+    "timecode": "01:38:19"
+  },
+  {
+    "fold": 4,
+    "true_label": "NO_ACTION",
+    "predicted_label": "EXIT_ALL",
+    "prompt": "symbol=MNQ 03-26\nposition=FLAT\nlast_side=SHORT\nrecent=that that red box holding up really\nanalysis=that that red box holding up really nice. i m currently out of this. i\ncurrent=nice. I'm currently out of this. I",
+    "evidence_text": "I'm currently out of this.",
+    "current_text": "nice. I'm currently out of this. I",
+    "file": "/mnt/c/Users/Andreas Oberdörfer/Downloads/stream_copier/transcripts/2025-12-12__LIVE-DAY-TRADING-Nasdaq-Futures-Scalping-NQ-Order-Flow-Price-Action-Dec-12__z-9kqTGSWuM.txt",
+    "timecode": "01:04:35"
+  }
+]

@@ -1,0 +1,411 @@
+{
+  "reviewer": "Claude (Fable 5), AI review with transcript context, 2026-06-11",
+  "sample_size": 100,
+  "counts": {
+    "REAL": 3,
+    "AMBIGUOUS": 5,
+    "FALSE": 92
+  },
+  "verdicts": {
+    "F001": {
+      "verdict": "FALSE",
+      "reason": "timeframe/chart talk"
+    },
+    "F002": {
+      "verdict": "FALSE",
+      "reason": "recap of yesterday's expectations"
+    },
+    "F003": {
+      "verdict": "FALSE",
+      "reason": "market drifting commentary"
+    },
+    "F004": {
+      "verdict": "FALSE",
+      "reason": "analysis: looking for a bull flag"
+    },
+    "F005": {
+      "verdict": "FALSE",
+      "reason": "analysis: backtesting commentary"
+    },
+    "F006": {
+      "verdict": "FALSE",
+      "reason": "commentary on existing PayPal swing, other instrument"
+    },
+    "F007": {
+      "verdict": "FALSE",
+      "reason": "Discord swings wrap-up"
+    },
+    "F008": {
+      "verdict": "FALSE",
+      "reason": "reading subscriber names"
+    },
+    "F009": {
+      "verdict": "FALSE",
+      "reason": "market breadth commentary"
+    },
+    "F010": {
+      "verdict": "FALSE",
+      "reason": "market stuck commentary"
+    },
+    "F011": {
+      "verdict": "FALSE",
+      "reason": "retrospective portfolio recap (already sold)"
+    },
+    "F012": {
+      "verdict": "FALSE",
+      "reason": "tape reading: passive buyers"
+    },
+    "F013": {
+      "verdict": "REAL",
+      "reason": "continuation of real short entry 'In it scalp here' one line earlier"
+    },
+    "F014": {
+      "verdict": "FALSE",
+      "reason": "liquidity build-out analysis"
+    },
+    "F015": {
+      "verdict": "FALSE",
+      "reason": "hypothetical: market can take liquidity out"
+    },
+    "F016": {
+      "verdict": "FALSE",
+      "reason": "range statistics"
+    },
+    "F017": {
+      "verdict": "FALSE",
+      "reason": "levels talk; earlier exit is retrospective"
+    },
+    "F018": {
+      "verdict": "FALSE",
+      "reason": "explicitly not in a trade, waiting for shove"
+    },
+    "F019": {
+      "verdict": "FALSE",
+      "reason": "conditional future plan: 'I'll cover into here'"
+    },
+    "F020": {
+      "verdict": "FALSE",
+      "reason": "course advertisement"
+    },
+    "F021": {
+      "verdict": "FALSE",
+      "reason": "course/weekly model talk"
+    },
+    "F022": {
+      "verdict": "FALSE",
+      "reason": "trapped-buyers analysis"
+    },
+    "F023": {
+      "verdict": "FALSE",
+      "reason": "order book: big seller at 25,100"
+    },
+    "F024": {
+      "verdict": "FALSE",
+      "reason": "market breadth recap"
+    },
+    "F025": {
+      "verdict": "FALSE",
+      "reason": "delta numbers"
+    },
+    "F026": {
+      "verdict": "FALSE",
+      "reason": "explicitly NOT joining the long"
+    },
+    "F027": {
+      "verdict": "FALSE",
+      "reason": "conditional flush analysis"
+    },
+    "F028": {
+      "verdict": "FALSE",
+      "reason": "ES soaking commentary"
+    },
+    "F029": {
+      "verdict": "REAL",
+      "reason": "'All right. In this short' = real unlabelled short entry"
+    },
+    "F030": {
+      "verdict": "FALSE",
+      "reason": "platform speed comment"
+    },
+    "F031": {
+      "verdict": "FALSE",
+      "reason": "explicitly cannot get involved"
+    },
+    "F032": {
+      "verdict": "FALSE",
+      "reason": "stop-run market commentary"
+    },
+    "F033": {
+      "verdict": "FALSE",
+      "reason": "'parabolic trap wash' market description"
+    },
+    "F034": {
+      "verdict": "FALSE",
+      "reason": "ES failed-high analysis"
+    },
+    "F035": {
+      "verdict": "FALSE",
+      "reason": "explicitly lacking interest"
+    },
+    "F036": {
+      "verdict": "FALSE",
+      "reason": "educational: other traders' stops"
+    },
+    "F037": {
+      "verdict": "FALSE",
+      "reason": "bid-support analysis"
+    },
+    "F038": {
+      "verdict": "FALSE",
+      "reason": "made daily goal, chilling"
+    },
+    "F039": {
+      "verdict": "FALSE",
+      "reason": "[Laughter]"
+    },
+    "F040": {
+      "verdict": "FALSE",
+      "reason": "channel advertisement"
+    },
+    "F041": {
+      "verdict": "FALSE",
+      "reason": "setting a chart alert, not a trade"
+    },
+    "F042": {
+      "verdict": "FALSE",
+      "reason": "reading subscriber names"
+    },
+    "F043": {
+      "verdict": "FALSE",
+      "reason": "Google bid analysis"
+    },
+    "F044": {
+      "verdict": "FALSE",
+      "reason": "market taking out GlobEx analysis"
+    },
+    "F045": {
+      "verdict": "FALSE",
+      "reason": "level take-out talk, waiting"
+    },
+    "F046": {
+      "verdict": "AMBIGUOUS",
+      "reason": "in a short, 'Do I take a bit more?' deliberation, no executed action"
+    },
+    "F047": {
+      "verdict": "FALSE",
+      "reason": "trapped-buyers analysis"
+    },
+    "F048": {
+      "verdict": "AMBIGUOUS",
+      "reason": "'down to small size now' implies a recent trim but no explicit execution"
+    },
+    "F049": {
+      "verdict": "AMBIGUOUS",
+      "reason": "'I got to move that man' possibly moving his stop, unclear referent"
+    },
+    "F050": {
+      "verdict": "FALSE",
+      "reason": "second-person advice: don't bid this market"
+    },
+    "F051": {
+      "verdict": "FALSE",
+      "reason": "Discord recap"
+    },
+    "F052": {
+      "verdict": "REAL",
+      "reason": "'I had to pay myself there, folks' = real trim seconds earlier, in context window"
+    },
+    "F053": {
+      "verdict": "FALSE",
+      "reason": "viewer Q&A about VIX data"
+    },
+    "F054": {
+      "verdict": "AMBIGUOUS",
+      "reason": "holding a short ('I'll cover it'), no new action at this moment"
+    },
+    "F055": {
+      "verdict": "FALSE",
+      "reason": "order book commentary"
+    },
+    "F056": {
+      "verdict": "FALSE",
+      "reason": "retrospective recap of the day's shorts and stop-outs"
+    },
+    "F057": {
+      "verdict": "FALSE",
+      "reason": "marking levels for a runner"
+    },
+    "F058": {
+      "verdict": "FALSE",
+      "reason": "running out of reasons commentary"
+    },
+    "F059": {
+      "verdict": "FALSE",
+      "reason": "chat banter"
+    },
+    "F060": {
+      "verdict": "FALSE",
+      "reason": "second-person advice: make sure you grabbed some"
+    },
+    "F061": {
+      "verdict": "FALSE",
+      "reason": "'Okay.' nothing"
+    },
+    "F062": {
+      "verdict": "FALSE",
+      "reason": "wait and see"
+    },
+    "F063": {
+      "verdict": "FALSE",
+      "reason": "placing an anchored VWAP indicator"
+    },
+    "F064": {
+      "verdict": "FALSE",
+      "reason": "fear commentary"
+    },
+    "F065": {
+      "verdict": "FALSE",
+      "reason": "VIX range analysis"
+    },
+    "F066": {
+      "verdict": "FALSE",
+      "reason": "buyers-caught commentary; runner talk is conditional"
+    },
+    "F067": {
+      "verdict": "FALSE",
+      "reason": "prediction talk; locked profit is state, not action"
+    },
+    "F068": {
+      "verdict": "AMBIGUOUS",
+      "reason": "'nothing wrong with taking some profit' advice-flavoured, unclear if executed"
+    },
+    "F069": {
+      "verdict": "FALSE",
+      "reason": "demand-zone analysis"
+    },
+    "F070": {
+      "verdict": "FALSE",
+      "reason": "echo of already-labelled exit at L1030; no new action"
+    },
+    "F071": {
+      "verdict": "FALSE",
+      "reason": "Apple bid + coffee"
+    },
+    "F072": {
+      "verdict": "FALSE",
+      "reason": "praising viewers locking profit"
+    },
+    "F073": {
+      "verdict": "FALSE",
+      "reason": "target levels"
+    },
+    "F074": {
+      "verdict": "FALSE",
+      "reason": "viewer names + second-person advice"
+    },
+    "F075": {
+      "verdict": "FALSE",
+      "reason": "liquidity analysis"
+    },
+    "F076": {
+      "verdict": "FALSE",
+      "reason": "Discord Q&A"
+    },
+    "F077": {
+      "verdict": "FALSE",
+      "reason": "moderating chat"
+    },
+    "F078": {
+      "verdict": "FALSE",
+      "reason": "analysis; entry was 11 lines earlier and labelled"
+    },
+    "F079": {
+      "verdict": "FALSE",
+      "reason": "'Okay.' + SPX levels"
+    },
+    "F080": {
+      "verdict": "FALSE",
+      "reason": "account P&L recap"
+    },
+    "F081": {
+      "verdict": "FALSE",
+      "reason": "reading subscriber names"
+    },
+    "F082": {
+      "verdict": "FALSE",
+      "reason": "cheering price toward levels"
+    },
+    "F083": {
+      "verdict": "FALSE",
+      "reason": "excess/selling analysis"
+    },
+    "F084": {
+      "verdict": "FALSE",
+      "reason": "hypothetical short risk analysis"
+    },
+    "F085": {
+      "verdict": "FALSE",
+      "reason": "volume void analysis"
+    },
+    "F086": {
+      "verdict": "FALSE",
+      "reason": "levels"
+    },
+    "F087": {
+      "verdict": "FALSE",
+      "reason": "yelling at the market"
+    },
+    "F088": {
+      "verdict": "FALSE",
+      "reason": "hypothetical short, explicitly not looking to short yet"
+    },
+    "F089": {
+      "verdict": "FALSE",
+      "reason": "VIX risk analysis"
+    },
+    "F090": {
+      "verdict": "FALSE",
+      "reason": "node analysis"
+    },
+    "F091": {
+      "verdict": "FALSE",
+      "reason": "prop account talk"
+    },
+    "F092": {
+      "verdict": "FALSE",
+      "reason": "reclaim analysis"
+    },
+    "F093": {
+      "verdict": "FALSE",
+      "reason": "yelling at spoofer while holding; no action"
+    },
+    "F094": {
+      "verdict": "FALSE",
+      "reason": "schedule talk"
+    },
+    "F095": {
+      "verdict": "FALSE",
+      "reason": "absorption analysis"
+    },
+    "F096": {
+      "verdict": "FALSE",
+      "reason": "cheering the move"
+    },
+    "F097": {
+      "verdict": "FALSE",
+      "reason": "reading written recap aloud"
+    },
+    "F098": {
+      "verdict": "FALSE",
+      "reason": "measuring the chart"
+    },
+    "F099": {
+      "verdict": "FALSE",
+      "reason": "anecdote about being a stubborn bear"
+    },
+    "F100": {
+      "verdict": "FALSE",
+      "reason": "indicator Q&A"
+    }
+  }
+}
