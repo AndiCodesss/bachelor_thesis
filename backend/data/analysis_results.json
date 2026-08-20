@@ -1,0 +1,565 @@
+{
+  "feature_importance": {
+    "NO_ACTION": [
+      {
+        "feature": "position flat",
+        "weight": 1.5442
+      },
+      {
+        "feature": "flat last_side",
+        "weight": 1.5442
+      },
+      {
+        "feature": "looking",
+        "weight": 1.4925
+      },
+      {
+        "feature": "flat",
+        "weight": 1.4354
+      },
+      {
+        "feature": "for",
+        "weight": 1.2478
+      },
+      {
+        "feature": "watching",
+        "weight": 1.1095
+      },
+      {
+        "feature": "be",
+        "weight": 1.0938
+      },
+      {
+        "feature": "looking for",
+        "weight": 1.0295
+      },
+      {
+        "feature": "if",
+        "weight": 1.0134
+      },
+      {
+        "feature": "would",
+        "weight": 0.8529
+      },
+      {
+        "feature": "sell",
+        "weight": 0.8333
+      },
+      {
+        "feature": "look",
+        "weight": 0.8274
+      },
+      {
+        "feature": "still",
+        "weight": 0.7985
+      },
+      {
+        "feature": "interested",
+        "weight": 0.746
+      },
+      {
+        "feature": "they",
+        "weight": 0.6864
+      }
+    ],
+    "ENTER_LONG": [
+      {
+        "feature": "long",
+        "weight": 2.6448
+      },
+      {
+        "feature": "squeeze",
+        "weight": 1.8451
+      },
+      {
+        "feature": "small",
+        "weight": 1.8326
+      },
+      {
+        "feature": "flat last_side",
+        "weight": 1.7065
+      },
+      {
+        "feature": "position flat",
+        "weight": 1.7065
+      },
+      {
+        "feature": "flat",
+        "weight": 1.6237
+      },
+      {
+        "feature": "this long",
+        "weight": 1.5531
+      },
+      {
+        "feature": "so long",
+        "weight": 1.5464
+      },
+      {
+        "feature": "long now",
+        "weight": 1.3096
+      },
+      {
+        "feature": "in this",
+        "weight": 1.2643
+      },
+      {
+        "feature": "all",
+        "weight": 1.2264
+      },
+      {
+        "feature": "in",
+        "weight": 1.2192
+      },
+      {
+        "feature": "all right",
+        "weight": 1.0922
+      },
+      {
+        "feature": "last_side long",
+        "weight": 1.0259
+      },
+      {
+        "feature": "long recent",
+        "weight": 1.0259
+      }
+    ],
+    "ENTER_SHORT": [
+      {
+        "feature": "on",
+        "weight": 1.8107
+      },
+      {
+        "feature": "flat last_side",
+        "weight": 1.6321
+      },
+      {
+        "feature": "position flat",
+        "weight": 1.6321
+      },
+      {
+        "feature": "short now",
+        "weight": 1.5858
+      },
+      {
+        "feature": "flat",
+        "weight": 1.5235
+      },
+      {
+        "feature": "in",
+        "weight": 1.4802
+      },
+      {
+        "feature": "on here",
+        "weight": 1.4519
+      },
+      {
+        "feature": "piece on",
+        "weight": 1.4199
+      },
+      {
+        "feature": "piece",
+        "weight": 1.4004
+      },
+      {
+        "feature": "in this",
+        "weight": 1.3966
+      },
+      {
+        "feature": "so short",
+        "weight": 1.2956
+      },
+      {
+        "feature": "short",
+        "weight": 1.1506
+      },
+      {
+        "feature": "got",
+        "weight": 1.1396
+      },
+      {
+        "feature": "this short",
+        "weight": 1.0704
+      },
+      {
+        "feature": "in short",
+        "weight": 1.0507
+      }
+    ],
+    "TRIM": [
+      {
+        "feature": "some",
+        "weight": 3.509
+      },
+      {
+        "feature": "covering",
+        "weight": 2.0885
+      },
+      {
+        "feature": "myself",
+        "weight": 1.929
+      },
+      {
+        "feature": "into",
+        "weight": 1.5957
+      },
+      {
+        "feature": "paying",
+        "weight": 1.5607
+      },
+      {
+        "feature": "trimming",
+        "weight": 1.4068
+      },
+      {
+        "feature": "covering some",
+        "weight": 1.3497
+      },
+      {
+        "feature": "short last_side",
+        "weight": 1.1822
+      },
+      {
+        "feature": "position short",
+        "weight": 1.18
+      },
+      {
+        "feature": "partial",
+        "weight": 1.1742
+      },
+      {
+        "feature": "some off",
+        "weight": 1.1652
+      },
+      {
+        "feature": "here",
+        "weight": 1.1521
+      },
+      {
+        "feature": "little",
+        "weight": 1.1226
+      },
+      {
+        "feature": "off",
+        "weight": 1.0711
+      },
+      {
+        "feature": "taking",
+        "weight": 1.0697
+      }
+    ],
+    "EXIT_ALL": [
+      {
+        "feature": "out",
+        "weight": 5.6112
+      },
+      {
+        "feature": "out of",
+        "weight": 2.7628
+      },
+      {
+        "feature": "of this",
+        "weight": 1.9212
+      },
+      {
+        "feature": "of",
+        "weight": 1.6666
+      },
+      {
+        "feature": "out here",
+        "weight": 1.6214
+      },
+      {
+        "feature": "done",
+        "weight": 1.1686
+      },
+      {
+        "feature": "right out",
+        "weight": 1.1064
+      },
+      {
+        "feature": "this off",
+        "weight": 1.0732
+      },
+      {
+        "feature": "long last_side",
+        "weight": 1.0725
+      },
+      {
+        "feature": "position long",
+        "weight": 1.0725
+      },
+      {
+        "feature": "out now",
+        "weight": 0.9697
+      },
+      {
+        "feature": "out on",
+        "weight": 0.9369
+      },
+      {
+        "feature": "so out",
+        "weight": 0.9301
+      },
+      {
+        "feature": "short last_side",
+        "weight": 0.9252
+      },
+      {
+        "feature": "position short",
+        "weight": 0.9231
+      }
+    ],
+    "MOVE_STOP": [
+      {
+        "feature": "stop",
+        "weight": 4.6224
+      },
+      {
+        "feature": "my stop",
+        "weight": 3.0297
+      },
+      {
+        "feature": "my",
+        "weight": 2.8966
+      },
+      {
+        "feature": "moving",
+        "weight": 2.541
+      },
+      {
+        "feature": "move",
+        "weight": 2.1314
+      },
+      {
+        "feature": "move my",
+        "weight": 1.5089
+      },
+      {
+        "feature": "stops",
+        "weight": 1.4944
+      },
+      {
+        "feature": "stop up",
+        "weight": 1.3196
+      },
+      {
+        "feature": "moving my",
+        "weight": 1.3072
+      },
+      {
+        "feature": "moved",
+        "weight": 1.0984
+      },
+      {
+        "feature": "move this",
+        "weight": 1.0886
+      },
+      {
+        "feature": "let me",
+        "weight": 0.9624
+      },
+      {
+        "feature": "moving stop",
+        "weight": 0.9268
+      },
+      {
+        "feature": "let",
+        "weight": 0.9232
+      },
+      {
+        "feature": "fact",
+        "weight": 0.9151
+      }
+    ],
+    "MOVE_TO_BREAKEVEN": [
+      {
+        "feature": "break even",
+        "weight": 3.3006
+      },
+      {
+        "feature": "even",
+        "weight": 3.093
+      },
+      {
+        "feature": "breakeven",
+        "weight": 2.6828
+      },
+      {
+        "feature": "break",
+        "weight": 2.4504
+      },
+      {
+        "feature": "breakeven current",
+        "weight": 1.7321
+      },
+      {
+        "feature": "stop",
+        "weight": 1.4424
+      },
+      {
+        "feature": "still holding",
+        "weight": 1.1292
+      },
+      {
+        "feature": "so stop",
+        "weight": 1.0984
+      },
+      {
+        "feature": "stop breakeven",
+        "weight": 1.0902
+      },
+      {
+        "feature": "nice can",
+        "weight": 1.0692
+      },
+      {
+        "feature": "no follow",
+        "weight": 1.0692
+      },
+      {
+        "feature": "through ll",
+        "weight": 1.0692
+      },
+      {
+        "feature": "through if",
+        "weight": 1.0692
+      },
+      {
+        "feature": "follow through",
+        "weight": 1.043
+      },
+      {
+        "feature": "follow",
+        "weight": 1.0289
+      }
+    ]
+  },
+  "statistical_tests": {
+    "distilbert_vs_logreg": {
+      "t_statistic": -4.1767,
+      "p_value": 0.014,
+      "mean_difference": -0.1151,
+      "ci_lower": -0.1916,
+      "ci_upper": -0.0386,
+      "significant_at_005": true,
+      "n_folds": 5,
+      "model_a": "distilbert",
+      "model_b": "logreg",
+      "metric": "macro_f1"
+    },
+    "distilbert_vs_mlp": {
+      "t_statistic": -1.7976,
+      "p_value": 0.1466,
+      "mean_difference": -0.0465,
+      "ci_lower": -0.1182,
+      "ci_upper": 0.0253,
+      "significant_at_005": false,
+      "n_folds": 5,
+      "model_a": "distilbert",
+      "model_b": "mlp",
+      "metric": "macro_f1"
+    },
+    "distilbert_vs_modernbert": {
+      "t_statistic": -2.0396,
+      "p_value": 0.111,
+      "mean_difference": -0.0613,
+      "ci_lower": -0.1448,
+      "ci_upper": 0.0222,
+      "significant_at_005": false,
+      "n_folds": 5,
+      "model_a": "distilbert",
+      "model_b": "modernbert",
+      "metric": "macro_f1"
+    },
+    "distilbert_vs_svm": {
+      "t_statistic": -2.5498,
+      "p_value": 0.0633,
+      "mean_difference": -0.1006,
+      "ci_lower": -0.2101,
+      "ci_upper": 0.0089,
+      "significant_at_005": false,
+      "n_folds": 5,
+      "model_a": "distilbert",
+      "model_b": "svm",
+      "metric": "macro_f1"
+    },
+    "logreg_vs_mlp": {
+      "t_statistic": 1.733,
+      "p_value": 0.1581,
+      "mean_difference": 0.0686,
+      "ci_lower": -0.0413,
+      "ci_upper": 0.1786,
+      "significant_at_005": false,
+      "n_folds": 5,
+      "model_a": "logreg",
+      "model_b": "mlp",
+      "metric": "macro_f1"
+    },
+    "logreg_vs_modernbert": {
+      "t_statistic": 1.5916,
+      "p_value": 0.1867,
+      "mean_difference": 0.0538,
+      "ci_lower": -0.04,
+      "ci_upper": 0.1475,
+      "significant_at_005": false,
+      "n_folds": 5,
+      "model_a": "logreg",
+      "model_b": "modernbert",
+      "metric": "macro_f1"
+    },
+    "logreg_vs_svm": {
+      "t_statistic": 0.6675,
+      "p_value": 0.541,
+      "mean_difference": 0.0145,
+      "ci_lower": -0.0457,
+      "ci_upper": 0.0747,
+      "significant_at_005": false,
+      "n_folds": 5,
+      "model_a": "logreg",
+      "model_b": "svm",
+      "metric": "macro_f1"
+    },
+    "mlp_vs_modernbert": {
+      "t_statistic": -0.4199,
+      "p_value": 0.6961,
+      "mean_difference": -0.0149,
+      "ci_lower": -0.1131,
+      "ci_upper": 0.0834,
+      "significant_at_005": false,
+      "n_folds": 5,
+      "model_a": "mlp",
+      "model_b": "modernbert",
+      "metric": "macro_f1"
+    },
+    "mlp_vs_svm": {
+      "t_statistic": -1.3928,
+      "p_value": 0.2361,
+      "mean_difference": -0.0541,
+      "ci_lower": -0.1621,
+      "ci_upper": 0.0538,
+      "significant_at_005": false,
+      "n_folds": 5,
+      "model_a": "mlp",
+      "model_b": "svm",
+      "metric": "macro_f1"
+    },
+    "modernbert_vs_svm": {
+      "t_statistic": -0.8645,
+      "p_value": 0.4361,
+      "mean_difference": -0.0393,
+      "ci_lower": -0.1654,
+      "ci_upper": 0.0869,
+      "significant_at_005": false,
+      "n_folds": 5,
+      "model_a": "modernbert",
+      "model_b": "svm",
+      "metric": "macro_f1"
+    }
+  },
+  "config": {
+    "dataset": "data/training_data_clean.jsonl",
+    "top_k": 15,
+    "metric": "macro_f1"
+  }
+}

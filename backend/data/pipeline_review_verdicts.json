@@ -1,0 +1,894 @@
+{
+  "reviewer": "Claude (Fable 5), AI review with transcript context, 2026-06-12; verdicts checked and confirmed by the author",
+  "unique_fires": 99,
+  "unique_counts": {
+    "REAL": 15,
+    "AMBIGUOUS": 9,
+    "FALSE": 75
+  },
+  "per_config_counts": {
+    "rules": {
+      "REAL": 14,
+      "AMBIGUOUS": 8,
+      "FALSE": 59,
+      "total": 81
+    },
+    "modernbert": {
+      "REAL": 15,
+      "AMBIGUOUS": 8,
+      "FALSE": 70,
+      "total": 93
+    },
+    "tfidf": {
+      "REAL": 15,
+      "AMBIGUOUS": 8,
+      "FALSE": 72,
+      "total": 95
+    }
+  },
+  "verdicts": {
+    "2025-10-07:L268": {
+      "verdict": "FALSE",
+      "reason": "cautionary analysis about getting long",
+      "tag_by_config": {
+        "rules": "ENTER_LONG",
+        "modernbert": "ENTER_LONG",
+        "tfidf": "ENTER_LONG"
+      }
+    },
+    "2025-10-07:L646": {
+      "verdict": "FALSE",
+      "reason": "plan: wants second leg down before long",
+      "tag_by_config": {
+        "rules": "ENTER_LONG",
+        "modernbert": "ADD",
+        "tfidf": "ENTER_LONG"
+      }
+    },
+    "2025-10-07:L897": {
+      "verdict": "FALSE",
+      "reason": "negated: would rather wait than get long",
+      "tag_by_config": {
+        "rules": "ADD",
+        "modernbert": "ADD",
+        "tfidf": "ADD"
+      }
+    },
+    "2025-10-07:L1575": {
+      "verdict": "AMBIGUOUS",
+      "reason": "recap of past scalp (took rest off BE earlier), reveals recent entry",
+      "tag_by_config": {
+        "rules": "MOVE_TO_BREAKEVEN",
+        "modernbert": "MOVE_TO_BREAKEVEN",
+        "tfidf": "MOVE_TO_BREAKEVEN"
+      }
+    },
+    "2025-10-07:L1767": {
+      "verdict": "FALSE",
+      "reason": "reading viewer Peter's exit; himself holding",
+      "tag_by_config": {
+        "rules": "EXIT_ALL",
+        "modernbert": "EXIT_ALL",
+        "tfidf": "EXIT_ALL"
+      }
+    },
+    "2025-10-07:L2095": {
+      "verdict": "FALSE",
+      "reason": "conditional exit plan (if they reclaim)",
+      "tag_by_config": {
+        "rules": "EXIT_ALL",
+        "modernbert": "EXIT_ALL",
+        "tfidf": "EXIT_ALL"
+      }
+    },
+    "2025-10-07:L2260": {
+      "verdict": "AMBIGUOUS",
+      "reason": "states being out now; exit happened earlier off-mic",
+      "tag_by_config": {
+        "rules": "EXIT_ALL",
+        "modernbert": "EXIT_ALL",
+        "tfidf": "EXIT_ALL"
+      }
+    },
+    "2025-10-07:L2326": {
+      "verdict": "FALSE",
+      "reason": "regret about earlier take-off",
+      "tag_by_config": {
+        "rules": "EXIT_ALL",
+        "modernbert": "EXIT_ALL",
+        "tfidf": "EXIT_ALL"
+      }
+    },
+    "2025-10-07:L2952": {
+      "verdict": "FALSE",
+      "reason": "addressing trapped buyers rhetorically",
+      "tag_by_config": {
+        "rules": "ENTER_LONG",
+        "modernbert": "ENTER_LONG",
+        "tfidf": "ADD"
+      }
+    },
+    "2025-10-07:L3486": {
+      "verdict": "FALSE",
+      "reason": "'it's all out there' = information, not position",
+      "tag_by_config": {
+        "rules": "EXIT_ALL",
+        "modernbert": "EXIT_ALL",
+        "tfidf": "EXIT_ALL"
+      }
+    },
+    "2025-10-23:L1094": {
+      "verdict": "AMBIGUOUS",
+      "reason": "recap: already cut that trade (first mention)",
+      "tag_by_config": {
+        "rules": "EXIT_ALL",
+        "modernbert": "EXIT_ALL",
+        "tfidf": "EXIT_ALL"
+      }
+    },
+    "2025-10-23:L1096": {
+      "verdict": "AMBIGUOUS",
+      "reason": "recap: cut at break even (same event)",
+      "tag_by_config": {
+        "rules": "MOVE_TO_BREAKEVEN",
+        "modernbert": "MOVE_TO_BREAKEVEN",
+        "tfidf": "MOVE_TO_BREAKEVEN"
+      }
+    },
+    "2025-10-23:L1289": {
+      "verdict": "REAL",
+      "reason": "announces being in short ('in this short')",
+      "tag_by_config": {
+        "rules": "ENTER_SHORT",
+        "modernbert": "ENTER_SHORT",
+        "tfidf": "ENTER_SHORT"
+      }
+    },
+    "2025-10-23:L1304": {
+      "verdict": "REAL",
+      "reason": "'I'm out of this now'",
+      "tag_by_config": {
+        "rules": "EXIT_ALL",
+        "modernbert": "EXIT_ALL",
+        "tfidf": "EXIT_ALL"
+      }
+    },
+    "2025-10-23:L1755": {
+      "verdict": "FALSE",
+      "reason": "urging market to take out stops",
+      "tag_by_config": {
+        "rules": "EXIT_ALL",
+        "modernbert": "EXIT_ALL",
+        "tfidf": "EXIT_ALL"
+      }
+    },
+    "2025-10-23:L1895": {
+      "verdict": "REAL",
+      "reason": "'I'm out of this now'",
+      "tag_by_config": {
+        "rules": "EXIT_ALL",
+        "modernbert": "EXIT_ALL",
+        "tfidf": "EXIT_ALL"
+      }
+    },
+    "2025-10-23:L2657": {
+      "verdict": "FALSE",
+      "reason": "passive-buyer tape analysis",
+      "tag_by_config": {
+        "rules": "ENTER_SHORT",
+        "modernbert": "ENTER_SHORT",
+        "tfidf": "ENTER_SHORT"
+      }
+    },
+    "2025-10-23:L2823": {
+      "verdict": "FALSE",
+      "reason": "other traders stopped out",
+      "tag_by_config": {
+        "rules": "EXIT_ALL",
+        "modernbert": "EXIT_ALL",
+        "tfidf": "EXIT_ALL"
+      }
+    },
+    "2025-10-23:L2824": {
+      "verdict": "FALSE",
+      "reason": "other traders stopped out",
+      "tag_by_config": {
+        "rules": "EXIT_ALL",
+        "modernbert": "EXIT_ALL",
+        "tfidf": "EXIT_ALL"
+      }
+    },
+    "2025-10-23:L3049": {
+      "verdict": "REAL",
+      "reason": "trims into flush ('got to pay myself')",
+      "tag_by_config": {
+        "rules": "TRIM",
+        "modernbert": "TRIM",
+        "tfidf": "TRIM"
+      }
+    },
+    "2025-10-23:L3114": {
+      "verdict": "FALSE",
+      "reason": "recap to chat: was short, called wrong way",
+      "tag_by_config": {
+        "rules": "MOVE_TO_BREAKEVEN",
+        "modernbert": "MOVE_TO_BREAKEVEN",
+        "tfidf": "MOVE_TO_BREAKEVEN"
+      }
+    },
+    "2025-10-23:L3488": {
+      "verdict": "FALSE",
+      "reason": "generic advice on losing trades",
+      "tag_by_config": {
+        "rules": "EXIT_ALL",
+        "modernbert": "EXIT_ALL",
+        "tfidf": "EXIT_ALL"
+      }
+    },
+    "2025-10-23:L3515": {
+      "verdict": "FALSE",
+      "reason": "denial: never told anyone to add short",
+      "tag_by_config": {
+        "rules": "ENTER_SHORT",
+        "modernbert": "ENTER_SHORT",
+        "tfidf": "ENTER_SHORT"
+      }
+    },
+    "2025-10-23:L3592": {
+      "verdict": "FALSE",
+      "reason": "advice: take profit into here",
+      "tag_by_config": {
+        "rules": "TRIM",
+        "modernbert": "TRIM",
+        "tfidf": "TRIM"
+      }
+    },
+    "2025-11-06:L526": {
+      "verdict": "AMBIGUOUS",
+      "reason": "status reveal: already short from earlier",
+      "tag_by_config": {
+        "rules": "ENTER_SHORT",
+        "modernbert": "ENTER_SHORT",
+        "tfidf": "ENTER_SHORT"
+      }
+    },
+    "2025-11-06:L1178": {
+      "verdict": "REAL",
+      "reason": "just paid himself (trim)",
+      "tag_by_config": {
+        "rules": "TRIM",
+        "modernbert": "TRIM",
+        "tfidf": "TRIM"
+      }
+    },
+    "2025-11-06:L1360": {
+      "verdict": "FALSE",
+      "reason": "sellers exhausted = market analysis",
+      "tag_by_config": {
+        "rules": "ADD",
+        "modernbert": "ADD",
+        "tfidf": "ENTER_SHORT"
+      }
+    },
+    "2025-11-06:L1830": {
+      "verdict": "FALSE",
+      "reason": "advice: pay yourself into this box",
+      "tag_by_config": {
+        "rules": "TRIM",
+        "modernbert": "TRIM",
+        "tfidf": "TRIM"
+      }
+    },
+    "2025-11-06:L2025": {
+      "verdict": "AMBIGUOUS",
+      "reason": "first mention of stop-out on runner",
+      "tag_by_config": {
+        "rules": "EXIT_ALL",
+        "modernbert": "EXIT_ALL",
+        "tfidf": "EXIT_ALL"
+      }
+    },
+    "2025-11-06:L2267": {
+      "verdict": "FALSE",
+      "reason": "educational recap of entry and stop-out",
+      "tag_by_config": {
+        "rules": "EXIT_ALL",
+        "modernbert": "EXIT_ALL",
+        "tfidf": "EXIT_ALL"
+      }
+    },
+    "2025-11-06:L2268": {
+      "verdict": "FALSE",
+      "reason": "same recap continued",
+      "tag_by_config": {
+        "rules": "EXIT_ALL",
+        "modernbert": "EXIT_ALL",
+        "tfidf": "EXIT_ALL"
+      }
+    },
+    "2025-11-06:L2736": {
+      "verdict": "FALSE",
+      "reason": "market buying commentary",
+      "tag_by_config": {
+        "rules": "ENTER_LONG",
+        "modernbert": "ENTER_LONG",
+        "tfidf": "ENTER_LONG"
+      }
+    },
+    "2025-11-06:L2786": {
+      "verdict": "FALSE",
+      "reason": "day recap of trades",
+      "tag_by_config": {
+        "rules": "EXIT_ALL",
+        "modernbert": "EXIT_ALL",
+        "tfidf": "EXIT_ALL"
+      }
+    },
+    "2025-11-06:L2860": {
+      "verdict": "FALSE",
+      "reason": "bias statement: short or rotational biased",
+      "tag_by_config": {
+        "rules": "ENTER_SHORT",
+        "modernbert": "ENTER_SHORT",
+        "tfidf": "ENTER_SHORT"
+      }
+    },
+    "2025-11-06:L3309": {
+      "verdict": "FALSE",
+      "reason": "market structure analysis",
+      "tag_by_config": {
+        "rules": "ADD",
+        "modernbert": "ADD",
+        "tfidf": "ADD"
+      }
+    },
+    "2025-11-06:L3748": {
+      "verdict": "FALSE",
+      "reason": "buy-pressure tape analysis",
+      "tag_by_config": {
+        "rules": "ADD",
+        "modernbert": "ADD",
+        "tfidf": "ADD"
+      }
+    },
+    "2025-11-07:L157": {
+      "verdict": "FALSE",
+      "reason": "caution advice about shorting lows",
+      "tag_by_config": {
+        "rules": "ENTER_SHORT",
+        "modernbert": "ENTER_SHORT",
+        "tfidf": "ENTER_SHORT"
+      }
+    },
+    "2025-11-07:L559": {
+      "verdict": "FALSE",
+      "reason": "tape commentary: a little buying",
+      "tag_by_config": {
+        "rules": "ENTER_LONG",
+        "modernbert": "ENTER_LONG",
+        "tfidf": "ENTER_LONG"
+      }
+    },
+    "2025-11-07:L808": {
+      "verdict": "FALSE",
+      "reason": "sellers stepping in = market commentary",
+      "tag_by_config": {
+        "rules": "MOVE_STOP",
+        "modernbert": "MOVE_STOP",
+        "tfidf": "MOVE_STOP"
+      }
+    },
+    "2025-11-07:L864": {
+      "verdict": "AMBIGUOUS",
+      "reason": "fire mis-timed; real entry 3 lines earlier",
+      "tag_by_config": {
+        "rules": "ADD"
+      }
+    },
+    "2025-11-07:L1021": {
+      "verdict": "AMBIGUOUS",
+      "reason": "explains TP that hit moments before",
+      "tag_by_config": {
+        "rules": "TRIM",
+        "modernbert": "TRIM",
+        "tfidf": "TRIM"
+      }
+    },
+    "2025-11-07:L1107": {
+      "verdict": "FALSE",
+      "reason": "tape: strong selling",
+      "tag_by_config": {
+        "rules": "ENTER_SHORT",
+        "modernbert": "ENTER_SHORT",
+        "tfidf": "ENTER_SHORT"
+      }
+    },
+    "2025-11-07:L1204": {
+      "verdict": "FALSE",
+      "reason": "'flatten out' = market flattening, not exit",
+      "tag_by_config": {
+        "rules": "EXIT_ALL",
+        "modernbert": "EXIT_ALL",
+        "tfidf": "EXIT_ALL"
+      }
+    },
+    "2025-11-07:L1664": {
+      "verdict": "FALSE",
+      "reason": "status: not in position, stopped out earlier",
+      "tag_by_config": {
+        "rules": "EXIT_ALL",
+        "modernbert": "EXIT_ALL",
+        "tfidf": "EXIT_ALL"
+      }
+    },
+    "2025-11-07:L1755": {
+      "verdict": "FALSE",
+      "reason": "status: flat and waiting",
+      "tag_by_config": {
+        "rules": "EXIT_ALL",
+        "modernbert": "EXIT_ALL",
+        "tfidf": "EXIT_ALL"
+      }
+    },
+    "2025-11-07:L1820": {
+      "verdict": "FALSE",
+      "reason": "day recap: got stopped out",
+      "tag_by_config": {
+        "rules": "EXIT_ALL",
+        "modernbert": "EXIT_ALL",
+        "tfidf": "EXIT_ALL"
+      }
+    },
+    "2025-11-07:L2284": {
+      "verdict": "FALSE",
+      "reason": "other traders stopped out",
+      "tag_by_config": {
+        "rules": "EXIT_ALL",
+        "modernbert": "EXIT_ALL",
+        "tfidf": "EXIT_ALL"
+      }
+    },
+    "2025-11-07:L2421": {
+      "verdict": "FALSE",
+      "reason": "tape: buying here",
+      "tag_by_config": {
+        "rules": "ENTER_LONG",
+        "modernbert": "ENTER_LONG",
+        "tfidf": "ENTER_LONG"
+      }
+    },
+    "2025-11-07:L2523": {
+      "verdict": "FALSE",
+      "reason": "negated: not going to short this move",
+      "tag_by_config": {
+        "rules": "ENTER_SHORT",
+        "modernbert": "ENTER_SHORT",
+        "tfidf": "ENTER_SHORT"
+      }
+    },
+    "2025-11-07:L2524": {
+      "verdict": "FALSE",
+      "reason": "same negation",
+      "tag_by_config": {
+        "rules": "ADD",
+        "modernbert": "ADD",
+        "tfidf": "ADD"
+      }
+    },
+    "2025-11-07:L2616": {
+      "verdict": "FALSE",
+      "reason": "deliberation: cut or add, no action",
+      "tag_by_config": {
+        "rules": "ADD",
+        "modernbert": "ADD",
+        "tfidf": "ADD"
+      }
+    },
+    "2025-11-07:L2673": {
+      "verdict": "FALSE",
+      "reason": "recap: attempt stopped out",
+      "tag_by_config": {
+        "rules": "EXIT_ALL",
+        "modernbert": "EXIT_ALL",
+        "tfidf": "EXIT_ALL"
+      }
+    },
+    "2025-11-07:L2819": {
+      "verdict": "FALSE",
+      "reason": "tape: big selling",
+      "tag_by_config": {
+        "rules": "ENTER_SHORT",
+        "modernbert": "ENTER_SHORT",
+        "tfidf": "ENTER_SHORT"
+      }
+    },
+    "2025-11-07:L2821": {
+      "verdict": "FALSE",
+      "reason": "tape: huge selling",
+      "tag_by_config": {
+        "rules": "ADD",
+        "modernbert": "ADD",
+        "tfidf": "ADD"
+      }
+    },
+    "2025-11-07:L2905": {
+      "verdict": "FALSE",
+      "reason": "recap: stopped out on attempt",
+      "tag_by_config": {
+        "rules": "EXIT_ALL",
+        "modernbert": "EXIT_ALL",
+        "tfidf": "EXIT_ALL"
+      }
+    },
+    "2025-11-07:L3067": {
+      "verdict": "FALSE",
+      "reason": "prop-account payout question, not a trade",
+      "tag_by_config": {
+        "rules": "EXIT_ALL",
+        "modernbert": "EXIT_ALL",
+        "tfidf": "EXIT_ALL"
+      }
+    },
+    "2025-11-07:L3306": {
+      "verdict": "FALSE",
+      "reason": "general method explanation",
+      "tag_by_config": {
+        "rules": "MOVE_TO_BREAKEVEN",
+        "modernbert": "MOVE_TO_BREAKEVEN",
+        "tfidf": "MOVE_TO_BREAKEVEN"
+      }
+    },
+    "2025-11-14:L558": {
+      "verdict": "FALSE",
+      "reason": "tape: some selling",
+      "tag_by_config": {
+        "rules": "ENTER_SHORT",
+        "modernbert": "ENTER_SHORT",
+        "tfidf": "ENTER_SHORT"
+      }
+    },
+    "2025-11-14:L748": {
+      "verdict": "FALSE",
+      "reason": "other traders stopped out",
+      "tag_by_config": {
+        "rules": "EXIT_ALL",
+        "modernbert": "EXIT_ALL",
+        "tfidf": "EXIT_ALL"
+      }
+    },
+    "2025-11-14:L912": {
+      "verdict": "FALSE",
+      "reason": "negated: not getting short",
+      "tag_by_config": {
+        "rules": "ENTER_SHORT",
+        "modernbert": "ENTER_SHORT",
+        "tfidf": "ENTER_SHORT"
+      }
+    },
+    "2025-11-14:L913": {
+      "verdict": "FALSE",
+      "reason": "same negation",
+      "tag_by_config": {
+        "rules": "ADD",
+        "modernbert": "ADD",
+        "tfidf": "ADD"
+      }
+    },
+    "2025-11-14:L1563": {
+      "verdict": "FALSE",
+      "reason": "tape: stronger selling",
+      "tag_by_config": {
+        "rules": "ADD",
+        "modernbert": "ADD",
+        "tfidf": "ADD"
+      }
+    },
+    "2025-11-14:L1622": {
+      "verdict": "FALSE",
+      "reason": "conditional short plan",
+      "tag_by_config": {
+        "rules": "ADD",
+        "modernbert": "ADD",
+        "tfidf": "ADD"
+      }
+    },
+    "2025-11-14:L2011": {
+      "verdict": "FALSE",
+      "reason": "describing yesterday's management",
+      "tag_by_config": {
+        "rules": "MOVE_TO_BREAKEVEN",
+        "modernbert": "MOVE_TO_BREAKEVEN",
+        "tfidf": "MOVE_TO_BREAKEVEN"
+      }
+    },
+    "2025-11-14:L2226": {
+      "verdict": "REAL",
+      "reason": "small entry 'tiny nibble versus 40'",
+      "tag_by_config": {
+        "rules": "MOVE_STOP",
+        "modernbert": "MOVE_STOP",
+        "tfidf": "MOVE_STOP"
+      }
+    },
+    "2025-11-14:L2233": {
+      "verdict": "REAL",
+      "reason": "covers a little, stop gone break even",
+      "tag_by_config": {
+        "rules": "MOVE_TO_BREAKEVEN",
+        "modernbert": "MOVE_TO_BREAKEVEN",
+        "tfidf": "MOVE_TO_BREAKEVEN"
+      }
+    },
+    "2025-11-14:L2242": {
+      "verdict": "REAL",
+      "reason": "stopped out at BE on rest",
+      "tag_by_config": {
+        "rules": "EXIT_ALL",
+        "modernbert": "EXIT_ALL",
+        "tfidf": "EXIT_ALL"
+      }
+    },
+    "2025-11-14:L2278": {
+      "verdict": "REAL",
+      "reason": "'already taking some off'",
+      "tag_by_config": {
+        "rules": "TRIM",
+        "modernbert": "TRIM",
+        "tfidf": "TRIM"
+      }
+    },
+    "2025-11-14:L2370": {
+      "verdict": "REAL",
+      "reason": "'currently flatten this now'",
+      "tag_by_config": {
+        "rules": "EXIT_ALL",
+        "modernbert": "EXIT_ALL",
+        "tfidf": "EXIT_ALL"
+      }
+    },
+    "2025-11-14:L2408": {
+      "verdict": "FALSE",
+      "reason": "tape: aggressive selling",
+      "tag_by_config": {
+        "rules": "ENTER_SHORT",
+        "modernbert": "ENTER_SHORT",
+        "tfidf": "ENTER_SHORT"
+      }
+    },
+    "2025-11-14:L2429": {
+      "verdict": "FALSE",
+      "reason": "tape: more aggressive selling",
+      "tag_by_config": {
+        "rules": "ADD",
+        "modernbert": "ADD",
+        "tfidf": "ADD"
+      }
+    },
+    "2025-11-14:L2525": {
+      "verdict": "FALSE",
+      "reason": "advice: you have to pay yourself",
+      "tag_by_config": {
+        "rules": "TRIM",
+        "modernbert": "TRIM",
+        "tfidf": "TRIM"
+      }
+    },
+    "2025-11-14:L2546": {
+      "verdict": "FALSE",
+      "reason": "urging market to wipe out level",
+      "tag_by_config": {
+        "rules": "EXIT_ALL",
+        "modernbert": "EXIT_ALL",
+        "tfidf": "EXIT_ALL"
+      }
+    },
+    "2025-11-14:L2572": {
+      "verdict": "REAL",
+      "reason": "stops into break even",
+      "tag_by_config": {
+        "rules": "MOVE_TO_BREAKEVEN",
+        "modernbert": "MOVE_TO_BREAKEVEN",
+        "tfidf": "MOVE_TO_BREAKEVEN"
+      }
+    },
+    "2025-11-14:L2573": {
+      "verdict": "REAL",
+      "reason": "same BE announcement (duplicate fire)",
+      "tag_by_config": {
+        "rules": "MOVE_TO_BREAKEVEN",
+        "modernbert": "MOVE_TO_BREAKEVEN",
+        "tfidf": "MOVE_TO_BREAKEVEN"
+      }
+    },
+    "2025-11-14:L2575": {
+      "verdict": "REAL",
+      "reason": "same BE announcement (duplicate fire)",
+      "tag_by_config": {
+        "rules": "MOVE_TO_BREAKEVEN",
+        "modernbert": "MOVE_TO_BREAKEVEN",
+        "tfidf": "MOVE_TO_BREAKEVEN"
+      }
+    },
+    "2025-11-14:L2671": {
+      "verdict": "REAL",
+      "reason": "'I'm flattening this'",
+      "tag_by_config": {
+        "rules": "EXIT_ALL",
+        "modernbert": "EXIT_ALL",
+        "tfidf": "EXIT_ALL"
+      }
+    },
+    "2025-11-14:L3432": {
+      "verdict": "FALSE",
+      "reason": "conditional: BE if above red line",
+      "tag_by_config": {
+        "rules": "MOVE_TO_BREAKEVEN",
+        "modernbert": "MOVE_TO_BREAKEVEN",
+        "tfidf": "MOVE_TO_BREAKEVEN"
+      }
+    },
+    "2025-11-14:L3633": {
+      "verdict": "FALSE",
+      "reason": "tape selling + done for the day",
+      "tag_by_config": {
+        "rules": "ENTER_SHORT",
+        "modernbert": "ENTER_SHORT",
+        "tfidf": "ENTER_SHORT"
+      }
+    },
+    "2025-11-14:L3749": {
+      "verdict": "FALSE",
+      "reason": "levels review, no action",
+      "tag_by_config": {
+        "rules": "MOVE_STOP",
+        "modernbert": "MOVE_STOP",
+        "tfidf": "MOVE_STOP"
+      }
+    },
+    "2025-11-14:L3975": {
+      "verdict": "FALSE",
+      "reason": "leaving the stream",
+      "tag_by_config": {
+        "rules": "EXIT_ALL",
+        "modernbert": "EXIT_ALL",
+        "tfidf": "EXIT_ALL"
+      }
+    },
+    "2025-10-07:L371": {
+      "verdict": "FALSE",
+      "reason": "negated: doesn't fancy getting long",
+      "tag_by_config": {
+        "modernbert": "ADD",
+        "tfidf": "ADD"
+      }
+    },
+    "2025-10-07:L397": {
+      "verdict": "FALSE",
+      "reason": "explicitly waiting, not entering",
+      "tag_by_config": {
+        "modernbert": "ENTER_LONG"
+      }
+    },
+    "2025-10-07:L501": {
+      "verdict": "FALSE",
+      "reason": "describing other traders' stops",
+      "tag_by_config": {
+        "modernbert": "MOVE_STOP"
+      }
+    },
+    "2025-10-07:L1590": {
+      "verdict": "FALSE",
+      "reason": "market analysis, says flat and waiting",
+      "tag_by_config": {
+        "modernbert": "ADD",
+        "tfidf": "ADD"
+      }
+    },
+    "2025-10-07:L3145": {
+      "verdict": "FALSE",
+      "reason": "negated: not getting short down here",
+      "tag_by_config": {
+        "modernbert": "ENTER_SHORT",
+        "tfidf": "ENTER_SHORT"
+      }
+    },
+    "2025-10-23:L1072": {
+      "verdict": "REAL",
+      "reason": "small short entry announced two lines above",
+      "tag_by_config": {
+        "modernbert": "ENTER_SHORT",
+        "tfidf": "ENTER_SHORT"
+      }
+    },
+    "2025-11-06:L565": {
+      "verdict": "FALSE",
+      "reason": "regret: wanted to be short, missed it",
+      "tag_by_config": {
+        "modernbert": "ADD",
+        "tfidf": "ENTER_SHORT"
+      }
+    },
+    "2025-11-06:L613": {
+      "verdict": "AMBIGUOUS",
+      "reason": "fire mis-timed; real re-entry 4 lines earlier",
+      "tag_by_config": {
+        "modernbert": "MOVE_STOP",
+        "tfidf": "MOVE_STOP"
+      }
+    },
+    "2025-11-07:L2561": {
+      "verdict": "FALSE",
+      "reason": "tape commentary above 28",
+      "tag_by_config": {
+        "modernbert": "MOVE_STOP",
+        "tfidf": "MOVE_STOP"
+      }
+    },
+    "2025-11-07:L3308": {
+      "verdict": "FALSE",
+      "reason": "same method explanation",
+      "tag_by_config": {
+        "modernbert": "MOVE_TO_BREAKEVEN",
+        "tfidf": "MOVE_TO_BREAKEVEN"
+      }
+    },
+    "2025-11-14:L1398": {
+      "verdict": "FALSE",
+      "reason": "negated: no short, no entry still",
+      "tag_by_config": {
+        "modernbert": "ADD",
+        "tfidf": "ADD"
+      }
+    },
+    "2025-11-14:L1806": {
+      "verdict": "FALSE",
+      "reason": "market structure: node building",
+      "tag_by_config": {
+        "modernbert": "ADD",
+        "tfidf": "ADD"
+      }
+    },
+    "2025-11-14:L3616": {
+      "verdict": "FALSE",
+      "reason": "retrospective self-critique about missed long",
+      "tag_by_config": {
+        "modernbert": "ENTER_LONG"
+      }
+    },
+    "2025-10-07:L2936": {
+      "verdict": "FALSE",
+      "reason": "advice: do not get short down here",
+      "tag_by_config": {
+        "tfidf": "ENTER_SHORT"
+      }
+    },
+    "2025-10-07:L2945": {
+      "verdict": "FALSE",
+      "reason": "hypothetical squeeze-long explanation",
+      "tag_by_config": {
+        "tfidf": "ENTER_LONG"
+      }
+    },
+    "2025-11-06:L553": {
+      "verdict": "FALSE",
+      "reason": "negated: not playing long here",
+      "tag_by_config": {
+        "tfidf": "ENTER_LONG"
+      }
+    },
+    "2025-11-06:L711": {
+      "verdict": "FALSE",
+      "reason": "conditional exit plan",
+      "tag_by_config": {
+        "tfidf": "EXIT_ALL"
+      }
+    },
+    "2025-11-06:L2435": {
+      "verdict": "FALSE",
+      "reason": "educational contrast about shorting",
+      "tag_by_config": {
+        "tfidf": "ENTER_SHORT"
+      }
+    }
+  }
+}

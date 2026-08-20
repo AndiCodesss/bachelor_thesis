@@ -1,0 +1,710 @@
+/*
+ * Stream Copier dashboard styles.
+ *
+ * Design goal: a clean, minimal "operator console". Everything is flat and
+ * dark -- no gradients or frosted-glass effects -- so the data (prices,
+ * intents, events) stays the focus. Colour is used sparingly: a single teal
+ * accent for interactive/active elements, plus a few muted status colours
+ * (green = good, amber = caution, blue = info, red = danger).
+ *
+ * The whole theme is driven by the CSS custom properties below. Changing a
+ * token here updates the look everywhere, which keeps the styling consistent.
+ */
+
+:root {
+  /* Surface layers: each step up is slightly lighter, which is how we fake
+     depth on a dark UI without relying on shadows. */
+  --bg: #0c0e12;          /* page background (darkest) */
+  --surface: #14171d;     /* panels / cards */
+  --surface-2: #1a1e25;   /* nested cards, inputs */
+  --surface-3: #222730;   /* hover states, pills */
+
+  /* Borders are translucent white so they read correctly on any surface. */
+  --border: rgba(255, 255, 255, 0.07);
+  --border-strong: rgba(255, 255, 255, 0.14);
+
+  /* Text has three levels of emphasis to build a clear visual hierarchy. */
+  --text: #e6e9ee;        /* primary text */
+  --text-muted: #8b93a1;  /* labels, secondary info */
+  --text-faint: #626b78;  /* placeholders, the faintest hints */
+
+  /* Single accent colour used for focus, active items and primary actions. */
+  --accent: #2dd4bf;
+  --accent-strong: #14b8a6;
+  --accent-ink: #04201c;  /* dark text drawn on top of the accent */
+
+  /* Muted status colours. Kept low-saturation so nothing screams. */
+  --good: #34d399;
+  --warn: #fbbf24;
+  --info: #60a5fa;
+  --danger: #f87171;
+
+  /* One spacing/shape scale, reused everywhere for rhythm and consistency. */
+  --radius: 10px;
+  --radius-sm: 8px;
+  --radius-pill: 999px;
+  --gap: 1rem;
+
+  font-family: "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--bg);
+}
+
+h1, h2, h3 {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+/* -------------------------------------------------------------------------
+ * Form controls
+ * Buttons default to a quiet "outline" style so the UI stays calm; the few
+ * primary actions opt into the filled `.primary` style. Inputs share one
+ * look and gain a teal focus ring for accessibility.
+ * ------------------------------------------------------------------------- */
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  padding: 0.55rem 0.95rem;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-sm);
+  color: var(--text);
+  background: var(--surface-2);
+  cursor: pointer;
+  transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+
+button:hover:not(:disabled) {
+  background: var(--surface-3);
+  border-color: var(--accent);
+}
+
+button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+/* Primary call-to-action: solid accent fill, used only for the main action
+   in a given area (create session, share tab, inject transcript). */
+button.primary {
+  background: var(--accent-strong);
+  border-color: var(--accent-strong);
+  color: var(--accent-ink);
+  font-weight: 600;
+}
+
+button.primary:hover:not(:disabled) {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 0.6rem 0.75rem;
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--surface-2);
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--text-faint);
+}
+
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible,
+button:focus-visible {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(45, 212, 191, 0.15);
+}
+
+textarea {
+  resize: vertical;
+}
+
+/* -------------------------------------------------------------------------
+ * Layout: a fixed-width sidebar next to a flexible content column.
+ * ------------------------------------------------------------------------- */
+
+.app-shell {
+  display: grid;
+  grid-template-columns: 264px 1fr;
+  min-height: 100vh;
+}
+
+.sidebar {
+  padding: 1.25rem;
+  border-right: 1px solid var(--border);
+  background: var(--surface);
+}
+
+.content {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+/* -------------------------------------------------------------------------
+ * Sidebar: app title + the list of sessions.
+ * ------------------------------------------------------------------------- */
+
+.sidebar h1 {
+  font-size: 1.15rem;
+  margin: 0;
+}
+
+.session-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+/* Each row is the session button plus a delete button side by side. */
+.session-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 0.4rem;
+}
+
+.session-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+  padding: 0.7rem 0.85rem;
+  border-radius: var(--radius-sm);
+  background: var(--surface-2);
+  color: var(--text-muted);
+  text-align: left;
+}
+
+/* A teal left-border marks the currently selected session. */
+.session-card.active {
+  color: var(--text);
+  border-color: var(--accent);
+  border-left: 3px solid var(--accent);
+  background: var(--surface-3);
+}
+
+.session-card span:last-child {
+  color: var(--text-faint);
+  font-size: 0.8rem;
+}
+
+/* Delete is a quiet "ghost" button that only turns red on hover, so it never
+   competes for attention with the session it sits next to. */
+.session-delete {
+  padding: 0.7rem 0.6rem;
+  color: var(--text-muted);
+  background: transparent;
+  border-color: var(--border);
+  font-size: 0.8rem;
+}
+
+.session-delete:hover:not(:disabled) {
+  color: var(--danger);
+  border-color: var(--danger);
+  background: rgba(248, 113, 113, 0.08);
+}
+
+/* -------------------------------------------------------------------------
+ * Cards & panels: the shared container look for every content block.
+ * ------------------------------------------------------------------------- */
+
+.hero,
+.panel {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.25rem;
+}
+
+.panel-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.panel-header h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+/* The small grey text on the right of a header (ids, timestamps, state). */
+.panel-header span {
+  color: var(--text-faint);
+  font-size: 0.8rem;
+}
+
+/* -------------------------------------------------------------------------
+ * Hero: capture controls and live status at the top of the content column.
+ * ------------------------------------------------------------------------- */
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.hero h2 {
+  margin: 0.35rem 0 0;
+  font-size: 1.25rem;
+  max-width: 30rem;
+}
+
+.eyebrow {
+  margin: 0;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: var(--accent);
+}
+
+.capture-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+/* Status pill with a coloured dot in front. The dot colour comes from the
+   `.status-*` modifier so the state is readable at a glance. */
+.status-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.4rem 0.8rem;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--border);
+  font-size: 0.82rem;
+  text-transform: capitalize;
+  color: var(--text-muted);
+}
+
+.status-pill::before {
+  content: "";
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: currentColor;
+}
+
+.status-capturing { color: var(--good); border-color: rgba(52, 211, 153, 0.4); }
+.status-connecting { color: var(--warn); border-color: rgba(251, 191, 36, 0.4); }
+.status-reconnecting { color: var(--info); border-color: rgba(96, 165, 250, 0.4); }
+.status-stopped,
+.status-idle { color: var(--text-muted); }
+
+.capture-status-detail {
+  margin: 0;
+  width: 100%;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+/* -------------------------------------------------------------------------
+ * Content grid: two equal columns, with some panels spanning the full width.
+ * ------------------------------------------------------------------------- */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+  align-items: start;
+}
+
+.panel-wide {
+  grid-column: 1 / -1;
+}
+
+/* -------------------------------------------------------------------------
+ * Key/value stat blocks (session summary, broker, latency, position).
+ * A small uppercase label sits above a larger value; numbers use tabular
+ * figures so columns of prices line up neatly.
+ * ------------------------------------------------------------------------- */
+
+.stats,
+.broker-stats {
+  display: grid;
+  gap: 0.85rem;
+  margin-bottom: 1rem;
+}
+
+.stats {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.broker-stats {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-bottom: 0;
+}
+
+.stats label,
+.broker-stats label,
+.latency-grid label {
+  display: block;
+  margin-bottom: 0.25rem;
+  color: var(--text-muted);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.stats strong,
+.broker-stats strong,
+.latency-grid strong,
+.position-card p {
+  font-variant-numeric: tabular-nums;
+}
+
+/* -------------------------------------------------------------------------
+ * Nested cards inside a panel (broker telemetry, latency, candidate, etc.)
+ * sit one surface level up from the panel they live in.
+ * ------------------------------------------------------------------------- */
+
+.position-card,
+.transcript-item,
+.event-row,
+.transcript-partial,
+.latency-card,
+.candidate-card,
+.broker-card {
+  border-radius: var(--radius-sm);
+  padding: 0.85rem 1rem;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+}
+
+.broker-card,
+.latency-card,
+.candidate-card {
+  margin-bottom: 1rem;
+}
+
+.broker-controls {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.6rem;
+  margin-bottom: 0.85rem;
+}
+
+.broker-error {
+  margin: 0 0 0.6rem;
+  color: var(--danger);
+}
+
+/* -------------------------------------------------------------------------
+ * Manual trade controls: contract size + Buy / Sell / Close.
+ * Buy and Sell get subtle green/red tints because the direction matters;
+ * Close stays neutral.
+ * ------------------------------------------------------------------------- */
+
+.manual-trade-controls {
+  margin-bottom: 1rem;
+}
+
+.manual-trade-buttons {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.6rem;
+}
+
+.manual-trade-buttons button {
+  flex: 1;
+}
+
+.btn-buy { color: var(--good); border-color: rgba(52, 211, 153, 0.35); }
+.btn-buy:hover:not(:disabled) {
+  background: rgba(52, 211, 153, 0.12);
+  border-color: var(--good);
+}
+
+.btn-sell { color: var(--danger); border-color: rgba(248, 113, 113, 0.35); }
+.btn-sell:hover:not(:disabled) {
+  background: rgba(248, 113, 113, 0.12);
+  border-color: var(--danger);
+}
+
+/* -------------------------------------------------------------------------
+ * Session config (model picker + feature toggles).
+ * ------------------------------------------------------------------------- */
+
+.config-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.85rem 1rem;
+  align-items: start;
+  margin-bottom: 1rem;
+}
+
+.field,
+.toggle-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.field span,
+.toggle-field span {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+}
+
+/* Toggles put the label above a left-aligned checkbox. */
+.toggle-field {
+  align-items: flex-start;
+}
+
+.toggle-field input {
+  width: auto;
+  min-width: 1.1rem;
+  min-height: 1.1rem;
+  margin: 0;
+  accent-color: var(--accent);
+}
+
+/* -------------------------------------------------------------------------
+ * Open position card.
+ * ------------------------------------------------------------------------- */
+
+.position-card p {
+  margin: 0.2rem 0;
+}
+
+.position-card p:first-child {
+  font-weight: 600;
+  color: var(--accent);
+}
+
+/* -------------------------------------------------------------------------
+ * Latency card (speech-to-text timing breakdown).
+ * ------------------------------------------------------------------------- */
+
+.latency-header,
+.candidate-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+  color: var(--text);
+}
+
+.latency-header span,
+.candidate-header span {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+}
+
+.latency-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+.latency-empty {
+  margin: 0;
+}
+
+/* -------------------------------------------------------------------------
+ * Live preview candidate (the partial-speech intent guess).
+ * ------------------------------------------------------------------------- */
+
+.candidate-pill-row,
+.candidate-metrics {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.candidate-note,
+.candidate-empty,
+.candidate-metrics,
+.candidate-pill-row span:last-child {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+}
+
+.candidate-note {
+  margin: 0 0 0.7rem;
+}
+
+.candidate-body p {
+  margin: 0 0 0.6rem;
+}
+
+/* The little rounded tag showing the detected action label. */
+.candidate-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.3rem 0.55rem;
+  border-radius: var(--radius-pill);
+  font-size: 0.76rem;
+  letter-spacing: 0.03em;
+  background: rgba(45, 212, 191, 0.14);
+  color: var(--accent);
+}
+
+/* -------------------------------------------------------------------------
+ * Transcript list + live partial preview.
+ * ------------------------------------------------------------------------- */
+
+.transcript-list,
+.event-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  max-height: 460px;
+  overflow: auto;
+}
+
+.transcript-item p,
+.transcript-partial p {
+  margin: 0.15rem 0 0;
+}
+
+.transcript-item span {
+  color: var(--text-faint);
+  font-size: 0.78rem;
+}
+
+/* Small uppercase caption ("Live Preview") above the partial transcript. */
+.transcript-label {
+  display: block;
+  margin-bottom: 0.3rem;
+  color: var(--accent);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* When speech is actively coming in, the preview gets a teal edge; when idle
+   it falls back to a dashed outline to show it is waiting. */
+.transcript-partial-live {
+  border-color: rgba(45, 212, 191, 0.4);
+  background: rgba(45, 212, 191, 0.06);
+}
+
+.transcript-partial-idle {
+  border-style: dashed;
+}
+
+.transcript-metrics {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-top: 0.5rem;
+  color: var(--text-faint);
+  font-size: 0.78rem;
+  font-variant-numeric: tabular-nums;
+}
+
+/* -------------------------------------------------------------------------
+ * Event timeline. Each row carries a coloured left border keyed to the event
+ * type so executions, risk decisions and intents are easy to skim.
+ * ------------------------------------------------------------------------- */
+
+.event-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  border-left: 3px solid var(--border-strong);
+}
+
+.event-row strong {
+  font-size: 0.9rem;
+}
+
+.event-row p {
+  margin: 0.2rem 0 0;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+.event-row time {
+  color: var(--text-faint);
+  font-size: 0.78rem;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+.event-execution { border-left-color: var(--good); }
+.event-risk { border-left-color: var(--warn); }
+.event-intent { border-left-color: var(--info); }
+.event-warning { border-left-color: var(--danger); }
+
+/* -------------------------------------------------------------------------
+ * Misc helpers.
+ * ------------------------------------------------------------------------- */
+
+.muted {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+.empty-state {
+  display: grid;
+  place-items: center;
+  min-height: 280px;
+  color: var(--text-muted);
+}
+
+/* -------------------------------------------------------------------------
+ * Responsive: collapse to a single column on narrow screens.
+ * ------------------------------------------------------------------------- */
+
+@media (max-width: 960px) {
+  .app-shell {
+    grid-template-columns: 1fr;
+  }
+
+  .grid,
+  .stats,
+  .config-grid,
+  .broker-controls,
+  .broker-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar {
+    border-right: 0;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .hero {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
